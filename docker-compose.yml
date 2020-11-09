@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  strapi:
+    image: strapi/strapi
+    environment:
+      NODE_ENV: development
+      # NODE_ENV=production
+      DATABASE_CLIENT: mongo
+      DATABASE_NAME: fundacion-metropolitana
+      DATABASE_HOST: mongo
+      DATABASE_PORT: 27017
+      DATABASE_USERNAME: 
+      DATABASE_PASSWORD: 
+      MAILER_HOST: smtp.mailtrap.io
+      MAILER_PORT: 2525
+      MAILER_USERNAME: 
+      MAILER_PASSWORD: 
+      MAILER_FROM: #something@democracyos.io
+      MAILER_REPLY_TO: #something@something.io
+      MAILER_REJECT_UNAUTHORIZED: 'false'
+      MAILER_REQUIRE_TLS: 'false'
+      MAILER_SECURE: 'false'
+      ADMIN_JWT_SECRET: ## 32 lowercase numbers random string
+    volumes:
+      - ./.strapi:/srv/app
+    ports:
+      - '1337:1337'
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_DATABASE: fundacion-metropolitana
+    volumes:
+      - .mongo/data:/data/db
+

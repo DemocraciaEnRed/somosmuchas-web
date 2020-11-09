@@ -1,0 +1,27 @@
+.line-top{
+  height: 12px;
+  width: 100%;
+  display: block;
+  background: url('~assets/line-top.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin:5px 0 10px;
+}
+
+.line-bottom{
+  height: 12px;
+  width: 100%;
+  display: block;
+  background: url('~assets/line-bottom.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin:5px 0 10px;
+}
+
+.slick-slide.c {
+    display: inline-block;
+    vertical-align: middle;
+    float:none;
+}
