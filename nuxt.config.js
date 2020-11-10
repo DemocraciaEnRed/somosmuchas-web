@@ -13,6 +13,10 @@ export default {
     ]
   },
 
+  loading: {
+    color: '#32bd9f'
+  },
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@/assets/scss/main.scss'
@@ -29,7 +33,9 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    // https://github.com/nuxt-community/style-resources-module
+    '@nuxtjs/style-resources'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -43,6 +49,11 @@ export default {
     // https://github.com/nuxt-community/modules/tree/master/packages/markdownit
     '@nuxtjs/markdownit'
   ],
+  styleResources: {
+    // your settings here
+    scss: ['~assets/scss/_variables.scss']
+
+  },
   publicRuntimeConfig: {
     strapiURL: process.env.STRAPI_URL
   },

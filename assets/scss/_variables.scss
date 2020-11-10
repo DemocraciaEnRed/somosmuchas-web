@@ -1,8 +1,10 @@
 @import "~bulma/sass/utilities/_all";
 // $primary : #4319b6;
-$primary : #701bb6;
+$primary : #8917ff;
+$secondary: #32bd9f;
 $body-size: 14px;
 // $secondary : #371575;
+$family-primary: 'Titillium Web', $family-sans-serif;
 $primary-invert: findColorInvert($primary);
 $colors: (
     "white": ($white, $black),
@@ -15,3 +17,6 @@ $colors: (
     "warning": ($warning, $warning-invert),
     "danger": ($danger, $danger-invert),
 );
+
+$footer-background-color: #32bd9f;
+$footer-color: #FFF;
