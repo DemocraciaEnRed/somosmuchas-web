@@ -24,18 +24,9 @@ export default {
       type: String,
       required: true
     },
-    logoUrl: {
-      type: String,
-      required: true
-    },
     to: {
       type: String,
       required: true
-    }
-  },
-  methods: {
-    getPicture (url) {
-      return require(url)
     }
   }
 }
