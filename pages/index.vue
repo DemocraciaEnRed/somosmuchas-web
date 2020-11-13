@@ -1,14 +1,20 @@
 <template>
   <div>
-    <div class="section has-background-primary has-text-centered has-text-white is-size-4 top-bar-text">
-      Es una plataforma creada con el proposito de facilitar el accionar de las mujeres, ampliando el potencial de sus iniciativas particulares. Explora y descubre las herramientas que tienes disponibles.
+    <div class="section has-background-primary has-text-centered has-text-white pt-4 top-bar-text">
+      <h5 class="subtitle is-4 has-text-white is-spaced">
+        Llegó el momento de juntar fuerzas para avanzar unidas!<br>
+        Esta plataforma fue creada con el propósito de ampliar el potencial de las causas feministas. Explora y descubre las herramientas disponibles.
+      </h5>
+      <h4 class="title is-2 has-text-weight-bold has-text-white">
+        “No estoy aceptando las que no puedo cambiar, estoy cambiando las cosas que no puedo aceptar”
+      </h4>
     </div>
     <br>
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         <article class="tile is-child seccion-box seccion-actuar">
           <div class="about">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda porro non quibusdam. Provident expedita animi fugit adipisci totam obcaecati voluptas rerum officia molestiae dolores laboriosam ea facilis, cumque consectetur reiciendis.
+            Somos una ciudadanía que se ocupa de su presente. Por eso le hablamos a lxs Congresistas, para ser incluídxs en las decisiones que guían el rumbo del país. Entra y escríbele unx a unx
           </div>
           <NuxtLink to="/actuar">
             <div class="barra">
@@ -27,7 +33,7 @@
       <div class="tile is-parent">
         <article class="tile is-child seccion-box seccion-conversar">
           <div class="about">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda porro non quibusdam. Provident expedita animi fugit adipisci totam obcaecati voluptas rerum officia molestiae dolores laboriosam ea facilis, cumque consectetur reiciendis.
+            Necesitamos diálogos fundamentados y críticos para avanzar en nuestras causas. Debate, opina y crea concesos para fortalecer las agendas temáticas.
           </div>
           <NuxtLink to="/conversar">
             <div class="barra">
@@ -48,7 +54,7 @@
       <div class="tile is-parent">
         <article class="tile is-child seccion-box seccion-conectar">
           <div class="about">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda porro non quibusdam. Provident expedita animi fugit adipisci totam obcaecati voluptas rerum officia molestiae dolores laboriosam ea facilis, cumque consectetur reiciendis.
+            Vamos a tejer juntas. Entra a este mapeo de iniciativas feministas en Colombia y crea articulación con otras.
           </div>
           <NuxtLink to="/conectar">
             <div class="barra">
@@ -67,7 +73,7 @@
       <div class="tile is-parent">
         <article class="tile is-child seccion-box seccion-difundir">
           <div class="about">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda porro non quibusdam. Provident expedita animi fugit adipisci totam obcaecati voluptas rerum officia molestiae dolores laboriosam ea facilis, cumque consectetur reiciendis.
+            Que nadie se quede por fuera de tu causa ¡Hagamos eco para ser escuchadxs!
           </div>
           <NuxtLink to="/difundir">
             <div class="barra">
@@ -88,7 +94,7 @@
       <div class="tile is-parent">
         <article class="tile is-child seccion-box seccion-cocrear">
           <div class="about">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda porro non quibusdam. Provident expedita animi fugit adipisci totam obcaecati voluptas rerum officia molestiae dolores laboriosam ea facilis, cumque consectetur reiciendis.
+            Solxs no es posible! Por eso liberamos diversas metodologías para ser usadas en tu causa.
           </div>
           <NuxtLink to="/cocrear">
             <div class="barra">
@@ -109,13 +115,13 @@
     <img src="~/assets/title01.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column">
-        <casos-box title="Lalal un titulo" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quibusdam corporis in culpa odit tenetur, officiis dolorum. Accusantium ab eum cum nisi itaque rem ipsam, vero hic optio saepe iusto!" to="/actuar">
-            <img src="~/assets/juntas-logo.png" alt="">
+        <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://activasomosmuchas.democraciaenred.org/proyecto/paridadya#activa">
+          <img src="~/assets/paridad-logo.svg" alt="">
         </casos-box>
       </div>
       <div class="column">
-        <casos-box title="Lalal un titulo" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quibusdam corporis in culpa odit tenetur, officiis dolorum. Accusantium ab eum cum nisi itaque rem ipsam, vero hic optio saepe iusto!" to="/actuar">
-            <img src="~/assets/paridad-logo.svg" alt="">
+        <casos-box title="JUNTAS" description="Diálogo, intercambio y co-construcción de agendas y propuestas de mujeres progresistas de América Latina para responder de forma colectiva a la pandemia y a los efectos que tiene en la vida de las mujeres de la región" href="https://juntas.democraciaenred.org/">
+          <img src="~/assets/juntas-logo.png" alt="">
         </casos-box>
       </div>
     </div>
@@ -138,7 +144,7 @@ export default {
 }
 .seccion-box{
   //padding: 1rem;
-  min-height: 300px;
+  min-height: 250px;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -178,20 +184,21 @@ export default {
     order: 0;
     flex: 1 1 auto;
     align-self: auto;
-    padding: 10px;
-    background-color: rgba(darken($primary,20%), 0.6);
+    padding: 20px;
+    background-color: rgba(darken($primary,25%), 0.7);
     opacity: 0;
     color: #FFF;
     transition: opacity .2s ease-out;
     -moz-transition: opacity .2s ease-out;
     -webkit-transition: opacity .2s ease-out;
     -o-transition: opacity .2s ease-out;
-    font-size: $size-5;
+    font-size: $size-4;
+    font-weight: 300;
     overflow-y: hidden;
   }
   .barra{
-    background-color: rgba($primary, 0.6);
-    padding: 10px;
+    background-color: rgba(darken($primary,10%), 0.7);
+    padding: 6px 15px;
     color: #FFF;
     display: flex;
     flex-direction: row;

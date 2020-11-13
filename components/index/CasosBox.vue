@@ -1,15 +1,20 @@
 <template>
   <div class="que-pasa-box">
     <div class="texto-descriptivo">
-      <h1 class="title is-3 has-text-white has-text-weight-bold">
+      <h1 class="title is-1 has-text-white has-text-weight-bold mb-2">
         {{ title }}
       </h1>
-      <p>{{ description }}</p>
+      <p class="is-size-5">
+        {{ description }}
+      </p>
     </div>
     <slot />
-    <NuxtLink :to="to" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-      Entrar
+    <NuxtLink v-if="to" :to="to" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+      ENTRAR
     </NuxtLink>
+    <a v-if="href" :href="href" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+      ENTRAR
+    </a>
   </div>
 </template>
 
@@ -26,6 +31,11 @@ export default {
     },
     to: {
       type: String,
+      required: false,
+      default: null
+    },
+    href: {
+      type: String,
       required: true
     }
   }
@@ -34,7 +44,7 @@ export default {
 
 <style lang="scss" scoped>
 .que-pasa-box{
-  height: 300px;
+  height: 250px;
   margin: 10px;
   border: 2px solid $secondary;
   position: relative;
@@ -44,7 +54,7 @@ export default {
     }
   }
   img {
-  max-height: 50%;
+  max-height: 60%;
   max-width: 75%;
   position: absolute;
   top: 50%;
@@ -58,11 +68,16 @@ export default {
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 150;
+  &:hover{
+    color: $primary;
+    background-color: white;
+    border: 2px solid $primary;
+  }
 }
 .texto-descriptivo{
   position: absolute;
   padding: 30px;
-  background-color: rgba(darken($secondary,10%), 0.6);
+  background-color: rgba(darken($secondary,20%), 0.8);
   height: 100%;
   opacity: 0;
   color: #FFF;

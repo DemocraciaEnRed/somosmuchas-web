@@ -5,7 +5,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'title', name: 'title', content: 'Somos Muchas'}
+      { hid: 'description', name: 'description', content: 'Esta plataforma fue creada con el propósito de ampliar el potencial de las causas feministas. Explora y descubre las herramientas disponibles. ' }
+      { property: 'og:title', content: 'Somos Muchas'}
+      { property: 'og:description', content: 'Esta plataforma fue creada con el propósito de ampliar el potencial de las causas feministas. Explora y descubre las herramientas disponibles. ' }
+      { property: 'og:image', content: process.env.APP_URL + '/sharer-01.png' },
+      { property: 'twitter:card', content: 'summary_large_image'}
+      { property: 'twitter:title', content: 'Somos Muchas'}
+      { property: 'twitter:description', content: 'Esta plataforma fue creada con el propósito de ampliar el potencial de las causas feministas. Explora y descubre las herramientas disponibles. ' }
+      { property: 'twitter:image', content: process.env.APP_URL + '/sharer-01.png' },
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

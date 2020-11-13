@@ -1,15 +1,17 @@
 <template>
   <section>
-    <div class="hero is-primary is-medium is-custom-image mt-2">
+    <div class="hero is-primary is-custom-image mt-2">
       <div class="hero-body">
         <div class="columns">
           <div class="column is-half">
             <h1 class="title is-1 has-text-weight-bold">
               CONVERSAR
             </h1>
-            <h2 class="subtitle is-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, doloremque numquam possimus molestias praesentium rem dignissimos quae. Blanditiis vitae labore vero fugit exercitationem. Sapiente consequatur praesentium alias, veniam minus est!
-            </h2>
+            <div class="subtitle-container">
+              <h2 class="subtitle is-4 has-text-primary">
+                Aquí puedes consultar, dialogar y debatir sobre diversas agendas temáticas del movimiento feminista. Encontrarás foros, información adicional y personas
+              </h2>
+            </div>
           </div>
         </div>
       </div>
@@ -23,7 +25,7 @@
       <div class="column">
         <div class="agenda-box">
           <img src="~/assets/paridad-logo.svg" alt="">
-          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-warning': paridadSelected}" @click="selectSection('paridad')">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted it-was-selected': paridadSelected}" @click="selectSection('paridad')">
             <i class="fas fa-angle-down fa-lg fa-fw" />
           </a>
         </div>
@@ -31,15 +33,39 @@
       <div class="column">
         <div class="agenda-box">
           <img src="~/assets/juntas-logo.png" alt="">
-          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-warning': juntasSelected}" @click="selectSection('juntas')">
-            <i class="fas fa-angle-down fa-lg fa-fw" />
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted': juntasSelected}" href="https://juntas.democraciaenred.org/" target="_blank">
+            ENTRAR
           </a>
         </div>
       </div>
     </div>
     <br>
+    <h5 class="title is-2 has-text-centered has-text-primary has-text-weight-bold">
+      Paridad ¡YA!<br>Campaña nacional por la paridad política
+    </h5>
     <section v-if="paridadSelected">
-      <div class="tile is-ancestor">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="videoWrapper">
+            <iframe
+              width="853"
+              height="480"
+              src="https://www.youtube.com/embed/S9pFe4lSL1w"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="content is-large has-text-justified">
+        <p>La campaña Paridad ¡YA! cincuenta / sí cuenta busca que se redistribuya el poder y se incremente la participación y la representación de las mujeres. </p>
+        <p>A pesar de ser el 52% de la población y de la Ley de Cuotas (Ley 581) aprobada en el 2000, donde se establece que la participación de las mujeres en niveles decisorios de la administración pública debe ser mínimo del 30%, para cargos de elección popular las mujeres no alcanzamos a ocupar el 30%. Solo estamos en el 12% de las Alcaldías y Concejos, el 16% de las Gobernaciones y 19% del Congreso, según la Registraduría Nacional del Estado Civil. </p>
+        <p>En Argentina, México, Paraguay y Bolivia la paridad ya es ley. Llegó la hora de Colombia. </p>
+        <p>En este contexto, y recordar que la equidad en la representación política <b>la campaña #ParidadYA es un llamado a la ciudadanía, organizaciones, colectivas y partidos políticos a unir esfuerzos para exigir la paridad</b>es inaplazable y beneficia a toda la sociedad en general.</p>
+      </div>
+      <!-- <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child">
             <div class="videoWrapper">
@@ -62,7 +88,7 @@
             </h4>
           </article>
         </div>
-      </div>
+      </div> -->
       <div class="columns my-6 is-centered">
         <div class="column is-5 has-text-centered">
           <img src="~/assets/icon01.svg" class="image an-icon" alt="">
@@ -142,19 +168,19 @@
           <br>
           <a href="https://google.com">
             <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio officia</p>
+              <p class="has-text-primary">Razones para tener paridad política</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
           <a href="https://google.com">
             <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio officia</p>
+              <p class="has-text-primary">¿Cómo va la paridad política en América Latina?</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
           <a href="https://google.com">
             <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio officia</p>
+              <p class="has-text-primary">La paridad en números</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
@@ -165,7 +191,7 @@
             Conoce más
           </h1>
           <p class="is-size-3">
-            Suscríbite para acceder a informacion adicional sobre este tema
+            Suscríbite para acceder a información adicional sobre este tema
           </p>
           <br>
           <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contactanos</a>
@@ -205,26 +231,30 @@ export default {
     background-image: url('~assets/cover-color-01.jpg');
     background-position: center center;
     background-size: cover;
-    .title, .subtitle{
+    .title{
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
     }
     .title{
         color: $primary;
     }
-    .subtitle{
-        font-weight: 600;
-    }
+}
+.subtitle-container{
+  padding: 20px;
+  background-color: rgba(#ffe6d6,0.5);
 }
 .image-title{
  width: 400px;
 }
+.it-was-selected {
+  border: 2px solid $secondary;
+}
 .agenda-box{
-  height: 300px;
+  height: 250px;
   margin: 10px;
   border: 2px solid $secondary;
   position: relative;
   img {
-  max-height: 50%;
+  max-height: 60%;
   max-width: 75%;
   position: absolute;
   top: 50%;
