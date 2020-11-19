@@ -17,9 +17,9 @@
       </div>
     </div>
     <br>
-    <h5 class="subtitle is-4 has-text-centered has-text-primary">
+    <!-- <h5 class="subtitle is-4 has-text-centered has-text-primary">
       Aquí tienes un espacio para compartir y acceder a metodologías de trabajo que puedan ser de utilidad para tu causa.
-    </h5>
+    </h5> -->
     <img src="~/assets/title02.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column">
@@ -99,21 +99,9 @@
             Para ampliar el contexto general en el que surge esta iniciativa y conocer las razones de la necesidad de la paridad política en Colombia, te presentamos el siguiente material
           </p>
           <br>
-          <a href="https://google.com">
-            <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio officia</p>
-              <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
-            </div>
-          </a>
-          <a href="https://google.com">
-            <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio officia</p>
-              <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
-            </div>
-          </a>
-          <a href="https://google.com">
-            <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio officia</p>
+          <a href="~/assets/files/investigacion-paridad-diagramada.pdf" target="_blank">
+            <div class="file-box p-5 my-2 has-text-left">
+              <p class="has-text-primary">La paridad en América Latina y el Caribe: Un análisis para la paridad en Colombia</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
@@ -166,9 +154,9 @@
             Para ampliar el contexto general en el que surge esta iniciativa y conocer las razones de la necesidad de la paridad política en Colombia, te presentamos el siguiente material
           </p>
           <br>
-          <a href="https://google.com">
+          <a href="~/assets/files/investigacion-paridad-diagramada.pdf" target="_blank">
             <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Razones para tener paridad política</p>
+              <p class="has-text-primary">La paridad en América Latina y el Caribe: Un análisis para la paridad en Colombia</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>

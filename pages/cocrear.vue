@@ -23,6 +23,11 @@
     <h5 class="subtitle is-4 has-text-centered has-text-primary">
       Conoce cómo hemos logrado articularnos para movilizar la paridad política en el país.
     </h5>
+    <div class="columns is-centered">
+      <div class="column is-one-third">
+        <div class="buttons"><a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary is-fullwidth has-text-weight-bold is-medium is-rounded">subir metodologias</a></div>
+      </div>
+    </div>
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">
     <h5 class="title is-4 has-text-primary">
       Próximamente
