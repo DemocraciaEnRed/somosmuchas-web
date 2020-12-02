@@ -9,7 +9,7 @@
             </h1>
             <div class="subtitle-container">
               <h2 class="subtitle is-4 has-text-primary">
-                Aquí puedes consultar, dialogar y debatir sobre diversas agendas temáticas del movimiento feminista. Encontrarás foros, información adicional y personas
+                Aquí tienes un espacio para compartir y acceder a metodologías de trabajo que puedan ser de utilidad para tu causa.
               </h2>
             </div>
           </div>
@@ -25,7 +25,9 @@
     </h5>
     <div class="columns is-centered">
       <div class="column is-one-third">
-        <div class="buttons"><a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary is-fullwidth has-text-weight-bold is-medium is-rounded">subir metodologias</a></div>
+        <div class="buttons">
+          <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary is-fullwidth has-text-weight-bold is-medium is-rounded">subir metodologías</a>
+        </div>
       </div>
     </div>
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">

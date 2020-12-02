@@ -6,7 +6,7 @@
         Esta plataforma fue creada con el propósito de ampliar el potencial de las causas feministas. Explora y descubre las herramientas disponibles.
       </h5>
       <h4 class="title is-2 has-text-weight-bold has-text-white">
-        “No estoy aceptando las que no puedo cambiar, estoy cambiando las cosas que no puedo aceptar”
+        “No estoy aceptando las que no puedo cambiar, estoy cambiando las cosas que no puedo aceptar”, Angela Davis
       </h4>
     </div>
     <br>
