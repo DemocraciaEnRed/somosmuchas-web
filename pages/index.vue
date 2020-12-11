@@ -184,7 +184,7 @@ export default {
     order: 0;
     flex: 1 1 auto;
     align-self: auto;
-    padding: 20px;
+    padding: 35px;
     background-color: rgba(darken($primary,25%), 0.7);
     opacity: 0;
     color: #FFF;

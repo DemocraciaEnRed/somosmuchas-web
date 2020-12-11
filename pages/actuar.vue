@@ -8,7 +8,7 @@
               ACTUAR
             </h1>
             <div class="subtitle-container">
-              <h2 class="subtitle is-4 has-text-primary">
+              <h2 class="subtitle is-4">
                 Aquí puedes consultar, dialogar y debatir sobre diversas agendas temáticas del movimiento feminista. Encontrarás foros, información adicional y personas
               </h2>
             </div>
