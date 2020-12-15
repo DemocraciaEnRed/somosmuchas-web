@@ -63,7 +63,7 @@
         <p>La campaña Paridad ¡YA! cincuenta / sí cuenta busca que se redistribuya el poder y se incremente la participación y la representación de las mujeres. </p>
         <p>A pesar de ser el 52% de la población y de la Ley de Cuotas (Ley 581) aprobada en el 2000, donde se establece que la participación de las mujeres en niveles decisorios de la administración pública debe ser mínimo del 30%, para cargos de elección popular las mujeres no alcanzamos a ocupar el 30%. Solo estamos en el 12% de las Alcaldías y Concejos, el 16% de las Gobernaciones y 19% del Congreso, según la Registraduría Nacional del Estado Civil. </p>
         <p>En Argentina, México, Paraguay y Bolivia la paridad ya es ley. Llegó la hora de Colombia. </p>
-        <p>En este contexto, y recordar que la equidad en la representación política <b>la campaña #ParidadYA es un llamado a la ciudadanía, organizaciones, colectivas y partidos políticos a unir esfuerzos para exigir la paridad</b>es inaplazable y beneficia a toda la sociedad en general.</p>
+        <p>En este contexto, <b>la campaña #ParidadYA es un llamado a la ciudadanía, organizaciones, colectivas y partidos políticos a unir esfuerzos para exigir la paridad</b> y recordar que la equidad en la representación política es inaplazable y beneficia a toda la sociedad en general.</p>
       </div>
       <!-- <div class="tile is-ancestor">
         <div class="tile is-parent">
@@ -115,7 +115,7 @@
             Suscríbite para acceder a informacion adicional sobre este tema
           </p>
           <br>
-          <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contactanos</a>
+          <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
         </div>
       </div>
     </section>
@@ -182,7 +182,7 @@
             Suscríbite para acceder a información adicional sobre este tema
           </p>
           <br>
-          <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contactanos</a>
+          <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
         </div>
       </div>
     </section>

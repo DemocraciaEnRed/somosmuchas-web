@@ -9,7 +9,8 @@
             </h1>
             <div class="subtitle-container">
               <h2 class="subtitle is-4 has-text-primary">
-                Aquí tienes un espacio para compartir y acceder a metodologías de trabajo que puedan ser de utilidad para tu causa
+                Aquí conocerás iniciativas feministas que se están desarrollando actualmente.
+                Explora y conecta con otras.
               </h2>
             </div>
           </div>

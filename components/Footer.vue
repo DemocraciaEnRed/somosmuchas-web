@@ -5,21 +5,28 @@
         <div class="column has-text-centered has-text-left-desktop">
           <p>
             <a
-              href="google.com"
+              href="https://www.facebook.com/OrganizacionArtemisas"
               class="social-button has-text-white"
-            ><i class="fab fa-facebook-f fa-fw fa-lg" /></a>&nbsp;<a
-              href="google.com"
+            >
+              <i class="fab fa-facebook-f fa-fw fa-lg" />
+            </a>&nbsp;
+            <a
+              href="https://www.instagram.com/organizacionartemisas/"
               class="social-button has-text-white"
-            ><i class="fab fa-instagram fa-fw fa-lg" /></a>&nbsp;<a
-              href="google.com"
+            >
+              <i class="fab fa-instagram fa-fw fa-lg" />
+            </a>&nbsp;
+            <a
+              href="https://www.youtube.com/channel/UCG1I8kZspV32fkRMq9uWiSg?view_as=subscriber"
               class="social-button has-text-white"
-            ><i
-              class="fab fa-youtube fa-fw fa-lg"
-            /></a>&nbsp;<span class="is-hidden-desktop"><br><br></span><span class="is-size-5">@OrganizacionArtemisas</span>
+            >
+              <i class="fab fa-youtube fa-fw fa-lg" />
+            </a>&nbsp;
+            <span class="is-hidden-desktop"><br><br></span><span class="is-size-5">@OrganizacionArtemisas</span>
           </p>
           <p class="my-5">
             <a
-              href="google.com"
+              href="https://twitter.com/Artemisas_org"
               class="social-button has-text-white"
             ><i class="fab fa-twitter fa-fw fa-lg" /></a><span class="is-size-5">@Artemisas_org</span>
           </p>
