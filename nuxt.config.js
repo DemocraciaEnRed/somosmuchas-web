@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Somos Muchas',
@@ -18,7 +19,11 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css', rel: 'stylesheet', integrity: 'sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==', crossorigin: 'anonymous' },
+      { href: 'https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css', rel: 'stylesheet' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap' }
+    ],
+    script: [
+      { src: 'https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js' }
     ]
   },
 
@@ -50,7 +55,7 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/buefy
-    'nuxt-buefy',
+    ['nuxt-buefy', { css: true, materialDesignIcons: false, defaultIconPack: 'fas' }],
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://strapi.io/documentation/v3.x/getting-started/nuxt-js.html
@@ -64,7 +69,12 @@ export default {
 
   },
   publicRuntimeConfig: {
-    strapiURL: process.env.STRAPI_URL
+    strapiURL: process.env.STRAPI_URL,
+    mapboxApiKey: process.env.MAPBOX_API_KEY,
+    mapboxMapStyle: process.env.MAPBOX_MAP_STYLE,
+    mapCenterLongitude: process.env.MAP_CENTER_LONGITUDE,
+    mapCenterLatitude: process.env.MAP_CENTER_LATITUDE,
+    mapZoomDefault: process.env.MAP_ZOOM_DEFAULT
   },
   privateRuntimeConfig: {
     // strapiUrl: process.env.STRAPI_URL

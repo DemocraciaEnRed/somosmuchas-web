@@ -16,6 +16,7 @@
     "@nuxtjs/strapi": "^0.1.8",
     "@nuxtjs/style-resources": "^1.0.0",
     "core-js": "^3.6.5",
+    "mapbox-gl-vue": "^2.0.4",
     "nuxt": "^2.14.6",
     "nuxt-buefy": "^0.4.3"
   },
