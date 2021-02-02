@@ -232,9 +232,6 @@ export default {
       return this.data
     }
   },
-  watch (newVal, oldVal) {
-    this.filterStuff()
-  },
   mounted () {
     this.$axios.get('https://spreadsheets.google.com/feeds/list/196JdRVKPOkK8ZyY9X_Wdm7cEFNiqs3wL5_LChUr7U9U/1/public/full?alt=json')
       .then((res) => {
