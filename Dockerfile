@@ -14,7 +14,10 @@ RUN npm install
 
 # build necessary, even if no static files are needed,
 # since it builds the server as well
-RUN npm run build
+# RUN npm run build
+
+# 2021 - FATAL Output directory dist/ does not exists, please use nuxt generate before nuxt start for static target.
+RUN npm run generate
 
 # expose 5000 on container
 EXPOSE 3000
