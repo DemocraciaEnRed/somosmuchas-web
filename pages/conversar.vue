@@ -33,7 +33,7 @@
       <div class="column">
         <div class="agenda-box">
           <img src="~/assets/juntas-logo.png" alt="">
-          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted': juntasSelected}" href="https://juntas.democraciaenred.org/" target="_blank">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted': juntasSelected}" href="https://conversar.somosmuchas.org/agendas" target="_blank">
             ENTRAR
           </a>
         </div>

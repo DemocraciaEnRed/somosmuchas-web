@@ -120,7 +120,7 @@
         </casos-box>
       </div>
       <div class="column">
-        <casos-box title="JUNTAS" description="Diálogo, intercambio y co-construcción de agendas y propuestas de mujeres progresistas de América Latina para responder de forma colectiva a la pandemia y a los efectos que tiene en la vida de las mujeres de la región" href="https://juntas.democraciaenred.org/">
+        <casos-box title="JUNTAS" description="Diálogo, intercambio y co-construcción de agendas y propuestas de mujeres progresistas de América Latina para responder de forma colectiva a la pandemia y a los efectos que tiene en la vida de las mujeres de la región" href="https://conversar.somosmuchas.org/agendas">
           <img src="~/assets/juntas-logo.png" alt="">
         </casos-box>
       </div>
