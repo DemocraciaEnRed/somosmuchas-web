@@ -49,7 +49,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://github.com/nuxt-community/style-resources-module
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -74,10 +75,16 @@ export default {
     mapboxMapStyle: process.env.MAPBOX_MAP_STYLE,
     mapCenterLongitude: process.env.MAP_CENTER_LONGITUDE,
     mapCenterLatitude: process.env.MAP_CENTER_LATITUDE,
-    mapZoomDefault: process.env.MAP_ZOOM_DEFAULT
+    mapZoomDefault: process.env.MAP_ZOOM_DEFAULT,
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
   },
   privateRuntimeConfig: {
     // strapiUrl: process.env.STRAPI_URL
+  },
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID || '' // Use as fallback if no runtime config is provided
   },
   strapi: {
     entities: [],

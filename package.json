@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/markdownit": "^1.2.10",
     "@nuxtjs/strapi": "^0.1.8",
     "@nuxtjs/style-resources": "^1.0.0",
