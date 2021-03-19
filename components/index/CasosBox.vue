@@ -79,6 +79,7 @@ export default {
   padding: 30px;
   background-color: rgba(darken($secondary,20%), 0.8);
   height: 100%;
+  width: 100%;
   opacity: 0;
   color: #FFF;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.6);

@@ -124,6 +124,11 @@
           <img src="~/assets/juntas-logo.png" alt="">
         </casos-box>
       </div>
+      <div class="column">
+        <casos-box title="CAUSA JUSTA POR EL ABORTO" description="" href="http://causajustaporelaborto.com">
+          <img src="~/assets/logo-causa-justa.png" alt="">
+        </casos-box>
+      </div>
     </div>
   </div>
 </template>
