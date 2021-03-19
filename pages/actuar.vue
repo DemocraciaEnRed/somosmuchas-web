@@ -16,6 +16,9 @@
         </div>
       </div>
     </div>
+    <div class="has-text-centered mt-5">
+      <img width="200" src="~/assets/paridad-logo.svg" alt="">
+    </div>
     <div class="columns my-6 is-centered">
       <div class="column is-5 has-text-centered">
         <img src="~/assets/icon01.svg" class="image an-icon" alt="">
