@@ -25,7 +25,7 @@
       <div class="column">
         <div class="agenda-box">
           <img src="~/assets/paridad-logo.svg" alt="">
-          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted it-was-selected': paridadSelected}" @click="selectSection('paridad')">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted it-was-selected': paridadSelected}" href="#paridad">
             <i class="fas fa-angle-down fa-lg fa-fw" />
           </a>
         </div>
@@ -33,17 +33,25 @@
       <div class="column">
         <div class="agenda-box">
           <img src="~/assets/juntas-logo.png" alt="">
-          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted': juntasSelected}" href="https://conversar.somosmuchas.org/agendas" target="_blank">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" href="https://conversar.somosmuchas.org/agendas" target="_blank">
             ENTRAR
+          </a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="agenda-box">
+          <img src="~/assets/logo-causa-justa.png" alt="">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted it-was-selected': paridadSelected}" href="#causajusta">
+            <i class="fas fa-angle-down fa-lg fa-fw" />
           </a>
         </div>
       </div>
     </div>
     <br>
-    <h5 class="title is-2 has-text-centered has-text-primary has-text-weight-bold">
-      Paridad ¡YA!<br>Campaña nacional por la paridad política
-    </h5>
-    <section v-if="paridadSelected">
+    <section id="paridad">
+      <h5 class="title is-2 has-text-centered has-text-primary has-text-weight-bold">
+        Paridad ¡YA!<br>Campaña nacional por la paridad política
+      </h5>
       <div class="columns is-centered">
         <div class="column is-10">
           <div class="videoWrapper">
@@ -119,31 +127,35 @@
         </div>
       </div>
     </section>
-    <section v-if="juntasSelected">
+    <section id="causajusta">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
-          <article class="tile is-child">
-            <div class="videoWrapper">
-              <iframe
-                width="853"
-                height="480"
-                src="https://www.youtube.com/embed/oDKrIBHQ6rw"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
-            </div>
-          </article>
           <article class="tile is-child pl-5 video-description">
             <h1 class="title is-1 has-text-primary">
-              THIS IS A TITLE AND I HOPE YOU DONT OVERFLOW IT
+              CAUSA JUSTA
             </h1>
-            <h4 class="subtitle is-4 has-text-primary">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odio veniam praesentium odit necessitatibus, maiores minima doloremque. Placeat magni error magnam, eligendi architecto sint sunt, odio quia quibusdam cumque accusantium?
-            </h4>
           </article>
         </div>
       </div>
+      <div class="content is-large has-text-justified">
+        <p>
+          <strong>Causa Justa</strong> es un movimiento que busca la libertad y la autonomía reproductiva de todas las mujeres sobre sus cuerpos y sus proyectos de vida. Impulsado por La Mesa por la Vida y la Salud de las Mujeres, otras organizaciones de mujeres, feministas y de derechos humanos; y diferentes actores entre quienes se encuentran activistas, prestadores de servicios de salud, referentes de la academia y centros de investigación de todo el país, Causa Justa reconoce la urgente necesidad de eliminar el delito de aborto del Código Penal como un avance para los derechos de las mujeres y un cambio favorable para la sociedad y la democracia.
+          Así también busca avanzar en la despenalización social, y dar legitimidad a las decisiones libres que toman las mujeres sobre sus cuerpos, y eliminar el estigma que recae sobre ellas y sobre los prestadores de salud que realizan procedimientos de IVE.
+        </p>
+        <h3>
+          ¿Que busca Causa Justa?
+        </h3>
+        <ul>
+          <li>Que ninguna mujer vaya a la cárcel o que le sea iniciado un proceso penal en su contra por acceder a su derecho a la IVE ni que viva bajo esa amenaza.</li>
+          <li>Que ningún prestador de servicios vaya a la cárcel o se inicie un proceso penal en su contra por realizar un aborto consentido por una mujer o por brindar información.</li>
+          <li>Que todas las mujeres, en todas las circunstancias, puedan practicarse un aborto sin ser criminalizadas</li>
+          <li>Evitar maternidades impuestas que despojen a las mujeres de su autonomía, del control sobre sus cuerpos ni de la definición de su proyecto de vida.</li>
+          <li>Que se reconozca que el cuerpo de las mujeres no solo está ligado a la reproducción y a la maternidad, que las mujeres tienen proyectos de vida distintos y en ese sentido, que son ellas las únicas que pueden decidir si quieren tener hijos/as o no.</li>
+          <li>Que se normalice la prestación de los servicios de aborto y se elimine el estigma en torno al mismo.</li>
+          <li>Que se eliminen las inequidades entre las mujeres que pueden acceder y las que no, a un aborto seguro y oportuno.</li>
+        </ul>
+      </div>
+      <!--
       <div class="columns my-6 is-centered">
         <div class="column is-5 has-text-centered">
           <img src="~/assets/icon01.svg" class="image an-icon" alt="">
@@ -160,18 +172,6 @@
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
-          <a href="https://google.com">
-            <div class="file-box p-5 my-2">
-              <p class="has-text-primary">¿Cómo va la paridad política en América Latina?</p>
-              <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
-            </div>
-          </a>
-          <a href="https://google.com">
-            <div class="file-box p-5 my-2">
-              <p class="has-text-primary">La paridad en números</p>
-              <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
-            </div>
-          </a>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered">
           <img src="~/assets/icon02.svg" class="image an-icon" alt="">
@@ -185,33 +185,13 @@
           <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
         </div>
       </div>
+      -->
     </section>
   </section>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      paridadSelected: true,
-      juntasSelected: false
-    }
-  },
-  methods: {
-    selectSection (section) {
-      switch (section) {
-        case 'paridad':
-          this.paridadSelected = true
-          this.juntasSelected = false
-          break
-        case 'juntas':
-          this.paridadSelected = false
-          this.juntasSelected = true
-          break
-      }
-    }
-  }
-}
+
 </script>
 
 <style lang="scss" scoped>

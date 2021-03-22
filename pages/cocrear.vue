@@ -31,9 +31,18 @@
       </div>
     </div>
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">
-    <h5 class="title is-4 has-text-primary">
-      Próximamente
-    </h5>
+    <div class="columns">
+      <div class="column">
+        <a class="material-box circulos-mujeres-bg" href="/assets/files/presentacion-circulos-nosotras.pdf" download>
+          &nbsp;
+        </a>
+      </div>
+      <div class="column">
+        <a class="material-box circulos-nosotras-bg" href="/assets/files/presentacion-nosotras.pdf" download>
+          &nbsp;
+        </a>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -44,19 +53,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.is-custom-image{
-    background-image: url('~assets/cover-color-04.jpg');
-    background-position: center center;
-    background-size: cover;
-    h1.title{
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.50);
-    }
-}
-.subtitle-container{
-  padding: 20px;
-  background-color: rgba(#ffe6d6,0.5);
-}
 .image-title{
  width: 400px;
+}
+.material-box{
+  display: block;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border: 1px solid $primary;
+  &.circulos-mujeres-bg{
+    background-image: url('~assets/circulos-de-mujeres.png');
+  }
+  &.circulos-nosotras-bg{
+    background-image: url('~assets/circulos-nosotras.png');
+  }
 }
 </style>

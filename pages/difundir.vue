@@ -26,46 +26,28 @@
     <img src="~/assets/title04.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column">
-        <div class="material-box piezas-graficas-bg">
+        <div class="material-box paridad-ya-bg">
           <a href="https://drive.google.com/drive/folders/1CS_Ok1faS3wU_kSUMwSGnIRsBJewujAd?usp=sharing" target="_blank">
             <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">PIEZAS GRAFICAS</h1>
+              <h1 class="title is-2 has-text-shadow has-text-white">DIFUSUIÓN PARIDAD YA!</h1>
             </div>
           </a>
         </div>
       </div>
       <div class="column">
-        <div class="material-box videos-bg">
-          <a href="https://drive.google.com/drive/folders/1CS_Ok1faS3wU_kSUMwSGnIRsBJewujAd?usp=sharing" target="_blank">
+        <div class="material-box juntas-bg">
+          <a href="https://drive.google.com/drive/folders/1k1zw1fofBPJsidr6HQr5HlxQ1_BczX8I?usp=sharing" target="_blank">
             <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">VIDEOS</h1>
+              <h1 class="title is-2 has-text-shadow has-text-white">DIFUSIÓN JUNTAS</h1>
             </div>
           </a>
         </div>
       </div>
       <div class="column">
-        <div class="material-box gifs-bg">
-          <a href="https://drive.google.com/drive/folders/1CS_Ok1faS3wU_kSUMwSGnIRsBJewujAd?usp=sharing" target="_blank">
+        <div class="material-box causa-justa-bg">
+          <a href="https://drive.google.com/drive/folders/1oKxKBJGvp7RG_3tVa_hJLXAZTpBLuu2E?usp=sharing" target="_blank">
             <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">GIFS</h1>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="column">
-        <div class="material-box infografias-bg">
-          <a href="https://drive.google.com/drive/folders/1CS_Ok1faS3wU_kSUMwSGnIRsBJewujAd?usp=sharing" target="_blank">
-            <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">INFOGRAFIAS</h1>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="column">
-        <div class="material-box stickers-bg">
-          <a href="https://drive.google.com/drive/folders/1CS_Ok1faS3wU_kSUMwSGnIRsBJewujAd?usp=sharing" target="_blank">
-            <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">STICKERS</h1>
+              <h1 class="title is-2 has-text-shadow has-text-white">DIFUSIÓN CAUSA JUSTA!</h1>
             </div>
           </a>
         </div>
@@ -126,8 +108,9 @@ export default {
       width: 100%;
     }
   }
-  background-position: center center;
-  background-size: cover;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
   width: 100%;
   position: relative;
   border: 1px solid $primary;
@@ -137,21 +120,14 @@ export default {
     display: block;
     padding-bottom: 100%;
   }
-  &.piezas-graficas-bg{
-    background-image: url('~assets/piezas-graficas-bg.jpg');
-
+  &.causa-justa-bg{
+    background-image: url('~assets/logo-causa-justa.png');
   }
-  &.videos-bg{
-    background-image: url('~assets/videos-bg.png');
+  &.juntas-bg{
+    background-image: url('~assets/juntas-logo.png');
   }
-  &.gifs-bg{
-    background-image: url('~assets/gifs-bg.gif');
-  }
-  &.infografias-bg{
-    background-image: url('~assets/infografias-bg.png');
-  }
-  &.stickers-bg{
-    background-image: url('~assets/stickers-bg.png');
+  &.paridad-ya-bg{
+    background-image: url('~assets/paridad-logo.svg');
   }
 }
 </style>
