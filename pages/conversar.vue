@@ -137,6 +137,12 @@
           </article>
         </div>
       </div>
+      <div class="has-text-centered">
+        <video width="853" height="480" controls>
+          <source src="~/assets/causa-justa.mp4" type="video/mp4" />
+          Tu navegador no soporta este tipo de videos
+        </video>
+      </div>
       <div class="content is-large has-text-justified">
         <p>
           <strong>Causa Justa</strong> es un movimiento que busca la libertad y la autonomía reproductiva de todas las mujeres sobre sus cuerpos y sus proyectos de vida. Impulsado por La Mesa por la Vida y la Salud de las Mujeres, otras organizaciones de mujeres, feministas y de derechos humanos; y diferentes actores entre quienes se encuentran activistas, prestadores de servicios de salud, referentes de la academia y centros de investigación de todo el país, Causa Justa reconoce la urgente necesidad de eliminar el delito de aborto del Código Penal como un avance para los derechos de las mujeres y un cambio favorable para la sociedad y la democracia.
@@ -155,7 +161,6 @@
           <li>Que se eliminen las inequidades entre las mujeres que pueden acceder y las que no, a un aborto seguro y oportuno.</li>
         </ul>
       </div>
-      <!--
       <div class="columns my-6 is-centered">
         <div class="column is-5 has-text-centered">
           <img src="~/assets/icon01.svg" class="image an-icon" alt="">
@@ -163,17 +168,18 @@
             Entérate
           </h1>
           <p class="is-size-3">
-            Para ampliar el contexto general en el que surge esta iniciativa y conocer las razones de la necesidad de la paridad política en Colombia, te presentamos el siguiente material
+            Para ampliar el contexto general en el que surge esta iniciativa te presentamos el siguiente material
           </p>
           <br>
-          <a href="~/assets/files/investigacion-paridad-diagramada.pdf" target="_blank">
+          <a href="~/assets/files/argumentos-causajusta.pdf" target="_blank">
             <div class="file-box p-5 my-2">
-              <p class="has-text-primary">La paridad en América Latina y el Caribe: Un análisis para la paridad en Colombia</p>
+              <p class="has-text-primary">Argumentos para el debate sobre la despenalización total del aborto en Colombia</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
         </div>
         <div class="column is-5 is-offset-1 has-text-centered">
+        <!--
           <img src="~/assets/icon02.svg" class="image an-icon" alt="">
           <h1 class="title is-3 has-text-weight-bold">
             Conoce más
@@ -183,9 +189,9 @@
           </p>
           <br>
           <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
+        -->
         </div>
       </div>
-      -->
     </section>
   </section>
 </template>
