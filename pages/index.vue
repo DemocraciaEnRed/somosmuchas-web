@@ -125,7 +125,7 @@
         </casos-box>
       </div>
       <div class="column">
-        <casos-box title="CAUSA JUSTA POR EL ABORTO" description="" href="http://causajustaporelaborto.com">
+        <casos-box title="CAUSA JUSTA POR EL ABORTO" description="" href="http://causajustaporelaborto.org/">
           <img src="~/assets/logo-causa-justa.png" alt="">
         </casos-box>
       </div>
