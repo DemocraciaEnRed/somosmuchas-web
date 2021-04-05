@@ -25,7 +25,7 @@
       <div class="column">
         <div class="agenda-box">
           <img src="~/assets/paridad-logo.svg" alt="">
-          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted it-was-selected': paridadSelected}" href="#paridad">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" href="#paridad">
             <i class="fas fa-angle-down fa-lg fa-fw" />
           </a>
         </div>
@@ -41,7 +41,7 @@
       <div class="column">
         <div class="agenda-box">
           <img src="~/assets/logo-causa-justa.png" alt="">
-          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" :class="{'is-inverted it-was-selected': paridadSelected}" href="#causajusta">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" href="#causajusta">
             <i class="fas fa-angle-down fa-lg fa-fw" />
           </a>
         </div>
@@ -202,15 +202,15 @@
 
 <style lang="scss" scoped>
 .is-custom-image{
-    background-image: url('~assets/cover-color-01.jpg');
-    background-position: center center;
-    background-size: cover;
-    .title{
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
-    }
-    .title{
-        color: $primary;
-    }
+  background-image: url('~assets/cover-color-01.jpg');
+  background-position: center center;
+  background-size: cover;
+  .title{
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
+  }
+  .title{
+      color: $primary;
+  }
 }
 .subtitle-container{
   padding: 20px;
@@ -228,21 +228,21 @@
   border: 2px solid $secondary;
   position: relative;
   img {
-  max-height: 60%;
-  max-width: 75%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 50;
-}
-.enter-button{
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 150;
-}
+    max-height: 60%;
+    max-width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+  }
+  .enter-button{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 150;
+  }
 }
 .videoWrapper {
   position: relative;
@@ -257,22 +257,22 @@
   height: 100%;
 }
 .video-description{
-    .title{
-        font-size: 4rem;
-    }
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+  .title{
+      font-size: 4rem;
+  }
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .an-icon{
-    width:150px;
-    margin: 0 auto 20px;
+  width:150px;
+  margin: 0 auto 20px;
 }
 .file-box{
-    border: 1px solid $primary;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  border: 1px solid $primary;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 </style>

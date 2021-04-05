@@ -53,9 +53,9 @@ export default {
 
 <style lang="scss" scoped>
 .is-custom-image{
-    background-image: url('~assets/cover-color-02.jpg');
-    background-position: center center;
-    background-size: cover;
+  background-image: url('~assets/cover-color-02.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 .subtitle-container{
   padding: 20px;

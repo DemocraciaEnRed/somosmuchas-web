@@ -8,7 +8,7 @@
               COCREAR
             </h1>
             <div class="subtitle-container">
-              <h2 class="subtitle is-4 has-text-primary">
+              <h2 class="subtitle is-4 has-text-primary text-white">
                 Aquí tienes un espacio para compartir y acceder a metodologías de trabajo que puedan ser de utilidad para tu causa.
               </h2>
             </div>
@@ -32,12 +32,12 @@
     </div>
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
-      <div class="column">
+      <div class="column p-5">
         <a class="material-box circulos-mujeres-bg" href="/files/presentacion-circulos-nosotras.pdf" download>
           &nbsp;
         </a>
       </div>
-      <div class="column">
+      <div class="column p-5">
         <a class="material-box circulos-nosotras-bg" href="/files/presentacion-nosotras.pdf" download>
           &nbsp;
         </a>
@@ -53,6 +53,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.is-custom-image{
+  background-image: url('~assets/cover-color-03.jpg');
+  background-position: center center;
+  background-size: cover;
+  h1.title{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.50);
+  }
+}
 .image-title{
  width: 400px;
 }
@@ -62,7 +70,7 @@ export default {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 200px;
+  height: 260px;
   position: relative;
   border: 1px solid $primary;
   &.circulos-mujeres-bg{
