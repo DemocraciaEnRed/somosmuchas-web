@@ -107,7 +107,7 @@
             Para ampliar el contexto general en el que surge esta iniciativa y conocer las razones de la necesidad de la paridad política en Colombia, te presentamos el siguiente material
           </p>
           <br>
-          <a href="~/assets/files/investigacion-paridad-diagramada.pdf" target="_blank">
+          <a href="/files/investigacion-paridad-diagramada.pdf" target="_blank" download>
             <div class="file-box p-5 my-2 has-text-left">
               <p class="has-text-primary">La paridad en América Latina y el Caribe: Un análisis para la paridad en Colombia</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
@@ -139,7 +139,7 @@
       </div>
       <div class="has-text-centered">
         <video width="853" height="480" controls>
-          <source src="~/assets/causa-justa.mp4" type="video/mp4" />
+          <source src="~/assets/causa-justa.mp4" type="video/mp4"></source>
           Tu navegador no soporta este tipo de videos
         </video>
       </div>
@@ -171,7 +171,7 @@
             Para ampliar el contexto general en el que surge esta iniciativa te presentamos el siguiente material
           </p>
           <br>
-          <a href="~/assets/files/argumentos-causajusta.pdf" target="_blank">
+          <a href="/files/argumentos-causajusta.pdf" target="_blank" download>
             <div class="file-box p-5 my-2">
               <p class="has-text-primary">Argumentos para el debate sobre la despenalización total del aborto en Colombia</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />

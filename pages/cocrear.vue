@@ -33,12 +33,12 @@
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column">
-        <a class="material-box circulos-mujeres-bg" href="/assets/files/presentacion-circulos-nosotras.pdf" download>
+        <a class="material-box circulos-mujeres-bg" href="/files/presentacion-circulos-nosotras.pdf" download>
           &nbsp;
         </a>
       </div>
       <div class="column">
-        <a class="material-box circulos-nosotras-bg" href="/assets/files/presentacion-nosotras.pdf" download>
+        <a class="material-box circulos-nosotras-bg" href="/files/presentacion-nosotras.pdf" download>
           &nbsp;
         </a>
       </div>
