@@ -33,14 +33,22 @@
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column p-5">
-        <a class="material-box circulos-mujeres-bg" href="/files/presentacion-circulos-nosotras.pdf" download>
-          &nbsp;
-        </a>
+        <div class="material-box circulos-mujeres-bg">
+          <a href="/files/presentacion-circulos-nosotras.pdf" download>
+            <div class="text-container">
+              <h1 class="title is-2 has-text-shadow has-text-white">Presentación de nosotras ahora</h1>
+            </div>
+          </a>
+        </div>
       </div>
       <div class="column p-5">
-        <a class="material-box circulos-nosotras-bg" href="/files/presentacion-nosotras.pdf" download>
-          &nbsp;
-        </a>
+        <div class=" material-box circulos-nosotras-bg">
+          <a  href="/files/presentacion-nosotras.pdf" download>
+            <div class="text-container">
+              <h1 class="title is-2 has-text-shadow has-text-white">Creación de círculos de mujeres</h1>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -65,14 +73,46 @@ export default {
  width: 400px;
 }
 .material-box{
-  display: block;
+  .text-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    padding: 15px;
+    background-color: rgba(darken($primary,25%), 0.7);
+    opacity: 0;
+    color: #FFF;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    font-size: $size-4;
+    font-weight: 300;
+    overflow-y: hidden;
+    align-items: center;
+    &:hover{
+      opacity: 1;
+    }
+    h1.title{
+      text-align: center;
+      font-weight: 700;
+      width: 100%;
+    }
+  }
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 260px;
   position: relative;
   border: 1px solid $primary;
+ &:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
   &.circulos-mujeres-bg{
     background-image: url('~assets/circulos-de-mujeres.png');
   }

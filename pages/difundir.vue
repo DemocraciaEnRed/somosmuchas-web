@@ -38,7 +38,7 @@
         <div class="material-box juntas-bg">
           <a href="https://drive.google.com/drive/folders/1k1zw1fofBPJsidr6HQr5HlxQ1_BczX8I?usp=sharing" target="_blank">
             <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">Presentación de nosotras ahora</h1>
+              <h1 class="title is-2 has-text-shadow has-text-white">DIFUSIÓN JUNTAS</h1>
             </div>
           </a>
         </div>
@@ -47,7 +47,7 @@
         <div class="material-box causa-justa-bg">
           <a href="https://drive.google.com/drive/folders/1oKxKBJGvp7RG_3tVa_hJLXAZTpBLuu2E?usp=sharing" target="_blank">
             <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">Creación de círculos de mujeres</h1>
+              <h1 class="title is-2 has-text-shadow has-text-white">DIFUSIÓN CAUSA JUSTA!</h1>
             </div>
           </a>
         </div>
