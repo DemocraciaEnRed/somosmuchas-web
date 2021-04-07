@@ -36,7 +36,7 @@
         <div class="material-box circulos-mujeres-bg">
           <a href="/files/presentacion-circulos-nosotras.pdf" download>
             <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">Presentación de nosotras ahora</h1>
+              <h1 class="title is-2 has-text-shadow has-text-white">Creación de círculos de mujeres</h1>
             </div>
           </a>
         </div>
@@ -45,7 +45,7 @@
         <div class=" material-box circulos-nosotras-bg">
           <a  href="/files/presentacion-nosotras.pdf" download>
             <div class="text-container">
-              <h1 class="title is-2 has-text-shadow has-text-white">Creación de círculos de mujeres</h1>
+              <h1 class="title is-2 has-text-shadow has-text-white">Presentación de nosotras ahora</h1>
             </div>
           </a>
         </div>
