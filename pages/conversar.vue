@@ -123,7 +123,7 @@
             Suscríbite para acceder a informacion adicional sobre este tema
           </p>
           <br>
-          <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScRo-_Lb20_cp2tgFrzDaPOYhUjYLAcOW8JJnMWN1gD-K0jBQ/viewform" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
         </div>
       </div>
     </section>
