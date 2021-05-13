@@ -39,7 +39,7 @@
           Encuentra tu causa, informate, actua y comparte.<br>El poder de la ciudadanía esta entre nosotros.
         </p>
         <br>
-        <a href="https://activasomosmuchas.democraciaenred.org/" class="button is-primary is-rounded has-text-weight-bold is-medium">Entrar a la plataforma de activaci&oacute;n</a>
+        <a href="https://actua.somosmuchas.org/" class="button is-primary is-rounded has-text-weight-bold is-medium">Entrar a la plataforma de activaci&oacute;n</a>
       </div>
     </div>
   </div>

@@ -115,7 +115,7 @@
     <img src="~/assets/title01.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column">
-        <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://activasomosmuchas.democraciaenred.org/proyecto/paridadya#activa">
+        <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">
           <img src="~/assets/paridad-logo.svg" alt="">
         </casos-box>
       </div>
