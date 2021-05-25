@@ -47,6 +47,24 @@
         </div>
       </div>
     </div>
+    <div class="columns">
+      <div class="column">
+        <div class="agenda-box">
+          <img src="~/assets/logo-borolo.jpeg" alt="">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" href="#borolo">
+            <i class="fas fa-angle-down fa-lg fa-fw" />
+          </a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="agenda-box">
+          <img src="~/assets/logo-recicladores.png" alt="">
+          <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" href="#recicladores">
+            <i class="fas fa-angle-down fa-lg fa-fw" />
+          </a>
+        </div>
+      </div>
+    </div>
     <br>
     <section id="paridad">
       <h5 class="title is-2 has-text-centered has-text-primary has-text-weight-bold">
@@ -193,36 +211,81 @@
         </div>
       </div>
     </section>
+    <section id="borolo">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child pl-5 video-description">
+            <h1 class="title is-1 has-text-primary">
+              Boroló
+            </h1>
+          </article>
+        </div>
+      </div>
+      <div class="has-text-centered pb-5">
+        <div class="videoWrapper">
+          <iframe
+            width="853"
+            height="480"
+            src="https://www.youtube.com/embed/pnv3agCpJfE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
+      </div>
+      <div class="content is-large has-text-justified mt-5">
+        <p class="pt-5">Boroló es el ruido. El mar de voces que hacen una sola. Declaramos que la única manera de crecimiento es el cambio.</p>
+        <p>Que al mundo solo se lo construye en iteraciones. Que quienes somos hoy es apenas un borrador de quienes podemos ser. Reivindicamos la desobediencia civil y la protesta pacífica como vías de cambio para lograr espacios de poder de la ciudadanía y diálogo con el poder.</p>
+        <p>Se ha probado en la historia que la protesta pacífica es efectiva y transformadora y sabemos que es hora de que en Colombia la ciudadanía se apropie de esta estrategia para garantizar los cambios que queremos ver.</p>
+        <p>Creemos en la fuerza transformadora del discurso y la performance y, rechazamos la brutalidad del golpe y silencio.</p>
+        <p>La protesta es una puesta en escena: un espacio de disputa de discursos e ideas políticas que chocan, que se modifican las unas a las otras y que crean nuevas formas de ciudadanía.</p>
+        <p>Defendemos el desacuerdo y la controversia. Detrás de toda gran idea siempre hay, al menos, dos ideas contrarias que se funden en una sola. No creemos en los márgenes físicos de la protesta pacífica. Un trino indignado tiene el mismo poder que una batucada en la calle. Esta revolución también será trinada, posteada e instagrameada.</p>
+        <p>Nos oponemos a la censura, al bloqueo y a la criminalización de la protesta y la movilización. Creemos que la salud de una democracia se diagnostica en las calles. Creemos en el acceso a la educación como una herramienta clave para que la ciudadanía pueda articular protestas efectivas.</p>
+        <p>Armamos Boroló.</p>
+        <p>Ahí donde nos quieren en silencio haremos ruido. Ahí donde el poder quiera aplastarnos estarán nuestras cacerolas. Ahí donde el cinismo y la indolencia sean política: haremos la fiesta de la protesta pacífica. Boroló, ¡Hasta que las cosas cambien!</p>
+      </div>
+    </section>
+    <section id="recicladores">
+      <div class="tile is-ancestor mt-5 pt-5">
+        <div class="tile is-parent">
+          <article class="tile is-child pl-5 video-description">
+            <h1 class="title is-1 has-text-primary">Dignidad para recicladorxs</h1>
+          </article>
+        </div>
+      </div>
+      <div class="content is-large has-text-justified mt-5">
+        <p class="pt-5"><strong>#DignidadParaRecicladorxs</strong> es una campaña con enfoque de género para visibilizar las voces de l@s recicladorxs y sus demandas, ya que es una población que a pesar de ofrecer un servicio público, se encuentra con muchas barreras para ejercer su labor de manera digna.</p>
+      </div>
+    </section>
   </section>
 </template>
 
 <script>
-
 </script>
 
 <style lang="scss" scoped>
-.is-custom-image{
-  background-image: url('~assets/cover-color-01.jpg');
+.is-custom-image {
+  background-image: url("~assets/cover-color-01.jpg");
   background-position: center center;
   background-size: cover;
-  .title{
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
+  .title {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
-  .title{
-      color: $primary;
+  .title {
+    color: $primary;
   }
 }
-.subtitle-container{
+.subtitle-container {
   padding: 20px;
-  background-color: rgba(#ffe6d6,0.5);
+  background-color: rgba(#ffe6d6, 0.5);
 }
-.image-title{
- width: 400px;
+.image-title {
+  width: 400px;
 }
 .it-was-selected {
   border: 2px solid $secondary;
 }
-.agenda-box{
+.agenda-box {
   height: 250px;
   margin: 10px;
   border: 2px solid $secondary;
@@ -236,7 +299,7 @@
     transform: translate(-50%, -50%);
     z-index: 50;
   }
-  .enter-button{
+  .enter-button {
     position: absolute;
     bottom: -20px;
     left: 50%;
@@ -256,19 +319,19 @@
   width: 100%;
   height: 100%;
 }
-.video-description{
-  .title{
-      font-size: 4rem;
+.video-description {
+  .title {
+    font-size: 4rem;
   }
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.an-icon{
-  width:150px;
+.an-icon {
+  width: 150px;
   margin: 0 auto 20px;
 }
-.file-box{
+.file-box {
   border: 1px solid $primary;
   display: flex;
   flex-direction: row;

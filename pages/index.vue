@@ -125,8 +125,20 @@
         </casos-box>
       </div>
       <div class="column">
-        <casos-box title="CAUSA JUSTA POR EL ABORTO" description="" href="http://causajustaporelaborto.org/">
+        <casos-box title="CAUSA JUSTA POR EL ABORTO" description="Movimiento que busca que se elimine el delito de aborto del Código Penal colombiano" href="http://causajustaporelaborto.org/">
           <img src="~/assets/logo-causa-justa.png" alt="">
+        </casos-box>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <casos-box title="Boroló" description="Iniciativa para hablar de protesta y movilización social" href="http://www.borolo.org/">
+          <img src="~/assets/logo-borolo.jpeg" alt="">
+        </casos-box>
+      </div>
+      <div class="column">
+        <casos-box title="Dignidad para recicladorxs" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="https://activasomosmuchas.democraciaenred.org/proyecto/dignidad-para-recicladoras-y-recicladores#activa">
+          <img src="~/assets/logo-recicladores.png" alt="">
         </casos-box>
       </div>
     </div>

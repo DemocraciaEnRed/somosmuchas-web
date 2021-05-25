@@ -52,6 +52,15 @@
           </a>
         </div>
       </div>
+      <div class="column">
+        <div class="material-box recicladores-bg">
+          <a href="https://drive.google.com/drive/folders/1TVfzdtcok_RiipMxjlyQ8znD_wvOzTW4?usp=sharing" target="_blank">
+            <div class="text-container">
+              <h1 class="title is-2 has-text-shadow has-text-white">DIFUSIÓN DIGNIDAD PARA RECICLADORXS</h1>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -128,6 +137,9 @@ export default {
   }
   &.paridad-ya-bg{
     background-image: url('~assets/paridad-logo.svg');
+  }
+  &.recicladores-bg {
+    background-image: url('~assets/logo-recicladores.png');
   }
 }
 </style>
