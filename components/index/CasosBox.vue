@@ -1,20 +1,22 @@
 <template>
-  <div class="que-pasa-box">
-    <div class="texto-descriptivo">
-      <h1 class="title is-1 has-text-white has-text-weight-bold mb-2">
-        {{ title }}
-      </h1>
-      <p class="is-size-5">
-        {{ description }}
-      </p>
+  <div class="que-pasa-box-wrapper">
+    <div class="que-pasa-box">
+      <div class="texto-descriptivo">
+        <h1 class="title is-1 has-text-white has-text-weight-bold mb-2">
+          {{ title }}
+        </h1>
+        <p class="is-size-5">
+          {{ description }}
+        </p>
+      </div>
+      <slot />
+      <NuxtLink v-if="to" :to="to" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+        ENTRAR
+      </NuxtLink>
+      <a v-if="href" :href="href" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+        ENTRAR
+      </a>
     </div>
-    <slot />
-    <NuxtLink v-if="to" :to="to" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-      ENTRAR
-    </NuxtLink>
-    <a v-if="href" :href="href" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-      ENTRAR
-    </a>
   </div>
 </template>
 
@@ -43,6 +45,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.que-pasa-box-wrapper {
+  padding: 20px;
+}
 .que-pasa-box{
   height: 250px;
   margin: 10px;

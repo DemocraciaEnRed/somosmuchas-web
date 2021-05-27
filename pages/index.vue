@@ -113,35 +113,23 @@
     </div>
     <br>
     <img src="~/assets/title01.svg" class="image mb-6 image-title" alt="">
-    <div class="columns">
-      <div class="column">
-        <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">
-          <img src="~/assets/paridad-logo.svg" alt="">
-        </casos-box>
-      </div>
-      <div class="column">
-        <casos-box title="JUNTAS" description="Diálogo, intercambio y co-construcción de agendas y propuestas de mujeres progresistas de América Latina para responder de forma colectiva a la pandemia y a los efectos que tiene en la vida de las mujeres de la región" href="https://conversar.somosmuchas.org/agendas">
-          <img src="~/assets/juntas-logo.png" alt="">
-        </casos-box>
-      </div>
-      <div class="column">
-        <casos-box title="CAUSA JUSTA POR EL ABORTO" description="Movimiento que busca que se elimine el delito de aborto del Código Penal colombiano" href="http://causajustaporelaborto.org/">
-          <img src="~/assets/logo-causa-justa.png" alt="">
-        </casos-box>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <casos-box title="Boroló" description="Iniciativa para hablar de protesta y movilización social" href="http://www.borolo.org/">
-          <img src="~/assets/logo-borolo.jpeg" alt="">
-        </casos-box>
-      </div>
-      <div class="column">
-        <casos-box title="Dignidad para recicladorxs" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="https://activasomosmuchas.democraciaenred.org/proyecto/dignidad-para-recicladoras-y-recicladores#activa">
-          <img src="~/assets/logo-recicladores.png" alt="">
-        </casos-box>
-      </div>
-    </div>
+    <VueSlickCarousel v-bind="settings">
+      <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">
+        <img src="~/assets/paridad-logo.svg" alt="">
+      </casos-box>
+      <casos-box title="JUNTAS" description="Diálogo, intercambio y co-construcción de agendas y propuestas de mujeres progresistas de América Latina para responder de forma colectiva a la pandemia y a los efectos que tiene en la vida de las mujeres de la región" href="https://conversar.somosmuchas.org/agendas">
+        <img src="~/assets/juntas-logo.png" alt="">
+      </casos-box>
+      <casos-box title="CAUSA JUSTA POR EL ABORTO" description="Movimiento que busca que se elimine el delito de aborto del Código Penal colombiano" href="http://causajustaporelaborto.org/">
+        <img src="~/assets/logo-causa-justa.png" alt="">
+      </casos-box>
+      <casos-box title="Boroló" description="Iniciativa para hablar de protesta y movilización social" href="http://www.borolo.org/">
+        <img src="~/assets/logo-borolo.jpeg" alt="">
+      </casos-box>
+      <casos-box title="Dignidad para recicladorxs" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="https://activasomosmuchas.democraciaenred.org/proyecto/dignidad-para-recicladoras-y-recicladores#activa">
+        <img src="~/assets/logo-recicladores.png" alt="">
+      </casos-box>
+    </VueSlickCarousel>
   </div>
 </template>
 
@@ -151,6 +139,45 @@ export default {
   name: 'HomePage',
   components: {
     CasosBox
+  },
+  data () {
+    return {
+      settings: {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 0
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      }
+    }
   }
 }
 </script>

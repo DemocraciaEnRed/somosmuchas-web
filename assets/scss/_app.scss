@@ -64,3 +64,10 @@ html{
 .mapboxgl-marker {
   cursor: pointer;
 }
+
+.slick-arrow.slick-prev::before{
+  color: $primary;
+}
+.slick-arrow.slick-next::before{
+  color: $primary;
+}
