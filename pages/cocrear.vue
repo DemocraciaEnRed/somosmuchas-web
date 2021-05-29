@@ -8,7 +8,7 @@
               COCREAR
             </h1>
             <div class="subtitle-container">
-              <h2 class="subtitle is-4 has-text-primary text-white">
+              <h2 class="subtitle is-4 has-text-primary">
                 Aquí tienes un espacio para compartir y acceder a metodologías de trabajo que puedan ser de utilidad para tu causa.
               </h2>
             </div>
@@ -17,17 +17,24 @@
       </div>
     </div>
     <br>
-    <h5 class="title is-3 has-text-centered has-text-primary has-text-weight-bold">
-      Paridad ¡YA!<br>Campaña nacional por la paridad política
-    </h5>
-    <h5 class="subtitle is-4 has-text-centered has-text-primary">
-      Conoce cómo hemos logrado articularnos para movilizar la paridad política en el país.
-    </h5>
-    <div class="columns is-centered">
-      <div class="column is-one-third">
-        <div class="buttons">
-          <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary is-fullwidth has-text-weight-bold is-medium is-rounded">subir metodologías</a>
-        </div>
+    <div class="columns my-6 is-centered">
+      <div class="column is-5 has-text-centered">
+        <img src="~/assets/icon01.svg" class="image an-icon" alt="">
+        <h5 class="is-size-4">Descubrí</h5>
+        <br>
+        <p class="is-size-4">
+          Encontrarás metodologías de trabajo de diferentes causas, que fueron compartidas por otres usuaries interesades.
+        </p>
+      </div>
+      <div class="column is-5 is-offset-1 has-text-centered">
+        <img src="~/assets/icon02.svg" class="image an-icon" alt="">
+        <h5 class="is-size-4">Compartí</h5>
+        <br>
+        <p class="is-size-4">
+          Completá un formulario y compartí con la comunidad metodologías de trabajo que consideres útiles.
+        </p>
+        <br>
+        <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary has-text-weight-bold is-medium is-rounded">Subir metodología</a>
       </div>
     </div>
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">
@@ -69,6 +76,10 @@ export default {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.50);
   }
 }
+.subtitle-container{
+  padding: 20px;
+  background-color: rgba(#ffe6d6,0.5);
+}
 .image-title{
  width: 400px;
 }
@@ -103,7 +114,7 @@ export default {
     }
   }
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
@@ -119,5 +130,9 @@ export default {
   &.circulos-nosotras-bg{
     background-image: url('~assets/circulos-nosotras.png');
   }
+}
+.an-icon{
+    width:150px;
+    margin: 0 auto 20px;
 }
 </style>
