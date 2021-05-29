@@ -65,9 +65,20 @@ html{
   cursor: pointer;
 }
 
-.slick-arrow.slick-prev::before{
+.slick-arrow.slick-prev::before,
+.slick-arrow.slick-next::before {
   color: $primary;
+  font-size: 35px;
 }
-.slick-arrow.slick-next::before{
-  color: $primary;
+
+.slick-arrow.slick-next {
+  right: -10px;
+  width: 30px;
+  height: 30px;
+}
+
+.slick-arrow.slick-prev {
+  left: -15px;
+  width: 30px;
+  height: 30px;
 }
