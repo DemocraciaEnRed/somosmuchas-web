@@ -17,9 +17,26 @@
       </div>
     </div>
     <br>
-    <!-- <h5 class="subtitle is-4 has-text-centered has-text-primary">
-      Aquí tienes un espacio para compartir y acceder a metodologías de trabajo que puedan ser de utilidad para tu causa.
-    </h5> -->
+    <div class="columns my-6 is-centered">
+      <div class="column is-5 has-text-centered">
+        <img src="~/assets/icon01.svg" class="image an-icon" alt="">
+        <h1 class="title is-3">
+          Entérate
+        </h1>
+        <p class="is-size-3">
+          Para ampliar el contexto general en el que surgen estas iniciativas y conocer las razones de su necesidad te brindamos material adicional.
+        </p>
+      </div>
+      <div class="column is-5 is-offset-1 has-text-centered">
+        <img src="~/assets/icon02.svg" class="image an-icon" alt="">
+        <h1 class="title is-3">
+          Conoce más
+        </h1>
+        <p class="is-size-3">
+          Suscríbite a cada agenda para acceder a informacion adicional sobre el tema.
+        </p>
+      </div>
+    </div>
     <img src="~/assets/title02.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column">
@@ -48,7 +65,7 @@
       </div>
     </div>
     <div class="columns">
-      <div class="column">
+      <div class="column is-one-third">
         <div class="agenda-box">
           <img src="~/assets/logo-borolo.jpeg" alt="">
           <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" href="#borolo">
@@ -56,7 +73,7 @@
           </a>
         </div>
       </div>
-      <div class="column">
+      <div class="column is-one-third">
         <div class="agenda-box">
           <img src="~/assets/logo-recicladores.png" alt="">
           <a class="button is-primary has-text-weight-bold is-rounded enter-button is-medium" href="#recicladores">
@@ -67,7 +84,7 @@
     </div>
     <br>
     <section id="paridad">
-      <h5 class="title is-2 has-text-centered has-text-primary has-text-weight-bold">
+      <h5 class="title mt-5 pt-5 is-2 has-text-centered has-text-primary has-text-weight-bold">
         Paridad ¡YA!<br>Campaña nacional por la paridad política
       </h5>
       <div class="columns is-centered">
@@ -115,41 +132,27 @@
           </article>
         </div>
       </div> -->
-      <div class="columns my-6 is-centered">
-        <div class="column is-5 has-text-centered">
-          <img src="~/assets/icon01.svg" class="image an-icon" alt="">
-          <h1 class="title is-3 has-text-weight-bold">
-            Entérate
-          </h1>
-          <p class="is-size-3">
-            Para ampliar el contexto general en el que surge esta iniciativa y conocer las razones de la necesidad de la paridad política en Colombia, te presentamos el siguiente material
-          </p>
-          <br>
+      <div class="columns">
+        <div class="column is-half">
+          <h5 class="mt-5 pt-5 mb-5 is-size-3 has-text-primary has-text-weight-bold">
+            Información Adicional:
+          </h5>
           <a href="/files/investigacion-paridad-diagramada.pdf" target="_blank" download>
             <div class="file-box p-5 my-2 has-text-left">
-              <p class="has-text-primary">La paridad en América Latina y el Caribe: Un análisis para la paridad en Colombia</p>
+              <p class="has-text-primary is-size-5">La paridad en América Latina y el Caribe: Un análisis para la paridad en Colombia</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
-        </div>
-        <div class="column is-5 is-offset-1 has-text-centered">
-          <img src="~/assets/icon02.svg" class="image an-icon" alt="">
-          <h1 class="title is-3 has-text-weight-bold">
-            Conoce más
-          </h1>
-          <p class="is-size-3">
-            Suscríbite para acceder a informacion adicional sobre este tema
-          </p>
           <br>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScRo-_Lb20_cp2tgFrzDaPOYhUjYLAcOW8JJnMWN1gD-K0jBQ/viewform" target="_blank" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScRo-_Lb20_cp2tgFrzDaPOYhUjYLAcOW8JJnMWN1gD-K0jBQ/viewform" target="_blank" class="button is-primary is-rounded is-outline is-large">Suscribirme</a>
         </div>
       </div>
     </section>
     <section id="causajusta">
-      <div class="tile is-ancestor">
+      <div class="mt-5 pt-5 tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child pl-5 video-description">
-            <h1 class="title is-1 has-text-primary">
+            <h1 class="mt-5 pt-5 mb-5 title is-1 has-text-primary">
               CAUSA JUSTA
             </h1>
           </article>
@@ -162,7 +165,7 @@
         </video>
       </div>
       <div class="content is-large has-text-justified">
-        <p>
+        <p class="mt-5">
           <strong>Causa Justa</strong> es un movimiento que busca la libertad y la autonomía reproductiva de todas las mujeres sobre sus cuerpos y sus proyectos de vida. Impulsado por La Mesa por la Vida y la Salud de las Mujeres, otras organizaciones de mujeres, feministas y de derechos humanos; y diferentes actores entre quienes se encuentran activistas, prestadores de servicios de salud, referentes de la academia y centros de investigación de todo el país, Causa Justa reconoce la urgente necesidad de eliminar el delito de aborto del Código Penal como un avance para los derechos de las mujeres y un cambio favorable para la sociedad y la democracia.
           Así también busca avanzar en la despenalización social, y dar legitimidad a las decisiones libres que toman las mujeres sobre sus cuerpos, y eliminar el estigma que recae sobre ellas y sobre los prestadores de salud que realizan procedimientos de IVE.
         </p>
@@ -179,43 +182,25 @@
           <li>Que se eliminen las inequidades entre las mujeres que pueden acceder y las que no, a un aborto seguro y oportuno.</li>
         </ul>
       </div>
-      <div class="columns my-6 is-centered">
-        <div class="column is-5 has-text-centered">
-          <img src="~/assets/icon01.svg" class="image an-icon" alt="">
-          <h1 class="title is-3 has-text-weight-bold">
-            Entérate
-          </h1>
-          <p class="is-size-3">
-            Para ampliar el contexto general en el que surge esta iniciativa te presentamos el siguiente material
-          </p>
-          <br>
+      <div class="columns">
+        <div class="column is-half">
+          <h5 class="mt-5 pt-5 mb-5 is-size-3 has-text-primary has-text-weight-bold">
+            Información Adicional:
+          </h5>
           <a href="/files/argumentos-causajusta.pdf" target="_blank" download>
-            <div class="file-box p-5 my-2">
-              <p class="has-text-primary">Argumentos para el debate sobre la despenalización total del aborto en Colombia</p>
+            <div class="file-box p-5 my-2 has-text-left">
+              <p class="has-text-primary is-size-5">Argumentos para el debate sobre la despenalización total del aborto en Colombia</p>
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
         </div>
-        <div class="column is-5 is-offset-1 has-text-centered">
-        <!--
-          <img src="~/assets/icon02.svg" class="image an-icon" alt="">
-          <h1 class="title is-3 has-text-weight-bold">
-            Conoce más
-          </h1>
-          <p class="is-size-3">
-            Suscríbite para acceder a información adicional sobre este tema
-          </p>
-          <br>
-          <a href="https://google.com" class="button is-primary is-rounded is-outline is-large">Contáctanos</a>
-        -->
-        </div>
       </div>
     </section>
     <section id="borolo">
-      <div class="tile is-ancestor">
+      <div class="mt-5 tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child pl-5 video-description">
-            <h1 class="title is-1 has-text-primary">
+            <h1 class="mt-5 pt-5 mb-5 title is-1 has-text-primary">
               Boroló
             </h1>
           </article>
@@ -234,7 +219,9 @@
         </div>
       </div>
       <div class="content is-large has-text-justified mt-5">
-        <p class="pt-5">Boroló es el ruido. El mar de voces que hacen una sola. Declaramos que la única manera de crecimiento es el cambio.</p>
+        <p class="pt-5">
+          Boroló es el ruido. El mar de voces que hacen una sola. Declaramos que la única manera de crecimiento es el cambio.
+        </p>
         <p>Que al mundo solo se lo construye en iteraciones. Que quienes somos hoy es apenas un borrador de quienes podemos ser. Reivindicamos la desobediencia civil y la protesta pacífica como vías de cambio para lograr espacios de poder de la ciudadanía y diálogo con el poder.</p>
         <p>Se ha probado en la historia que la protesta pacífica es efectiva y transformadora y sabemos que es hora de que en Colombia la ciudadanía se apropie de esta estrategia para garantizar los cambios que queremos ver.</p>
         <p>Creemos en la fuerza transformadora del discurso y la performance y, rechazamos la brutalidad del golpe y silencio.</p>
@@ -246,15 +233,37 @@
       </div>
     </section>
     <section id="recicladores">
-      <div class="tile is-ancestor mt-5 pt-5">
+      <div class="mt-5 tile is-ancestor mt-5 pt-5">
         <div class="tile is-parent">
           <article class="tile is-child pl-5 video-description">
-            <h1 class="title is-1 has-text-primary">Dignidad para recicladorxs</h1>
+            <h1 class="title is-1 has-text-primary">
+              Dignidad para recicladorxs
+            </h1>
           </article>
         </div>
       </div>
+      <div class="has-text-centered pb-5">
+        <figure class="image-recicladores">
+          <img src="~/assets/logo-recicladores.png" alt="">
+        </figure>
+      </div>
       <div class="content is-large has-text-justified mt-5">
-        <p class="pt-5"><strong>#DignidadParaRecicladorxs</strong> es una campaña con enfoque de género para visibilizar las voces de l@s recicladorxs y sus demandas, ya que es una población que a pesar de ofrecer un servicio público, se encuentra con muchas barreras para ejercer su labor de manera digna.</p>
+        <p class="pt-5">
+          <strong>#DignidadParaRecicladorxs</strong> es una campaña con enfoque de género para visibilizar las voces de l@s recicladorxs y sus demandas, ya que es una población que a pesar de ofrecer un servicio público, se encuentra con muchas barreras para ejercer su labor de manera digna.
+        </p>
+      </div>
+      <div class="columns">
+        <div class="column is-half">
+          <h5 class="mt-5 pt-5 mb-5 is-size-3 has-text-primary has-text-weight-bold">
+            Información Adicional:
+          </h5>
+          <a href="/files/mujeres-recicladoras.pdf" target="_blank" download>
+            <div class="file-box p-5 my-2 has-text-left">
+              <p class="has-text-primary is-size-5">Mujeres recicladoras en Bogotá - Hojas Violeta</p>
+              <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
+            </div>
+          </a>
+        </div>
       </div>
     </section>
   </section>
@@ -337,5 +346,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+@include from($desktop){
+  .image-recicladores img {
+    max-width: 50%;
+    max-height: 50%;
+  }
 }
 </style>
