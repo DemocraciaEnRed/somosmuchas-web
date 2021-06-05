@@ -130,15 +130,82 @@
         <img src="~/assets/logo-recicladores.png" alt="">
       </casos-box>
     </VueSlickCarousel>
+    <br>
+    <section class="articulos">
+      <img src="~/assets/title05.svg" class="image mt-6 mb-6 image-titile-articles" alt="Articulos Relacionados">
+      <div class="columns">
+        <div class="column">
+          <articles-box title="¿Quién le teme a las mujeres en la política?" author="Columnista ALEJANDRA COLL" date="14/11/2020" link="https://lasillavacia.com/silla-llena/red-de-las-mujeres/quien-le-teme-las-mujeres-la-politica-77341">
+            <img src="~/assets/lasillallena.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column">
+          <articles-box title="¿Quién le teme a la paridad?" author="Columnista VANESSA ROSALES" date="05/12/2020" link="https://www.elespectador.com/opinion/quien-le-teme-a-la-paridad/">
+            <img src="~/assets/elespectador.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column">
+          <articles-box title="¡Paridad! ¿Y las candidatas?" author="Columnista LINA MARÍA ARANGO" date="28/02/2021" link="https://www.eldiario.com.co/opinion/paridad-y-las-candidatas/">
+            <img src="~/assets/eldiario.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column">
+          <articles-box title="Paridad ya" author="Columnista BRIGITTE BAPTISE" date="10/12/2020" link="https://www.elespectador.com/opinion/paridad-ya/">
+            <img src="~/assets/elespectador.png" alt="">
+          </articles-box>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <articles-box title="Discriminación no es meritocracia" author="Editorial" date="26/03/2021" link="https://www.elespectador.com/opinion/editorial/discriminacion-no-es-meritocracia/">
+            <img src="~/assets/elespectador.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column">
+          <articles-box title="Pírrica, no; cortina de humo, tal vez" author="Columnista CLAUDIA PALACIOS" date="23/12/2020" link="https://www.eltiempo.com/opinion/columnistas/claudia-palacios/pirrica-no-cortina-de-humo-tal-vez-columna-de-claudia-palacios-556773">
+            <img src="~/assets/eltiempo.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column">
+          <articles-box title="Paridad política: un camino por recorrer" author="Columnista KAREN MARTINEZ" date="09/11/2020" link="https://www.elespectador.com/noticias/nacional/paridad-politica-un-camino-por-recorrer/">
+            <img src="~/assets/elespectador.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column">
+          <articles-box title="“Los partidos no le apuestan a las mujeres”: Juliana Hernández" author="Columnista NATALIA TAMAYO" date="07/10/2020" link="https://www.elespectador.com/noticias/politica/paridadya-la-campana-ciudadana-para-incidir-que-mas-mujeres-lleguen-a-puestos-de-eleccion-popular/">
+            <img src="~/assets/elespectador.png" alt="">
+          </articles-box>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <articles-box title="Por ahora la paridad en el Congreso de Colombia seguirá siendo una ilusión" author="Editorial" date="05/11/2020" link="https://www.rollingstone.com.co/actualidad/por-ahora-la-paridad-en-el-congreso-de-colombia-seguira-siendo-una-ilusion/">
+            <img src="~/assets/rollingstone.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column is-one-quarter">
+          <articles-box title="“Las mujeres queremos el poder y a una feminista en la Presidencia”: Paridad ¡Ya!" author="Columnista KAREN MARTINEZ" date="27/04/2021" link="https://diariocriterio.com/2021/04/27/las-mujeres-queremos-el-poder-y-a-una-feminista-a-la-presidencia-paridad-ya/?fbclid=IwAR3-iqotKn40XVurYIeC1Jtt0rsryTqefMZaw22Wq6UZNLb-Uq43aqFt6Og">
+            <img src="~/assets/criterio.png" alt="">
+          </articles-box>
+        </div>
+        <div class="column is-one-quarter">
+          <articles-box title="Paridad política en el Gobierno de Duque, ¿rabo de paja?" author="Columnista KAREN MARTINEZ" date="19/05/2021" link="https://diariocriterio.com/2021/05/19/paridad-politica-en-el-gobierno-de-duque-rabo-de-paja/">
+            <img src="~/assets/criterio.png" alt="">
+          </articles-box>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
 import CasosBox from '~/components/index/CasosBox.vue'
+import ArticlesBox from '~/components/index/ArticlesBox.vue'
 export default {
   name: 'HomePage',
   components: {
-    CasosBox
+    CasosBox,
+    ArticlesBox
   },
   data () {
     return {
@@ -250,8 +317,11 @@ export default {
     justify-content: space-between;
   }
 }
-.image-title{
+.image-title {
   width: 400px;
+}
+.image-titile-articles {
+  margin-left: auto;
 }
 
 </style>
