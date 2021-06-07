@@ -17,12 +17,24 @@
       </div>
     </div>
     <br>
-    <h5 class="title is-3 has-text-centered has-text-primary has-text-weight-bold">
-      Paridad ¡YA!<br>Campaña nacional por la paridad política
-    </h5>
-    <h5 class="subtitle is-4 has-text-centered has-text-primary">
-      La campaña Paridad ¡YA! cincuenta / sí cuenta busca que se redistribuya el poder y se incremente la participación y la representación de las mujeres.
-    </h5>
+    <div class="columns my-6 is-centered">
+      <div class="column is-5 has-text-centered">
+        <img src="~/assets/icon01.svg" class="image an-icon" alt="">
+        <h5 class="is-size-4">Descubrí</h5>
+        <br>
+        <p class="is-size-4">
+          Encontrarás todo el material gráfico y audiovisual de cada iniciativa y tendrás acceso a sus carpetas para estar actualizado.
+        </p>
+      </div>
+      <div class="column is-5 is-offset-1 has-text-centered">
+        <img src="~/assets/icon02.svg" class="image an-icon" alt="">
+        <h5 class="is-size-4">Compartí</h5>
+        <br>
+        <p class="is-size-4">
+          Compartí en tus redes sociales para lograr que la causa que apoyas llegue a más personas.
+        </p>
+      </div>
+    </div>
     <img src="~/assets/title04.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
       <div class="column">
@@ -48,6 +60,15 @@
           <a href="https://drive.google.com/drive/folders/1oKxKBJGvp7RG_3tVa_hJLXAZTpBLuu2E?usp=sharing" target="_blank">
             <div class="text-container">
               <h1 class="title is-2 has-text-shadow has-text-white">DIFUSIÓN CAUSA JUSTA!</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="material-box recicladores-bg">
+          <a href="https://drive.google.com/drive/folders/1TVfzdtcok_RiipMxjlyQ8znD_wvOzTW4?usp=sharing" target="_blank">
+            <div class="text-container">
+              <h1 class="title is-2 has-text-shadow has-text-white">DIFUSIÓN DIGNIDAD PARA RECICLADORXS</h1>
             </div>
           </a>
         </div>
@@ -129,5 +150,12 @@ export default {
   &.paridad-ya-bg{
     background-image: url('~assets/paridad-logo.svg');
   }
+  &.recicladores-bg {
+    background-image: url('~assets/logo-recicladores.png');
+  }
+}
+.an-icon{
+    width:150px;
+    margin: 0 auto 20px;
 }
 </style>

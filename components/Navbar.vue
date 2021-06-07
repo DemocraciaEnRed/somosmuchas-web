@@ -66,6 +66,13 @@
               Cocrear
             </h1>
           </a>
+          <hr class="has-background-light">
+
+          <a @click="switchTo('/quienes-somos')">
+            <h1 class="title is-4 ">
+              Quienes somos
+            </h1>
+          </a>
         </div>
       </div>
     </b-sidebar>
