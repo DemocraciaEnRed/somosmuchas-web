@@ -31,7 +31,7 @@
         <h5 class="is-size-4">Comparte</h5>
         <br>
         <p class="is-size-4">
-          Completá un formulario y compartí con la comunidad metodologías de trabajo que consideres útiles.
+          Completa un formulario y comparte con la comunidad metodologías de trabajo que consideres útiles.
         </p>
         <br>
         <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary has-text-weight-bold is-medium is-rounded">Subir metodología</a>
