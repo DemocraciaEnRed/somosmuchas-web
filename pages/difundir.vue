@@ -31,7 +31,7 @@
         <h5 class="is-size-4">Comparte</h5>
         <br>
         <p class="is-size-4">
-          Compartí en tus redes sociales para lograr que la causa que apoyas llegue a más personas.
+          Comparte en tus redes sociales para lograr que la causa que apoyas llegue a más personas.
         </p>
       </div>
     </div>
