@@ -263,6 +263,26 @@
               <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
             </div>
           </a>
+          <h5 class="mt-5 pt-5 mb-5 is-size-3 has-text-primary has-text-weight-bold">
+            Amanecer
+          </h5>
+          <a href="/files/amanecer.pdf" target="_blank" download>
+            <div class="file-box p-5 my-2 has-text-left">
+              <p class="has-text-primary is-size-5">Amanecer es un proyecto de extensión de la Maestría en Escritura Creativa del Instituto Caro y Cuervo en alianza con el proyecto “Hojas violeta” de Organización Artemisas, Fundación Avina y Fundación City. Este libro recoge los testimonios de cinco mujeres recicladoras que trabajan en la ciudad de Bogotá: Yaneth Anzola, Paula Andrea Blanco, Yuly Tatiana Donoso, Ana María Fajardo y Yazmín Lorena Pineda.</p>
+              <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
+            </div>
+          </a>
+          <br>
+          <h5 class="mt-5 pt-5 mb-5 is-size-3 has-text-primary has-text-weight-bold">
+            Mujeres recicladoras en Bogotá
+          </h5>
+          <a href="/files/mujeres-recicladoras.pdf" target="_blank" download>
+            <div class="file-box p-5 my-2 has-text-left">
+              <p class="has-text-primary is-size-5">Este documento expone el análisis de los resultados de la aplicación del instrumento diagnóstico de Hojas Violeta, un diagnóstico preliminar de las mujeres recicladoras en Bogotá en cuanto a características sociodemográficas, trabajo de cuidado remunerado y no remunerado y percepción de violencias basadas en género. Participó un grupo de 47 mujeres entre los 18 y los 80 años que hacen parte de diversas asociaciones de recicladores en Bogotá y fueron entrevistadas en Febrero de 2021.</p>
+              <i class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3" />
+            </div>
+          </a>
+          <br>
         </div>
       </div>
     </section>
