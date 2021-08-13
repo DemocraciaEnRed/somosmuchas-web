@@ -242,10 +242,23 @@
           </article>
         </div>
       </div>
-      <div class="has-text-centered pb-5">
+      <!-- <div class="has-text-centered pb-5">
         <figure class="image-recicladores">
           <img src="~/assets/logo-recicladores.png" alt="">
         </figure>
+      </div> -->
+      <div class="has-text-centered pb-5">
+        <div class="videoWrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/bTKfxyFjI0o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
       </div>
       <div class="content is-large has-text-justified mt-5">
         <p class="pt-5">
@@ -367,7 +380,7 @@
   justify-content: center;
   align-items: center;
 }
-@include from($desktop){
+@include from($desktop) {
   .image-recicladores img {
     max-width: 50%;
     max-height: 50%;
