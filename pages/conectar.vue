@@ -233,7 +233,9 @@ export default {
     }
   },
   mounted () {
-    this.$axios.get('https://spreadsheets.google.com/feeds/list/196JdRVKPOkK8ZyY9X_Wdm7cEFNiqs3wL5_LChUr7U9U/1/public/full?alt=json')
+    this.$axios.get('https://sheets.googleapis.com/v4/spreadsheets/196JdRVKPOkK8ZyY9X_Wdm7cEFNiqs3wL5_LChUr7U9U/values/mapeo', {
+      params: { key: this.$config.googleSheetsApiKey }
+    })
       .then((res) => {
         this.data = this.extractData(res.data)
       })
@@ -245,11 +247,13 @@ export default {
     extractData (data) {
       // eslint-disable-next-line prefer-const
       let output = []
-      data.feed.entry.forEach((entry) => {
+      const theKeys = data.values[0]
+      const theValues = data.values.slice(1)
+      theValues.forEach((entry) => {
         // eslint-disable-next-line prefer-const
-        let marker = {}
-        this.keys.forEach((key) => {
-          marker[key] = entry[`gsx$${key}`].$t !== '' ? entry[`gsx$${key}`].$t : null
+        const marker = {}
+        theKeys.forEach((k, i) => {
+          marker[k] = entry[i] !== '' ? entry[i] : null
         })
         output.push(marker)
       })

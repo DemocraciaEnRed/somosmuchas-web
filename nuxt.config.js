@@ -77,6 +77,7 @@ export default {
     mapCenterLongitude: process.env.MAP_CENTER_LONGITUDE,
     mapCenterLatitude: process.env.MAP_CENTER_LATITUDE,
     mapZoomDefault: process.env.MAP_ZOOM_DEFAULT,
+    googleSheetsApiKey: process.env.GOOGLE_SHEETS_API_KEY,
     googleAnalytics: {
       id: process.env.GOOGLE_ANALYTICS_ID
     }
