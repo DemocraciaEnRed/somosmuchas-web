@@ -20,7 +20,9 @@
     <div class="columns my-6 is-centered">
       <div class="column is-5 has-text-centered">
         <img src="~/assets/icon01.svg" class="image an-icon" alt="">
-        <h5 class="is-size-4">Descubre</h5>
+        <h5 class="is-size-4">
+          Descubre
+        </h5>
         <br>
         <p class="is-size-4">
           Encontrarás todo el material gráfico y audiovisual de cada iniciativa y tendrás acceso a sus carpetas para estar actualizado.
@@ -28,7 +30,9 @@
       </div>
       <div class="column is-5 is-offset-1 has-text-centered">
         <img src="~/assets/icon02.svg" class="image an-icon" alt="">
-        <h5 class="is-size-4">Comparte</h5>
+        <h5 class="is-size-4">
+          Comparte
+        </h5>
         <br>
         <p class="is-size-4">
           Comparte en tus redes sociales para lograr que la causa que apoyas llegue a más personas.
