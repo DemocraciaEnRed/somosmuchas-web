@@ -115,7 +115,7 @@
           <div class="about">
             Organizate para llevar tus causas adelante! Te invitamos a crear y compartir las agendas de rus proyectos.
           </div>
-          <NuxtLink to="/cocrear">
+          <NuxtLink to="/agendas">
             <div class="barra">
               <h1 class="is-size-3 is-fullwidth">
                 <b>AGENDAS</b>
@@ -133,12 +133,12 @@
     <br>
     <img src="~/assets/title01.svg" class="image mb-6 image-title" alt="">
     <section>
-      <casos-box title="Sin mujeres  NO!" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política.">
+      <casos-box title="Sin mujeres  NO!" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." to="/sinmujeresno">
         <img src="~/assets/sinmujeresno.png" alt="">
       </casos-box>
-      <NuxtLink to="/sinmujeresno" class="button is-rounded is-primary is-inverted has-text-weight-bold">
+      <!-- <NuxtLink to="/sinmujeresno"  class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
         ENTRAR
-      </NuxtLink>
+      </NuxtLink> -->
     </section>
     <VueSlickCarousel v-bind="settings">
       <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">

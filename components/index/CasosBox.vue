@@ -11,10 +11,10 @@
       </div>
       <slot />
       <NuxtLink v-if="to" :to="to" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-        ENTRAR
+        {{ label }}
       </NuxtLink>
       <a v-if="href" :href="href" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-        ENTRAR
+        {{ label }}
       </a>
     </div>
   </div>
@@ -38,7 +38,12 @@ export default {
     },
     href: {
       type: String,
-      required: true
+      required: false
+    },
+    label: {
+      type: String,
+      required: false,
+      default: 'ENTRAR'
     }
   }
 }
