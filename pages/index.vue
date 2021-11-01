@@ -121,8 +121,8 @@
                 <b>AGENDAS</b>
               </h1>
               <div>
-                <NuxtLink to="/agendas" class="button is-rounded is-primary is-inverted has-text-weight-bold">
-                  ENTRAR
+                <NuxtLink to="#" class="button is-rounded is-primary is-inverted has-text-weight-bold">
+                  PROXIMAMENTE
                 </NuxtLink>
               </div>
             </div>
@@ -132,14 +132,12 @@
     </div>
     <br>
     <img src="~/assets/title01.svg" class="image mb-6 image-title" alt="">
-    <section>
+    <!-- ocultado hasta tener info -->
+    <!-- <section>
       <casos-box title="Sin mujeres  NO!" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." to="/sinmujeresno">
         <img src="~/assets/sinmujeresno.png" alt="">
       </casos-box>
-      <!-- <NuxtLink to="/sinmujeresno"  class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-        ENTRAR
-      </NuxtLink> -->
-    </section>
+    </section> -->
     <VueSlickCarousel v-bind="settings">
       <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">
         <img src="~/assets/paridad-logo.svg" alt="">

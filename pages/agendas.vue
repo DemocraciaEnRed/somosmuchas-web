@@ -18,7 +18,7 @@
     </div>
     <div class="columns my-6 is-centered">
       <div class="column is-3 has-text-centered">
-        <img src="~/assets/arrowDown.svg" class="image an-icon" alt="">
+        <img src="~/assets/arrowDown.png" class="image an-icon" alt="">
         <h2 class="is-size-4">
           Descargar
         </h2>
@@ -33,7 +33,7 @@
         <a href="https://actua.somosmuchas.org/" class="mt-2 button is-primary is-rounded has-text-weight-bold is-medium">Quiero actuar</a>
       </div>
       <div class="column is-3 is-offset-1 has-text-centered">
-        <img src="~/assets/share.svg" class="image an-icon" alt="">
+        <img src="~/assets/share.png" class="image an-icon" alt="">
         <h2 class="is-size-4">
           Comparte
         </h2>
@@ -82,6 +82,14 @@
       </div>
     </div>
     <div class="container">
+      <div>
+        <h1 class="title mt-5 pt-5 is-2 has-text-lefted has-text-primary has-text-weight-bold">
+          Que opinas sobre estas agendas?
+        </h1>
+        <p class="content is-large has-text-justified">
+          Buscanos en nuestro instagram, para hacer comunidad y debatir!
+        </p>
+      </div>
       <div data-mc-src="4ef2a77e-3497-45e3-bf68-7f83f306f342#instagram">
       </div>
       <script src="https://cdn2.woxo.tech/a.js#617dc3d6cd3af80016260b49" async data-usrc>
