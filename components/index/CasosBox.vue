@@ -38,7 +38,8 @@ export default {
     },
     href: {
       type: String,
-      required: false
+      required: false,
+      default: '#'
     },
     label: {
       type: String,

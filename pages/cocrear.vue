@@ -20,7 +20,9 @@
     <div class="columns my-6 is-centered">
       <div class="column is-5 has-text-centered">
         <img src="~/assets/icon01.svg" class="image an-icon" alt="">
-        <h5 class="is-size-4">Descubre</h5>
+        <h5 class="is-size-4">
+          Descubre
+        </h5>
         <br>
         <p class="is-size-4">
           Encontrarás metodologías de trabajo de diferentes causas, que fueron compartidas por otres usuaries interesades.
@@ -28,7 +30,9 @@
       </div>
       <div class="column is-5 is-offset-1 has-text-centered">
         <img src="~/assets/icon02.svg" class="image an-icon" alt="">
-        <h5 class="is-size-4">Comparte</h5>
+        <h5 class="is-size-4">
+          Comparte
+        </h5>
         <br>
         <p class="is-size-4">
           Completa un formulario y comparte con la comunidad metodologías de trabajo que consideres útiles.
@@ -50,7 +54,7 @@
       </div>
       <div class="column p-5">
         <div class=" material-box circulos-nosotras-bg">
-          <a  href="/files/presentacion-nosotras.pdf" download>
+          <a href="/files/presentacion-nosotras.pdf" download>
             <div class="text-container">
               <h1 class="title is-2 has-text-shadow has-text-white">Presentación de nosotras ahora</h1>
             </div>

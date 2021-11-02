@@ -90,10 +90,8 @@
           Buscanos en nuestro instagram, para hacer comunidad y debatir!
         </p>
       </div>
-      <div data-mc-src="4ef2a77e-3497-45e3-bf68-7f83f306f342#instagram">
-      </div>
-      <script src="https://cdn2.woxo.tech/a.js#617dc3d6cd3af80016260b49" async data-usrc>
-      </script>
+      <div data-mc-src="4ef2a77e-3497-45e3-bf68-7f83f306f342#instagram" />
+      <script src="https://cdn2.woxo.tech/a.js#617dc3d6cd3af80016260b49" async data-usrc />
     </div>
   </div>
 </template>

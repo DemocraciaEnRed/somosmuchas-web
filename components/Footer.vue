@@ -4,7 +4,9 @@
       <div class="columns is-vcentered">
         <div class="column has-text-centered has-text-left-desktop">
           <a href="/quienes-somos" class="is-size-5 has-text-white">Quienes somos</a>
-          <p class="is-size-5 mt-3 mb-5">Redes sociales</p>
+          <p class="is-size-5 mt-3 mb-5">
+            Redes sociales
+          </p>
           <p>
             <a
               href="https://twitter.com/Artemisas_org"
