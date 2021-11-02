@@ -87,7 +87,7 @@
           Que opinas sobre estas agendas?
         </h1>
         <p class="content is-large has-text-justified">
-          Buscanos en nuestro instagram, para hacer comunidad y debatir!
+          Buscanos en  nuestro instagram, para hacer comunidad y debatir!
         </p>
       </div>
       <div data-mc-src="4ef2a77e-3497-45e3-bf68-7f83f306f342#instagram" />
