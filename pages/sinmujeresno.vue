@@ -35,33 +35,36 @@
         />
       </div>
     </section>
-    <div class=" max-width  has-background-primary  has-text-white pt-4 top-bar-text">
-      <div class="container">
-        <img src="~/assets/conocenos-enterate.png" alt="">
-        <NuxtLink to="/actuar" class="button is-rounded is-primary is-inverted has-text-weight-bold">
-          ver más
-        </NuxtLink>
+    <div class=" section is-large max-width  has-background-primary  has-text-white pt-4 top-bar-text">
+      <div class="container columns">
+        <div class="column is-11">
+          <img src="~/assets/conocenos-enterate.png" alt="">
+        </div>
+        <div class="column is-1  me-6 my-6">
+          <NuxtLink to="/actuar" class="button is-rounded is-primary is-inverted has-text-weight-bold">
+            ver más
+          </NuxtLink>
+        </div>
       </div>
       <VueSlickCarousel v-bind="settings">
-        <p>
-          hola
-        </p>
-        <p>
-          chau
-        </p>
+        <content-box title="Prueba" description="este es el texto dle contenido del slider" />
+        <content-box title="Prueba" description="este es el texto dle contenido del slider" />
+        <content-box title="Prueba" description="este es el texto dle contenido del slider" />
       </VueSlickCarousel>
     </div>
   </div>
 </template>
 <script>
-export default {
+import ContentBox from '~/components/content/ContentBox.vue'
 
+export default {
+  components: { ContentBox },
   data () {
     return {
       settings: {
-        dots: false,
+        dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
