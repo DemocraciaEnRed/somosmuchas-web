@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="i">
     <div class="section has-background-primary has-text-centered has-text-white pt-4 top-bar-text">
       <h5 class="subtitle is-4 has-text-white is-spaced">
         Llegó el momento de juntar fuerzas para avanzar unidas!<br>
