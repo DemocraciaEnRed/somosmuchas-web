@@ -55,14 +55,15 @@
       </div>
     </div>
     <section class="section bg-aqua expand">
-      <div class="container columns">
-        <div class="column is-1  mx-6 my-6">
+      <div class="container level is-mobile">
+        <div class="column is-1 level-left ">
           <NuxtLink to="/actuar" class="button is-rounded is-primary is-inverted has-text-weight-bold">
             ver más
           </NuxtLink>
         </div>
-        <div class="column  is-four-fifths m-auto my-6 py-6">
-          <div class="bg-vector">
+        <!-- backup tmep m-auto my-6 py-6 -->
+        <div class="column level-right">
+          <div class="bg-vector ">
             <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
             <h1 class="sub-title-section ">
               Co-construccion<br>agendas
@@ -70,40 +71,69 @@
           </div>
         </div>
       </div>
+      <!-- que y porque co-crear -->
       <div>
         <div class="tile is-parent">
           <article class="tile is-child notification">
             <div class="content">
               <p class="title">
-                Tall tile
+                ¿Que es Co-crear agendas?
               </p>
               <!-- <p class="subtitle">
                 With even more content
               </p> -->
-              <div class="content container mx-6 px-6">
+              <div class="content content-margin container ">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
               </div>
             </div>
           </article>
         </div>
       </div>
-      <!-- el que lleva iamgenes boceto -->
-      <div class="container mx-6">
+      <div>
         <div class="tile is-parent">
           <article class="tile is-child notification">
             <div class="content">
-              <p class=" purple-title">
-                Tall tile
+              <p class="title">
+                ¿Para que Co-crear agendas?
               </p>
               <!-- <p class="subtitle">
                 With even more content
               </p> -->
-              <div class="content-w container mx-6 px-6">
+              <div class="content container content-margin">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
               </div>
-              <img class="image is-128x128" src="" alt="">
             </div>
           </article>
+        </div>
+      </div>
+      <!-- el que lleva imagenes boceto -->
+      <div class="columns">
+        <div class="colum container lazy-margin">
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <div class="content">
+                <p class=" purple-title">
+                  <span class="squad">◼</span> Tall tile
+                </p>
+                <!-- <p class="subtitle">
+                  With even more content
+                </p> -->
+                <div class="content-w container content-margin">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <section class="section">
+                    <img class="" src="~/assets/image 18.png" alt="">
+                  </section>
+                  <div class="container columns is-centered">
+                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
+                      <a class=" button  is-rounded bg-button">
+                        Descargar el resumen
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -212,23 +242,75 @@ export default {
   background-color: #32BD9F;
 }
 .bg-vector{
-  background: transparent url("../assets/vector.png") no-repeat scroll 70% 50%;
+  background: transparent url("../assets/vector.png") no-repeat scroll -100% 50%;
 }
-.sub-title-section{
-  /* position: absolute;
-  left: 23.15%;
-  right: 0%;
-  top: 3.7%;
-  bottom: 8.33%; */
-  font-family: Titillium Web;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 47px;
-  /* or 86% */
-  text-align: right;
-  color: #FFFFFF;
-  /* background: transparent url("../assets/vector.png") no-repeat scroll 50% 0%; */
+@media screen and (max-width: 720px){
+  .sub-title-section{
+    /* position: absolute;
+    left: 23.15%;
+    right: 0%;
+    top: 3.7%;
+    bottom: 8.33%; */
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26.0729px !important;
+    line-height: 22px !important;
+    /* or 86% */
+    text-align: right;
+    color: #FFFFFF;
+    /* background: transparent url("../assets/vector.png") no-repeat scroll 50% 0%; */
+  }
+  .title{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px !important;
+    line-height: 47px;
+    color: #fff;
+    margin: none;
+    padding: none;
+  }
+  .notification{
+    padding: 0px !important;
+  }
+  .contenet{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+  .content-margin{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .lazy-margin{
+    margin: 10px;
+  }
+  .margin-center{
+    margin: none !important;
+    margin-top: 10px !important;
+  }
+  .purple-title{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 20px;
+    margin: 0px !important;
+  }
+  .bg-vector{
+    background: transparent url("../assets/vector.png") no-repeat scroll 100% 50%;
+  }
+  .squad{
+    font-size: 0.5em;
+    vertical-align: 10% !important;
+  }
+  .bg-button{
+    width: 172.39px;
+    height: 31px;
+  }
 }
 .notification{
   background: none;
@@ -278,5 +360,44 @@ export default {
   line-height: 21px;
   /* or 105% */
   color: #FFFFFF !important;
+}
+.sub-title-section{
+    /* position: absolute;
+    left: 23.15%;
+    right: 0%;
+    top: 3.7%;
+    bottom: 8.33%; */
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 47px;
+  /* or 86% */
+  text-align: right;
+  color: #FFFFFF;
+    /* background: transparent url("../assets/vector.png") no-repeat scroll 50% 0%; */
+  }
+.content-margin{
+  margin: 42px;
+  padding: 42px;
+  }
+.notification{
+    padding-left: 80px ;
+  }
+.squad{
+  font-size: .5em;
+  vertical-align: 20%;
+}
+.margin-center{
+  margin: .0025em  8em;
+}
+.bg-button{
+  padding: 10px 26px;
+  width: 228px;
+  height: 41px;
+  background: #8917FF;
+  border:none;
+  border-radius: 290486px;
+  color: #fff;
 }
 </style>
