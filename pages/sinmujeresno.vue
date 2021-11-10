@@ -57,7 +57,7 @@
     <section class="section bg-aqua expand">
       <div class="container level is-mobile">
         <div class="column is-1 level-left ">
-          <NuxtLink to="/actuar" class="button is-rounded is-primary is-inverted has-text-weight-bold">
+          <NuxtLink to="/actuar" class="button is-rounded is-primary  has-text-weight-bold">
             ver más
           </NuxtLink>
         </div>
@@ -107,13 +107,13 @@
         </div>
       </div>
       <!-- el que lleva imagenes boceto -->
-      <div class="columns">
-        <div class="colum container lazy-margin">
+      <div class="">
+        <div class=" container lazy-margin">
           <div class="tile is-parent">
             <article class="tile is-child notification">
               <div class="content">
                 <p class=" purple-title">
-                  <span class="squad">◼</span> Tall tile
+                  <span class="squad">◼</span> Autonomía Económica
                 </p>
                 <!-- <p class="subtitle">
                   With even more content
@@ -123,9 +123,200 @@
                   <section class="section">
                     <img class="" src="~/assets/image 18.png" alt="">
                   </section>
-                  <div class="container columns is-centered">
+                  <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a class=" button  is-rounded bg-button">
+                      <a class=" button button-download is-rounded bg-button">
+                        Descargar el resumen
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class=" container lazy-margin">
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <div class="content">
+                <p class=" purple-title">
+                  <span class="squad">◼</span> Participación Política
+                </p>
+                <!-- <p class="subtitle">
+                  With even more content
+                </p> -->
+                <div class="content-w container content-margin">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <section class="section">
+                    <img class="" src="~/assets/participacion.png" alt="">
+                  </section>
+                  <div class="container box has-text-centered is-transparent">
+                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
+                      <a class=" button button-download is-rounded bg-button">
+                        Descargar el resumen
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class=" container lazy-margin">
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <div class="content">
+                <p class=" purple-title">
+                  <span class="squad">◼</span> Paz
+                </p>
+                <!-- <p class="subtitle">
+                  With even more content
+                </p> -->
+                <div class="content-w container content-margin">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <section class="section">
+                    <img class="" src="~/assets/paz.png" alt="">
+                  </section>
+                  <div class="container box has-text-centered is-transparent">
+                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
+                      <a class=" button button-download is-rounded bg-button">
+                        Descargar el resumen
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section class="section bg-aqua expand">
+      <div class="container level is-mobile">
+        <div class="column is-1 level-left ">
+          <NuxtLink to="/actuar" class="button is-rounded is-primary  has-text-weight-bold">
+            ver más
+          </NuxtLink>
+        </div>
+        <!-- backup tmep m-auto my-6 py-6 -->
+        <div class="column level-right">
+          <div class="bg-vector ">
+            <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
+            <h1 class="sub-title-section ">
+              Co-construccion<br>agendas
+            </h1>
+          </div>
+        </div>
+      </div>
+      <!-- que y porque co-crear -->
+      <div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification">
+            <div class="content">
+              <p class="title">
+                ¿Que es Co-crear agendas?
+              </p>
+              <!-- <p class="subtitle">
+                With even more content
+              </p> -->
+              <div class="content content-margin container ">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification">
+            <div class="content">
+              <p class="title">
+                ¿Para que Co-crear agendas?
+              </p>
+              <!-- <p class="subtitle">
+                With even more content
+              </p> -->
+              <div class="content container content-margin">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <!-- el que lleva imagenes boceto -->
+      <div class="">
+        <div class=" container lazy-margin">
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <div class="content">
+                <p class=" purple-title">
+                  <span class="squad">◼</span> Autonomía Económica
+                </p>
+                <!-- <p class="subtitle">
+                  With even more content
+                </p> -->
+                <div class="content-w container content-margin">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <section class="section">
+                    <img class="" src="~/assets/image 18.png" alt="">
+                  </section>
+                  <div class="container box has-text-centered is-transparent">
+                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
+                      <a class=" button button-download is-rounded bg-button">
+                        Descargar el resumen
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class=" container lazy-margin">
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <div class="content">
+                <p class=" purple-title">
+                  <span class="squad">◼</span> Participación Política
+                </p>
+                <!-- <p class="subtitle">
+                  With even more content
+                </p> -->
+                <div class="content-w container content-margin">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <section class="section">
+                    <img class="" src="~/assets/participacion.png" alt="">
+                  </section>
+                  <div class="container box has-text-centered is-transparent">
+                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
+                      <a class=" button button-download is-rounded bg-button">
+                        Descargar el resumen
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class=" container lazy-margin">
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <div class="content">
+                <p class=" purple-title">
+                  <span class="squad">◼</span> Paz
+                </p>
+                <!-- <p class="subtitle">
+                  With even more content
+                </p> -->
+                <div class="content-w container content-margin">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <section class="section">
+                    <img class="" src="~/assets/paz.png" alt="">
+                  </section>
+                  <div class="container box has-text-centered is-transparent">
+                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
+                      <a class=" button button-download is-rounded bg-button">
                         Descargar el resumen
                       </a>
                     </div>
@@ -399,5 +590,23 @@ export default {
   border:none;
   border-radius: 290486px;
   color: #fff;
+}
+
+.box{
+  background: none;
+  box-shadow: none;
+}
+
+.button-download{
+
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  /* identical to box height, or 105% */
+
+  text-align: center;
+
 }
 </style>
