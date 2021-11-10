@@ -42,7 +42,7 @@
           Sube tu agenda, para que podamos compartirla con la comunnidad y abrir el debate y la difusion
         </p>
         <br>
-        <a href="https://actua.somosmuchas.org/" class="button is-primary is-rounded has-text-weight-bold is-medium">Quiero actuar</a>
+        <a href="https://actua.somosmuchas.org/" class="button is-primary is-rounded has-text-weight-bold is-medium">Subir</a>
       </div>
     </div>
     <br>
@@ -55,7 +55,7 @@
     <div class="columns">
       <div class="column">
         <div class="actuar-agenda-box">
-          <img src="~/assets/paridad-logo.svg" alt="">
+          <img src="~/assets/Agenda1.png" alt="">
           <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
             ver
           </a>
@@ -66,7 +66,7 @@
       </div>
       <div class="column">
         <div class="actuar-agenda-box">
-          <img src="~/assets/logo-sin-mujeres.png" alt="">
+          <img src="~/assets/Agenda2.png" alt="">
           <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
             ver
           </a>
@@ -74,7 +74,7 @@
       </div>
       <div class="column">
         <div class="actuar-agenda-box">
-          <img src="~/assets/logo-recicladores.png" alt="">
+          <img src="~/assets/Agenda3.png" alt="">
           <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
             ver
           </a>
@@ -92,6 +92,25 @@
       </div>
       <div data-mc-src="4ef2a77e-3497-45e3-bf68-7f83f306f342#instagram" />
       <script src="https://cdn2.woxo.tech/a.js#617dc3d6cd3af80016260b49" async data-usrc />
+    </div>
+    <div class="container">
+      <div>
+        <h1 class="title mt-5 pt-5 is-2 has-text-lefted has-text-primary has-text-weight-bold">
+          Co-creando agendas!
+        </h1>
+        <p class="content  is-large is-size-4 has-text-justified">
+          Asi son nuestras sesiones de co-creacion con las personas, a traves de diferentes redes sociales, medios y formas; abrimos el debate y conversamos sobre las agendas propuestas
+        </p>
+        <div class="container is-flex is-justify-content-center my-6">
+          <img src="https://via.placeholder.com/660x445" alt="">
+        </div>
+        <div class="is-flex is-flex-direction-column">
+          <h1 class="is-size-4  mx-4">
+            Te invitamos a sumarte a nuestro grupo para que
+          </h1>
+          <a href="#" class="button is-primary is-rounded has-text-weight-bold is-medium">Cocreemos Juntas <i class="fab fa-whatsapp fa-fw fa-lg px-1" /></a>
+        </div>
+      </div>
     </div>
   </div>
 </template>

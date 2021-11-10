@@ -12,7 +12,7 @@
         <!-- <video :src="video" /> -->
         <div class="container my-6 py-4">
           <video width="550" height="309" controls>
-            <source :src="video" type="video/mp4">
+            <source v-if="video" :src="video" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -36,16 +36,24 @@ export default {
     video: {
       type: String,
       required: false,
-      default: 'https://via.placeholder.com/350'
+      default: 'https://www.youtube.com/watch?v=NpEaa2P7qZI'
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+
 .special-frame{
   margin: auto;
-  width: 55.125rem;
-  height: 33.125rem;
+  width: 21rem;
+  height: auto;
+ }
+@media screen and (min-width: 720px) {
+  .special-frame{
+    margin: auto;
+    width: 55.125rem !important;
+    height: 33.125rem;
+  }
 }
 </style>

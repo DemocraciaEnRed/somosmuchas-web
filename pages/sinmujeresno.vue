@@ -46,11 +46,11 @@
           </NuxtLink>
         </div>
       </div>
-      <div class="container ">
+      <div class="container">
         <VueSlickCarousel v-bind="settings">
-          <content-box title="¿Que vamos a hacer y por que?" description="Colombia necesita cambios urgentes y las mujeres queremos estar en el poder para renovar la política. Por eso, tenemos como objetivos FORMAR mujeres diversas para que lleguen a los espacios de poder. CONSTRUIR agendas políticas con enfoque de género. Y movilizarnos para ACTUAR electoral y políticamente." video="https://drive.google.com/file/d/1D-niifrGsRMMpKBb_L2KL8s8Y7Z8xSga/view?usp=sharing" />
-          <content-box title="¿Con quienes vamos a trabajar?" description="Trabajamos con mujeres lideresas de todo el territorio colombiano que le apuestan a la redistribución del poder, el reconocimiento del papel de las mujeres en la política, y de encontrar la representación de las mujeres y sus agendas. " />
-          <content-box title="¿En donde vamos a trabajar?" description="Trabajaremos conjuntamente con mujeres de Medellín, del Nordeste Antioqueño, Bajo Cauca, Bogotá, Arauca, Norte del Cauca, Nariño y el nodo Pacifico. " />
+          <content-box title="¿Que vamos a hacer y por que?" description="Colombia necesita cambios urgentes y las mujeres queremos estar en el poder para renovar la política. Por eso, tenemos como objetivos FORMAR mujeres diversas para que lleguen a los espacios de poder. CONSTRUIR agendas políticas con enfoque de género. Y movilizarnos para ACTUAR electoral y políticamente." />
+          <content-box title="¿Con quienes vamos a trabajar?" description="Trabajamos con mujeres lideresas de todo el territorio colombiano que le apuestan a la redistribución del poder, el reconocimiento del papel de las mujeres en la política, y de encontrar la representación de las mujeres y sus agendas." />
+          <content-box title="¿En donde vamos a trabajar?" description="Trabajaremos conjuntamente con mujeres de Medellín, del Nordeste Antioqueño, Bajo Cauca, Bogotá, Arauca, Norte del Cauca, Nariño y el nodo Pacifico." />
         </VueSlickCarousel>
       </div>
     </div>
@@ -191,139 +191,87 @@
         </div>
       </div>
     </section>
-        <section class="section bg-aqua expand">
+    <section id="merepresenta" class="section  is-medium max-width  has-background-primary  has-text-white pt-4 top-bar-text expand">
       <div class="container level is-mobile">
-        <div class="column is-1 level-left ">
-          <NuxtLink to="/actuar" class="button is-rounded is-primary  has-text-weight-bold">
-            ver más
-          </NuxtLink>
-        </div>
-        <!-- backup tmep m-auto my-6 py-6 -->
         <div class="column level-right">
-          <div class="bg-vector ">
+          <div class="bg-vector-dark">
             <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
             <h1 class="sub-title-section ">
-              Co-construccion<br>agendas
+              #MeRepresenta<br>
             </h1>
           </div>
         </div>
       </div>
-      <!-- que y porque co-crear -->
-      <div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification">
-            <div class="content">
-              <p class="title">
-                ¿Que es Co-crear agendas?
-              </p>
-              <!-- <p class="subtitle">
-                With even more content
-              </p> -->
-              <div class="content content-margin container ">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
-              </div>
-            </div>
-          </article>
+      <div class="section">
+        <div class="container">
+          <content-box title="" description="La política tradicional no ha representado a las mujeres, y al revisar con las lideresas del territorio colombiano, encontramos que la representatividad y los liderazgos trascienden a la política y se encuentran en la cotidianidad. Es por eso, que queremos invitarlxs a que nos cuenten qué mujeres lxs representa usando el hashtag #MeRepresenta ¡Renovemos la política!" video="https://via.placeholder.com/550x300" />
         </div>
-      </div>
-      <div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification">
-            <div class="content">
-              <p class="title">
-                ¿Para que Co-crear agendas?
-              </p>
-              <!-- <p class="subtitle">
-                With even more content
-              </p> -->
-              <div class="content container content-margin">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-      <!-- el que lleva imagenes boceto -->
-      <div class="">
-        <div class=" container lazy-margin">
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <div class="content">
-                <p class=" purple-title">
-                  <span class="squad">◼</span> Autonomía Económica
-                </p>
-                <!-- <p class="subtitle">
-                  With even more content
-                </p> -->
-                <div class="content-w container content-margin">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
-                  <section class="section">
-                    <img class="" src="~/assets/image 18.png" alt="">
-                  </section>
-                  <div class="container box has-text-centered is-transparent">
-                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a class=" button button-download is-rounded bg-button">
-                        Descargar el resumen
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
+        <div class="container box has-text-centered is-transparent">
+          <div class="column is-half is-offset-one-quarter  is-align-items-center ">
+            <a class=" button button-download is-primary is-inverted is-rounded bg-button">
+              Conoce la causa completa
+            </a>
           </div>
         </div>
-        <div class=" container lazy-margin">
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <div class="content">
-                <p class=" purple-title">
-                  <span class="squad">◼</span> Participación Política
-                </p>
-                <!-- <p class="subtitle">
-                  With even more content
-                </p> -->
-                <div class="content-w container content-margin">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
-                  <section class="section">
-                    <img class="" src="~/assets/participacion.png" alt="">
-                  </section>
-                  <div class="container box has-text-centered is-transparent">
-                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a class=" button button-download is-rounded bg-button">
-                        Descargar el resumen
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
+      </div>
+    </section>
+    <section id="recursos" class="section  is-medium max-width  has-background-white   pt-4 top-bar-text expand">
+      <div class="container level is-mobile">
+        <div class="column level-left">
+          <div class="bg-vector-dark">
+            <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
+            <h1 class="sub-title-purple">
+              Recursos<br>audivisuales
+            </h1>
           </div>
         </div>
-        <div class=" container lazy-margin">
-          <div class="tile is-parent">
-            <article class="tile is-child notification">
-              <div class="content">
-                <p class=" purple-title">
-                  <span class="squad">◼</span> Paz
-                </p>
-                <!-- <p class="subtitle">
-                  With even more content
-                </p> -->
-                <div class="content-w container content-margin">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
-                  <section class="section">
-                    <img class="" src="~/assets/paz.png" alt="">
-                  </section>
-                  <div class="container box has-text-centered is-transparent">
-                    <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a class=" button button-download is-rounded bg-button">
-                        Descargar el resumen
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
+      </div>
+      <div class="container">
+        <div class="columns  my-6 is-centered">
+          <div class="column is-4">
+            <div class="actuar-agenda-box">
+              <img src="https://via.placeholder.com/300x300" alt="">
+              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+                Descargar
+              </a>
+            </div>
+          <!-- <casos-box  title="AGENDA" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa" label='ver'>
+                <img src="~/assets/paridad-logo.svg" alt="">
+            </casos-box> -->
+          </div>
+          <div class="column is-4">
+            <div class="actuar-agenda-box">
+              <img src="https://via.placeholder.com/300x300" alt="">
+              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+                Descargar
+              </a>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="actuar-agenda-box">
+              <img src="https://via.placeholder.com/300x300" alt="">
+              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+                Descargar
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="columns  my-6 ">
+          <div class="column is-4">
+            <div class="actuar-agenda-box">
+              <img src="https://via.placeholder.com/300x300" alt="">
+              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+                <i class="fab fa-whatsapp fa-fw fa-lg" />
+              </a>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="actuar-agenda-box">
+              <img src="https://via.placeholder.com/300x300" alt="">
+              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+                <i class="fa fa-folder fa-fw fa-lg" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -435,6 +383,9 @@ export default {
 .bg-vector{
   background: transparent url("../assets/vector.png") no-repeat scroll -100% 50%;
 }
+.bg-vector-dark{
+  background: transparent url("../assets/dark-vector.png") no-repeat scroll -100% 50%;
+}
 @media screen and (max-width: 720px){
   .sub-title-section{
     /* position: absolute;
@@ -450,6 +401,22 @@ export default {
     /* or 86% */
     text-align: right;
     color: #FFFFFF;
+    /* background: transparent url("../assets/vector.png") no-repeat scroll 50% 0%; */
+  }
+  .sub-title-purple{
+    /* position: absolute;
+    left: 23.15%;
+    right: 0%;
+    top: 3.7%;
+    bottom: 8.33%; */
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26.0729px !important;
+    line-height: 23px !important;
+    /* or 86% */
+    text-align: left;
+    color: #8917FF;
     /* background: transparent url("../assets/vector.png") no-repeat scroll 50% 0%; */
   }
   .title{
@@ -568,6 +535,22 @@ export default {
   color: #FFFFFF;
     /* background: transparent url("../assets/vector.png") no-repeat scroll 50% 0%; */
   }
+.sub-title-purple{
+    /* position: absolute;
+    left: 23.15%;
+    right: 0%;
+    top: 3.7%;
+    bottom: 8.33%; */
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px !important;
+    line-height: 47px !important;
+    /* or 86% */
+    text-align: left;
+    color: #8917FF;
+    /* background: transparent url("../assets/vector.png") no-repeat scroll 50% 0%; */
+  }
 .content-margin{
   margin: 42px;
   padding: 42px;
@@ -608,5 +591,35 @@ export default {
 
   text-align: center;
 
+}
+.actuar-agenda-box {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid $secondary;
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @include from($desktop){
+    margin: 10px;
+  }
+}
+.enter-button{
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 150;
+  &:hover{
+    color: $primary;
+    background-color: white;
+    border: 2px solid $primary;
+  }
 }
 </style>

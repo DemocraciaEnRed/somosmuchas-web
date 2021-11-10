@@ -445,6 +445,7 @@
 <script>
 import CasosBox from '~/components/index/CasosBox.vue'
 import ArticlesBox from '~/components/index/ArticlesBox.vue'
+
 export default {
   name: 'HomePage',
   components: {
