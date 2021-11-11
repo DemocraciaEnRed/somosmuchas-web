@@ -649,4 +649,8 @@ export default {
     max-height: 50%;
   }
 }
+
+#navbar .title{
+  color: #000;
+}
 </style>

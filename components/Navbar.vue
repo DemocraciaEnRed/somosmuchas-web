@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="navbar">
     <div class="is-flex-direction-row is-flex is-align-items-center is-justify-content-space-between">
       <NuxtLink to="/">
         <img src="~/assets/somosmuchas-logo.svg" class="image logo-somos-muchas is-align-self-stretch" alt="">
@@ -12,7 +12,7 @@
         Menu
       </div>
     </div>
-    <img src="~/assets/barra-superior.svg" class="image is-fullwidth" alt="">
+    <img src="~/assets/barra-superior.svg" class="image is-fullwidth" alt="menu">
     <b-sidebar
       v-model="sidebarOpen"
       type="is-white"
@@ -29,7 +29,7 @@
         >
         <div class="has-text-centered">
           <a @click="switchTo('/')">
-            <h1 class="title is-4">
+            <h1 class="title is-black is-4">
               Inicio
             </h1>
           </a>

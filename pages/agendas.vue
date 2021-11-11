@@ -90,8 +90,14 @@
           Buscanos en  nuestro instagram, para hacer comunidad y debatir!
         </p>
       </div>
-      <div data-mc-src="4ef2a77e-3497-45e3-bf68-7f83f306f342#instagram" />
-      <script src="https://cdn2.woxo.tech/a.js#617dc3d6cd3af80016260b49" async data-usrc />
+      <div class="is-hidden-desktop">
+        <div data-mc-src="3a06275c-70b6-4660-9e07-737d6dd9c827#instagram" />
+        <script src="https://cdn2.woxo.tech/a.js#617dc3d6cd3af80016260b49" async data-usrc />
+      </div>
+      <div class="is-hidden-mobile">
+        <div data-mc-src="ddf95c13-cc97-44cb-a3ff-d900fec4259e#instagram" />
+        <script src="https://cdn2.woxo.tech/a.js#617dc3d6cd3af80016260b49" async data-usrc />
+      </div>
     </div>
     <div class="container">
       <div>
@@ -104,11 +110,12 @@
         <div class="container is-flex is-justify-content-center my-6">
           <img src="https://via.placeholder.com/660x445" alt="">
         </div>
-        <div class="is-flex is-flex-direction-column">
-          <h1 class="is-size-4  mx-4">
+        <div class="columns is-justify-content-center">
+          <h1 class="is-size-4 is-hidden-mobile  mx-4 my-2">
             Te invitamos a sumarte a nuestro grupo para que
           </h1>
-          <a href="#" class="button is-primary is-rounded has-text-weight-bold is-medium">Cocreemos Juntas <i class="fab fa-whatsapp fa-fw fa-lg px-1" /></a>
+          <a href="#" class="button column is-3 is-hidden-mobile is-primary is-rounded has-text-weight-bold is-medium">Cocreemos Juntas <i class="fab fa-whatsapp fa-fw fa-lg px-1" /></a>
+          <a href="#" class="button column is-3 is-hidden-desktop my-5 is-primary is-rounded has-text-weight-bold is-medium">Cocreemos Juntas <i class="fab fa-whatsapp fa-fw fa-lg px-1" /></a>
         </div>
       </div>
     </div>

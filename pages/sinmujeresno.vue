@@ -62,8 +62,8 @@
           </NuxtLink>
         </div>
         <!-- backup tmep m-auto my-6 py-6 -->
-        <div class="column level-right">
-          <div class="bg-vector ">
+        <div class="column level-right bg-vector">
+          <div class="">
             <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
             <h1 class="sub-title-section ">
               Co-construccion<br>agendas
@@ -193,8 +193,8 @@
     </section>
     <section id="merepresenta" class="section  is-medium max-width  has-background-primary  has-text-white pt-4 top-bar-text expand">
       <div class="container level is-mobile">
-        <div class="column level-right">
-          <div class="bg-vector-dark">
+        <div class="column level-right bg-vector-dark p-6">
+          <div class="">
             <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
             <h1 class="sub-title-section ">
               #MeRepresenta<br>
@@ -217,8 +217,8 @@
     </section>
     <section id="recursos" class="section  is-medium max-width  has-background-white   pt-4 top-bar-text expand">
       <div class="container level is-mobile">
-        <div class="column level-left">
-          <div class="bg-vector-dark">
+        <div class="column level-left ">
+          <div class="bg-vector-dark-inverted">
             <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
             <h1 class="sub-title-purple">
               Recursos<br>audivisuales
@@ -227,7 +227,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="columns  my-6 is-centered">
+        <div class="columns  is-2-mobile my-6 is-centered">
           <div class="column is-4">
             <div class="actuar-agenda-box">
               <img src="https://via.placeholder.com/300x300" alt="">
@@ -381,11 +381,16 @@ export default {
   background-color: #32BD9F;
 }
 .bg-vector{
-  background: transparent url("../assets/vector.png") no-repeat scroll -100% 50%;
+  background: transparent url("../assets/vector.png") no-repeat scroll 70% 50%;
 }
 .bg-vector-dark{
-  background: transparent url("../assets/dark-vector.png") no-repeat scroll -100% 50%;
+  background: transparent url("../assets/dark-vector.png") no-repeat scroll 70% 50%;
 }
+.bg-vector-dark-inverted{
+  overflow: visible;
+  background: transparent url("../assets/vector-left.png") no-repeat scroll 150% 50%;
+}
+
 @media screen and (max-width: 720px){
   .sub-title-section{
     /* position: absolute;
