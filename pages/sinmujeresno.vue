@@ -72,23 +72,23 @@
         </div>
       </div>
       <!-- que y porque co-crear -->
-      <div>
+      <!-- <div>
         <div class="tile is-parent">
           <article class="tile is-child notification">
             <div class="content">
               <p class="title">
                 ¿Que es Co-crear agendas?
               </p>
-              <!-- <p class="subtitle">
+              <p class="subtitle">
                 With even more content
-              </p> -->
+              </p>
               <div class="content content-margin container ">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
               </div>
             </div>
           </article>
         </div>
-      </div>
+      </div> -->
       <div>
         <div class="tile is-parent">
           <article class="tile is-child notification">
@@ -100,7 +100,7 @@
                 With even more content
               </p> -->
               <div class="content container content-margin">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                La co-creación de agendas es un ejercicio colaborativo en donde se tienen en cuenta las diferentes necesidades de aquellas personas que participan en él. Por esto, Sin Mujeres No trabajó en la identificación de problemas con mujeres de diferentes departamentos del país y así garantizar la representatividad de los temas priorizados por las mujeres en las agendas de aquellas que lleguen ocupar los espacios de toma de decisiones.
               </div>
             </div>
           </article>
@@ -119,7 +119,7 @@
                   With even more content
                 </p> -->
                 <div class="content-w container content-margin">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  La autonomía económica es un pilar fundamental de la autonomía de las mujeres y, por definición, requiere que éstas perciban ingresos que les permitan superar la pobreza y disponer de su tiempo libremente para capacitarse, acceder al mercado laboral, desarrollarse profesional y personalmente, participar de manera activa de la vida social y política, y dedicarse a sus seres queridos sin que ello se transforme en una barrera para el logro de sus propias aspiraciones.
                   <section class="section">
                     <img class="" src="~/assets/image 18.png" alt="">
                   </section>
@@ -146,7 +146,20 @@
                   With even more content
                 </p> -->
                 <div class="content-w container content-margin">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <p>
+                    La participación política es considerada como “cualquier acción realizada por un individuo o
+                    grupo, con la finalidad de incidir en una u otra medida en los asuntos públicos.” (Faro Democrático) Suele orientarse a la elección de cargos públicos, al control y veeduría de los actores políticos, y a la construcción de políticas públicas. Sus características son:<br>
+                  </p>
+                  <p>
+                    Se entiende como una actividad o acción.<br>
+                  </p>
+                  <p>
+                    Es voluntaria y no está ordenada por una clase dominante o por una ley.<br>
+                  </p>
+                  <p>
+                    Le concierne al Estado, al gobierno y a la política, no se limita a fases específicas (como procesos parlamentarios de toma de decisión) ni áreas específicas como elecciones o partidos políticos.
+                    Es pluralista, lo que permite que haya participación de aficionados y no académicos.
+                  </p>
                   <section class="section">
                     <img class="" src="~/assets/participacion.png" alt="">
                   </section>
@@ -167,13 +180,18 @@
             <article class="tile is-child notification">
               <div class="content">
                 <p class=" purple-title">
-                  <span class="squad">◼</span> Paz
+                  <span class="squad">◼</span>Acuerdo de Paz
                 </p>
                 <!-- <p class="subtitle">
                   With even more content
                 </p> -->
                 <div class="content-w container content-margin">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt temporibus, similique corrupti beatae qui repudiandae error fuga, nobis voluptate rerum, tenetur aut perferendis quidem debitis neque veritatis! Nisi, omnis reiciendis. Vitae, accusantium facere sequi beatae perferendis autem minus cumque explicabo quasi repellat vel, totam sapiente blanditiis dolorem possimus iusto esse. Sequi beatae voluptatem optio numquam quia totam, suscipit exercitationem molestiae. Eius nesciunt blanditiis perferendis odit dolorum corporis eos est cum illo saepe quaerat exercitationem magni inventore molestias ea, possimus nostrum expedita facilis mollitia, impedit culpa! Quisquam expedita ipsum tenetur assumenda, consequatur explicabo. Quae, soluta animi. Nam perspiciatis iusto earum inventore?
+                  <p>
+                    El Acuerdo final para la terminación del conflicto y la construcción de una paz estable y duradera representa la lucha y los esfuerzos de la multiplicidad de mujeres que desde diferentes lugares le han apostado a la construcción de un país distinto, mujeres que han aportado propuestas desde sus necesidades y expectativas, que se ven reflejadas en el acuerdo, y que ahora en el proceso de implementación constituyen una premisa indispensable para la realización de nuevos pactos sociales basados en el reconocimiento y la inclusión.
+                  </p>
+                  <p>
+                    La creación de la subcomisión de género se constituyó como un hecho histórico al ser el escenario idóneo para aportar a las modificaciones de las relaciones desiguales de poder existentes en la sociedad, reconocer las afectaciones diferenciales que la violencia sociopolítica dejó en sus cuerpos y en sus vidas, para establecer acciones que de transformación en la garantía de sus derechos y en su participación en el espacio privado y público, lo cual aporto en trascender de la visión de agentes pasivos en el marco del conflicto a agentes activas con capacidad de transformación.
+                  </p>
                   <section class="section">
                     <img class="" src="~/assets/paz.png" alt="">
                   </section>
@@ -227,7 +245,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="columns  is-2-mobile my-6 is-centered">
+        <div class="columns  my-6 is-centered">
           <div class="column is-4">
             <div class="actuar-agenda-box">
               <img src="https://via.placeholder.com/300x300" alt="">

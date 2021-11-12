@@ -13,7 +13,12 @@
       </div>
     </div>
     <img src="~/assets/barra-superior.svg" class="image is-fullwidth" alt="menu">
+    <!-- <b-button v-b-toggle.sidebar-right>Toggle Sidebar</b-button> -->
     <b-sidebar
+      id="sidebar-right"
+      title="Sidebar"
+      right
+      shadow
       v-model="sidebarOpen"
       type="is-white"
       :fullheight="true"
