@@ -11,10 +11,13 @@
         <!-- <img v-if="img" :src="img" :alt="title" class="is-inline-block"> -->
         <!-- <video :src="video" /> -->
         <div class="container my-6 py-4">
-          <video width="550" height="309" controls>
+          <video v-if="video" width="550" height="309" controls>
             <source v-if="video" :src="video" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+          <div v-else>
+            <img src="https://via.placeholder.com/550x300" alt="">
+          </div>
         </div>
       </div>
       <slot />
@@ -35,8 +38,7 @@ export default {
     },
     video: {
       type: String,
-      required: false,
-      default: 'https://www.youtube.com/watch?v=NpEaa2P7qZI'
+      required: false
     }
   }
 }

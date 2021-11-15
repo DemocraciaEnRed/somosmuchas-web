@@ -30,7 +30,7 @@
         </div>
         <br>
         <br>
-        <a href="https://actua.somosmuchas.org/" class="mt-2 button is-primary is-rounded has-text-weight-bold is-medium">Quiero actuar</a>
+        <a href="https://actua.somosmuchas.org/" class="mt-2 button is-primary is-rounded has-text-weight-bold is-medium">Descargar</a>
       </div>
       <div class="column is-3 is-offset-1 has-text-centered">
         <img src="~/assets/share.png" class="image an-icon" alt="">
@@ -81,7 +81,8 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <!-- Ocultado hasta nuevo aviso -->
+    <!-- <div class="container">
       <div>
         <h1 class="title mt-5 pt-5 is-2 has-text-lefted has-text-primary has-text-weight-bold">
           Que opinas sobre estas agendas?
@@ -118,7 +119,7 @@
           <a href="#" class="button column is-3 is-hidden-desktop my-5 is-primary is-rounded has-text-weight-bold is-medium">Cocreemos Juntas <i class="fab fa-whatsapp fa-fw fa-lg px-1" /></a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

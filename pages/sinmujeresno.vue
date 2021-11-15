@@ -222,7 +222,7 @@
       </div>
       <div class="section">
         <div class="container">
-          <content-box title="" description="La política tradicional no ha representado a las mujeres, y al revisar con las lideresas del territorio colombiano, encontramos que la representatividad y los liderazgos trascienden a la política y se encuentran en la cotidianidad. Es por eso, que queremos invitarlxs a que nos cuenten qué mujeres lxs representa usando el hashtag #MeRepresenta ¡Renovemos la política!" video="https://via.placeholder.com/550x300" />
+          <content-box title="" description="La política tradicional no ha representado a las mujeres, y al revisar con las lideresas del territorio colombiano, encontramos que la representatividad y los liderazgos trascienden a la política y se encuentran en la cotidianidad. Es por eso, que queremos invitarlxs a que nos cuenten qué mujeres lxs representa usando el hashtag #MeRepresenta ¡Renovemos la política!" />
         </div>
         <div class="container box has-text-centered is-transparent">
           <div class="column is-half is-offset-one-quarter  is-align-items-center ">
