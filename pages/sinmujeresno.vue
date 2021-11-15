@@ -3,7 +3,7 @@
     <section>
       <div class="container is-max-desktop">
         <div>
-          <img class="px-10" src="~/assets/sinmujeresno.png" alt="imagen-banner sin mujeres no">
+          <img class="px-10" src="~/assets/sinmujeresno-dark.png" alt="imagen-banner sin mujeres no">
         </div>
         <p class="is-size-3 has-text-centered">
           <b>

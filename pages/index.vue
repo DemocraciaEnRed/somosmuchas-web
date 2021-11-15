@@ -135,7 +135,7 @@
     <!-- ocultado hasta tener info -->
     <!-- <section>
       <casos-box title="Sin mujeres  NO!" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." to="/sinmujeresno">
-        <img src="~/assets/sinmujeresno.png" alt="">
+        <img src="~/assets/sinmujeresno-dark.png" alt="">
       </casos-box>
     </section> -->
     <VueSlickCarousel v-bind="settings">
