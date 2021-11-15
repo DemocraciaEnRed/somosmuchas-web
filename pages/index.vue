@@ -151,7 +151,7 @@
       <casos-box title="Boroló" description="Iniciativa para hablar de protesta y movilización social" href="http://www.borolo.org/">
         <img src="~/assets/logo-borolo.jpeg" alt="">
       </casos-box>
-      <casos-box title="Dignidad para recicladorxs" description="Rede de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="https://actua.somosmuchas.org/proyecto/dignidad-para-recicladoras-y-recicladores#activa">
+      <casos-box title="Dignidad para recicladorxs" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="https://actua.somosmuchas.org/proyecto/dignidad-para-recicladoras-y-recicladores#activa">
         <img src="~/assets/logo-recicladores.png" alt="">
       </casos-box>
     </VueSlickCarousel>

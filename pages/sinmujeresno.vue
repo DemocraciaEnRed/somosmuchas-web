@@ -47,11 +47,12 @@
         </div>
       </div>
       <div class="container">
-        <VueSlickCarousel v-bind="settings">
+        <!-- <VueSlickCarousel v-bind="settings">
           <content-box title="¿Que vamos a hacer y por que?" description="Colombia necesita cambios urgentes y las mujeres queremos estar en el poder para renovar la política. Por eso, tenemos como objetivos FORMAR mujeres diversas para que lleguen a los espacios de poder. CONSTRUIR agendas políticas con enfoque de género. Y movilizarnos para ACTUAR electoral y políticamente." />
           <content-box title="¿Con quienes vamos a trabajar?" description="Trabajamos con mujeres lideresas de todo el territorio colombiano que le apuestan a la redistribución del poder, el reconocimiento del papel de las mujeres en la política, y de encontrar la representación de las mujeres y sus agendas." />
           <content-box title="¿En donde vamos a trabajar?" description="Trabajaremos conjuntamente con mujeres de Medellín, del Nordeste Antioqueño, Bajo Cauca, Bogotá, Arauca, Norte del Cauca, Nariño y el nodo Pacifico." />
-        </VueSlickCarousel>
+        </VueSlickCarousel> -->
+        <Carousel />
       </div>
     </div>
     <section class="section bg-aqua expand">
@@ -297,10 +298,11 @@
   </div>
 </template>
 <script>
+import Carousel from '~/components/conectar/carousel.vue'
 import ContentBox from '~/components/content/ContentBox.vue'
 
 export default {
-  components: { ContentBox },
+  components: { ContentBox, Carousel },
   data () {
     return {
       settings: {
