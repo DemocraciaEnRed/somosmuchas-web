@@ -25,15 +25,41 @@
         </p>
       </div>
       <div class="container videoWrapper my-6">
-        <iframe
+        <!-- <iframe
           width="853"
           height="480"
           src="https://www.youtube.com/embed/S9pFe4lSL1w"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        />
+        /> -->
+        <h1 class="section text-centered">
+          ACA VA EL TIK-TOK
+        </h1>
+        <!-- <div style="overflow: hidden; margin-top: -100px; margin-left: -15px;">
+          <iframe src="https://m.tiktok.com/v/6621886865379167494.html" scrolling="no" style="height: 600px; border: 0px none; width: 550px; margin-top: -55px; margin-left: 5px; margin-right: 0px; " />
+        </div> -->
+        <!-- <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@artemisas_org/video/7023872558902578438" data-video-id="7023872558902578438" style="max-width: 605px;min-width: 325px;" >
+          <section>
+            <a target="_blank" title="@artemisas_org" href="https://www.tiktok.com/@artemisas_org">
+              @artemisas_org
+            </a>
+            <p>
+              <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage">
+                #foryoupage
+              </a>
+              <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">
+                #foryou
+              </a>
+            </p>
+            <a target="_blank" title="♬ sonido original - Artemisas_org" href="https://www.tiktok.com/music/sonido-original-7023872429278350085">
+              ♬ sonido original - Artemisas_org
+            </a>
+          </section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js" /> -->
       </div>
+
     </section>
     <div id="smn" class=" section is-medium max-width  has-background-primary  has-text-white pt-4 top-bar-text">
       <div class="container columns">
@@ -121,12 +147,15 @@
                 </p> -->
                 <div class="content-w container content-margin">
                   La autonomía económica es un pilar fundamental de la autonomía de las mujeres y, por definición, requiere que éstas perciban ingresos que les permitan superar la pobreza y disponer de su tiempo libremente para capacitarse, acceder al mercado laboral, desarrollarse profesional y personalmente, participar de manera activa de la vida social y política, y dedicarse a sus seres queridos sin que ello se transforme en una barrera para el logro de sus propias aspiraciones.
-                  <section class="section">
+                  <section class="section button-container">
                     <img class="" src="~/assets/image 18.png" alt="">
+                    <a href="~/assets/image 18.png" alt="descargar imagen en pdf" download>
+                     <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"/>
+                    </a>
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a class=" button button-download is-rounded bg-button">
+                      <a href="" class=" button button-download is-rounded bg-button" download>
                         Descargar el resumen
                       </a>
                     </div>
@@ -161,8 +190,11 @@
                     Le concierne al Estado, al gobierno y a la política, no se limita a fases específicas (como procesos parlamentarios de toma de decisión) ni áreas específicas como elecciones o partidos políticos.
                     Es pluralista, lo que permite que haya participación de aficionados y no académicos.
                   </p>
-                  <section class="section">
+                  <section class="section button-container">
                     <img class="" src="~/assets/participacion.png" alt="">
+                    <a href="~/assets/participacion.png" alt="descargar imagen en pdf" download>
+                      <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"/>
+                    </a>
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
@@ -193,8 +225,11 @@
                   <p>
                     La creación de la subcomisión de género se constituyó como un hecho histórico al ser el escenario idóneo para aportar a las modificaciones de las relaciones desiguales de poder existentes en la sociedad, reconocer las afectaciones diferenciales que la violencia sociopolítica dejó en sus cuerpos y en sus vidas, para establecer acciones que de transformación en la garantía de sus derechos y en su participación en el espacio privado y público, lo cual aporto en trascender de la visión de agentes pasivos en el marco del conflicto a agentes activas con capacidad de transformación.
                   </p>
-                  <section class="section">
-                    <img class="" src="~/assets/paz.png" alt="">
+                  <section class="section button-container">
+                    <img class="" src="~/assets/paz.png" alt="" />
+                    <a href="~/assets/paz.png" alt="descargar imagen en pdf" download>
+                      <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"/>
+                    </a>
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
@@ -410,7 +445,27 @@ export default {
   overflow: visible;
   background: transparent url("../assets/vector-left.png") no-repeat scroll 150% 50%;
 }
+.button-container{
+  display:inline-block;
+  position:relative;
+}
 
+.button-container a{
+  position: absolute;
+  top:4em;
+  right:4em;
+  background-color:#8917FF;
+  border-radius:100%;
+  color:white;
+  text-transform:uppercase;
+  padding:1em;
+  box-shadow: 9px 9px 10px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 9px 9px 10px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 9px 10px -2px rgba(0,0,0,0.75);
+}
+.button-container a:hover{
+  border: solid 1px black;
+}
 @media screen and (max-width: 720px){
   .sub-title-section{
     /* position: absolute;
@@ -494,6 +549,14 @@ export default {
     width: 172.39px;
     height: 31px;
   }
+  .button-container a {
+      top:1em;
+    right:1.2em;
+  }
+  .button-container a img{
+    width: 30px;
+  }
+
 }
 .notification{
   background: none;
