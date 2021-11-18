@@ -157,11 +157,12 @@
     </VueSlickCarousel>
     <br>
     <section id='campaigns'>
+      <img src="~/assets/campanasdetalles.png" class="image mb-6 image-title" alt="">
       <comp-acordeon />
     </section>
     <br>
     <section class="articulos">
-      <img src="~/assets/title05.svg" class="image mt-6 mb-6 image-titile-articles" alt="Articulos Relacionados">
+      <img src="~/assets/title05.png" class="image mt-6 mb-6 image-titile-articles" alt="Articulos Relacionados">
       <div class="columns">
         <div class="column">
           <articles-box title="¿Quién le teme a las mujeres en la política?" author="Columnista ALEJANDRA COLL" date="14/11/2020" link="https://lasillavacia.com/silla-llena/red-de-las-mujeres/quien-le-teme-las-mujeres-la-politica-77341">
@@ -353,7 +354,7 @@ export default {
   width: 400px;
 }
 .image-titile-articles {
-  margin-left: auto;
+  margin-right: auto;
 }
 // class section for conversar
 .is-custom-image {

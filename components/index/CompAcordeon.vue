@@ -1,9 +1,8 @@
 <template>
   <div class="my-6">
-    <h1>Campañas</h1>
     <div class="accordion-wrapper">
       <div class="accordion">
-        <input type="radio" name="radio-a" id="check1"  />
+        <input type="checkbox" name="radio-a" id="check1"  />
         <label class="accordion-label" for="check1">Paridad ¡YA!</label>
           <div class="accordion-content">
         <section id="paridad">
@@ -74,7 +73,7 @@
         </div>
       </div>
       <div class="accordion">
-        <input type="radio" name="radio-a" id="check2"  />
+        <input type="checkbox" name="radio-b" id="check2"  />
         <label class="accordion-label" for="check2">CAUSA JUSTA</label>
         <div class="accordion-content">
             <section id="causajusta">
@@ -128,7 +127,7 @@
         </div>
       </div>
       <div class="accordion">
-        <input type="radio" name="radio-a" id="check3" />
+        <input type="checkbox" name="radio-c" id="check3" />
         <label class="accordion-label" for="check3">Boroló</label>
         <div class="accordion-content">
           <section id="borolo">
@@ -207,7 +206,7 @@
         </div>
       </div>
       <div class="accordion">
-        <input type="radio" name="radio-a" id="check4" />
+        <input type="checkbox" name="radio-d" id="check4" />
         <label class="accordion-label" for="check4">
           Dignidad para recicladorxs</label>
         <div class="accordion-content">
