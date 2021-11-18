@@ -32,16 +32,16 @@
             </a>&nbsp;
           </p>
         </div>
-        <!-- <div class="column has-text-centered has-text-left-desktop">
+        <div class="column has-text-centered has-text-left-desktop">
           <p>
             Te interesa ayudarnos?
           </p>
           <p>
             Contactanos:
             <br>
-            <b>somosmuchas@org.io</b>
+            <b>organizacionartemisas@gmail.com</b>
           </p>
-        </div> -->
+        </div>
         <div class="column has-text-centered has-text-right-desktop">
           <img src="~/assets/logo-footer.png" class="image logo-footer is-inline-block" alt="">
           <img src="~/assets/fes.png" class="image logo-footer is-inline-block ml-5" alt="">

@@ -56,10 +56,8 @@
               ♬ sonido original - Artemisas_org
             </a>
           </section>
-        </blockquote>
-        <script async src="https://www.tiktok.com/embed.js" /> -->
+        </blockquote> -->
       </div>
-
     </section>
     <div id="smn" class=" section is-medium max-width  has-background-primary  has-text-white pt-4 top-bar-text">
       <div class="container columns">
@@ -149,13 +147,13 @@
                   La autonomía económica es un pilar fundamental de la autonomía de las mujeres y, por definición, requiere que éstas perciban ingresos que les permitan superar la pobreza y disponer de su tiempo libremente para capacitarse, acceder al mercado laboral, desarrollarse profesional y personalmente, participar de manera activa de la vida social y política, y dedicarse a sus seres queridos sin que ello se transforme en una barrera para el logro de sus propias aspiraciones.
                   <section class="section button-container">
                     <img class="" src="~/assets/image 18.png" alt="">
-                    <a href="~/assets/image 18.png" alt="descargar imagen en pdf" download>
+                    <a href="/assets/autonomiaeconomica.pdf" alt="descargar imagen en pdf" download >
                      <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"/>
                     </a>
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a href="/files/Autonomiaeconomica.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
+                      <a href="/files/Autonomiaeconomica.pdf" class=" button button-download is-rounded bg-button" target="_blank" download >
                         Descargar el resumen
                       </a>
                     </div>
@@ -192,13 +190,13 @@
                   </p>
                   <section class="section button-container">
                     <img class="" src="~/assets/participacion.png" alt="">
-                    <a href="~/assets/participacion.png" alt="descargar imagen en pdf" download>
+                    <a href="/assets/participacion.png" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"/>
                     </a>
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a href="/file/participaciónpolítica.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
+                      <a href="/files/participaciónpolítica.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
                         Descargar el resumen
                       </a>
                     </div>
@@ -227,13 +225,13 @@
                   </p>
                   <section class="section button-container">
                     <img class="" src="~/assets/paz.png" alt="imagen resumen agenda de paz" />
-                    <a href="~/assets/paz.png" alt="descargar imagen en pdf" download>
+                    <a href="/assets/paz.png" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"/>
                     </a>
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a href="/file/Agendadepaz.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
+                      <a href="/files/Agendadepaz.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
                         Descargar el resumen
                       </a>
                     </div>
