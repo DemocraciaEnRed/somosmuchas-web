@@ -155,7 +155,7 @@
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a href="" class=" button button-download is-rounded bg-button" download>
+                      <a href="/files/Autonomiaeconomica.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
                         Descargar el resumen
                       </a>
                     </div>
@@ -198,7 +198,7 @@
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a class=" button button-download is-rounded bg-button">
+                      <a href="/file/participaciónpolítica.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
                         Descargar el resumen
                       </a>
                     </div>
@@ -226,14 +226,14 @@
                     La creación de la subcomisión de género se constituyó como un hecho histórico al ser el escenario idóneo para aportar a las modificaciones de las relaciones desiguales de poder existentes en la sociedad, reconocer las afectaciones diferenciales que la violencia sociopolítica dejó en sus cuerpos y en sus vidas, para establecer acciones que de transformación en la garantía de sus derechos y en su participación en el espacio privado y público, lo cual aporto en trascender de la visión de agentes pasivos en el marco del conflicto a agentes activas con capacidad de transformación.
                   </p>
                   <section class="section button-container">
-                    <img class="" src="~/assets/paz.png" alt="" />
+                    <img class="" src="~/assets/paz.png" alt="imagen resumen agenda de paz" />
                     <a href="~/assets/paz.png" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"/>
                     </a>
                   </section>
                   <div class="container box has-text-centered is-transparent">
                     <div class="column is-half is-offset-one-quarter  is-align-items-center ">
-                      <a class=" button button-download is-rounded bg-button">
+                      <a href="/file/Agendadepaz.pdf" class=" button button-download is-rounded bg-button" target="_blank" download>
                         Descargar el resumen
                       </a>
                     </div>

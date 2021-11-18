@@ -54,7 +54,7 @@ export default {
     return {
       carousels: [
         { title: '¿Que vamos a hacer y por que?', description: 'Colombia necesita cambios urgentes y las mujeres queremos estar en el poder para renovar la política. Por eso, tenemos como objetivos FORMAR mujeres diversas para que lleguen a los espacios de poder. CONSTRUIR agendas políticas con enfoque de género. Y movilizarnos para ACTUAR electoral y políticamente.', video: 'https://www.youtube.com/embed/ElkUYYKbaNs' },
-        { title: '¿Con quienes vamos a trabajar?', description: 'Trabajamos con mujeres lideresas de todo el territorio colombiano que le apuestan a la redistribución del poder, el reconocimiento del papel de las mujeres en la política, y de encontrar la representación de las mujeres y sus agendas.', video: '' },
+        { title: '¿Con quienes vamos a trabajar?', description: 'Trabajamos con mujeres lideresas de todo el territorio colombiano que le apuestan a la redistribución del poder, el reconocimiento del papel de las mujeres en la política, y de encontrar la representación de las mujeres y sus agendas.', video: 'https://www.youtube.com/embed/IoSaxkiWoBU' },
         { title: '¿En donde vamos a trabajar?', description: 'Trabajaremos conjuntamente con mujeres de Medellín, del Nordeste Antioqueño, Bajo Cauca, Bogotá, Arauca, Norte del Cauca, Nariño y el nodo Pacifico.', video: 'https://www.youtube.com/embed/ug8PJy_JAt0' }
       ]
     }
