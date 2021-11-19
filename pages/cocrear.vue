@@ -38,7 +38,11 @@
           Completa un formulario y comparte con la comunidad metodologías de trabajo que consideres útiles.
         </p>
         <br>
-        <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary has-text-weight-bold is-medium is-rounded">Subir metodología</a>
+        <!-- <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary has-text-weight-bold is-medium is-rounded">Subir metodología</a> -->
+        <button data-tf-popup="btphdVz9" data-tf-size="70" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#8917FF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">
+          Subir metodología
+        </button>
+        <script src="//embed.typeform.com/next/embed.js" />
       </div>
     </div>
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">

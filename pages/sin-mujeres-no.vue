@@ -37,7 +37,9 @@
     </section>
     <div class="section">
       <div class="container">
+        <div class="">
         <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@artemisas_org/video/7023872558902578438" data-video-id="7023872558902578438" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@artemisas_org" href="https://www.tiktok.com/@artemisas_org">@artemisas_org</a> <p><a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage">#foryoupage</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">#foryou</a></p> <a target="_blank" title="♬ sonido original - Artemisas_org" href="https://www.tiktok.com/music/sonido-original-7023872429278350085">♬ sonido original - Artemisas_org</a> </section> </blockquote>
+        </div>
       </div>
     </div>
     <div id="smn" class=" section is-medium max-width  has-background-primary  has-text-white pt-4 top-bar-text">
@@ -545,7 +547,6 @@ export default {
   .button-container a img{
     width: 30px;
   }
-
 }
 .notification{
   background: none;
@@ -698,5 +699,50 @@ export default {
     background-color: white;
     border: 2px solid $primary;
   }
+}
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 360px;
+  height: 640px;
+  background: white;
 }
 </style>

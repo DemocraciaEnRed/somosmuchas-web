@@ -38,11 +38,14 @@
           Comparte
         </h2>
         <br>
-        <p class="is-size-4">
+        <p class="is-size-4 mb-5">
           Sube tu agenda, para que podamos compartirla con la comunnidad y abrir el debate y la difusion
         </p>
         <br>
-        <a href="https://actua.somosmuchas.org/" class="button is-primary is-rounded has-text-weight-bold is-medium">Subir</a>
+        <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
+          Subir
+        </button>
+        <script src="//embed.typeform.com/next/embed.js" />
       </div>
     </div>
     <br>
