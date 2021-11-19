@@ -291,7 +291,7 @@
             </div>
           </div>
         </div>
-        <div class="columns  my-6 ">
+        <!-- <div class="columns  my-6 ">
           <div class="column is-4">
             <div class="actuar-agenda-box">
               <img src="https://via.placeholder.com/300x300" alt="">
@@ -308,7 +308,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>

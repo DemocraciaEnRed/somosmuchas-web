@@ -5,11 +5,11 @@
         <div class="columns">
           <div class="column is-half">
             <h1 class="title is-1 has-text-weight-bold">
-              Co-construccion <br>agendas
+              Co-construcción <br>agendas
             </h1>
             <div class="subtitle-container">
               <h2 class="subtitle is-4">
-                Aqui encontraras recursos para planificar la co construccion de agendas y tambien podras compartir tus resultados para luego abrirlo a la comunidad.
+                Aquí encontrarás recursos para planificar la co-construcción de agendas y también podrás compartir tus resultados para luego abrirlo a la comunidad
               </h2>
             </div>
           </div>
@@ -25,7 +25,7 @@
         <br>
         <div>
           <p class="is-size-4">
-            Aqui podras descargar nuestra plantilla para co-creacion de agendas
+            Aquí podrás descargar nuestra plantilla para la co-creación de agendas
           </p>
         </div>
         <br>
@@ -39,7 +39,7 @@
         </h2>
         <br>
         <p class="is-size-4 mb-5">
-          Sube tu agenda, para que podamos compartirla con la comunnidad y abrir el debate y la difusion
+          Sube tu agenda, para que podamos compartirla con la comunidad y abrir el debate y la difusión
         </p>
         <br>
         <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
