@@ -74,7 +74,7 @@
           <div class="">
             <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
             <h1 class="sub-title-section ">
-              Co-construccion<br>agendas
+              Co-construcción<br>agendas
             </h1>
           </div>
         </div>
@@ -102,13 +102,14 @@
           <article class="tile is-child notification">
             <div class="content">
               <p class="title">
-                ¿Para que Co-crear agendas?
+                ¿Para qué Co-crear agendas?
               </p>
               <!-- <p class="subtitle">
                 With even more content
               </p> -->
               <div class="content container content-margin">
-                La co-creación de agendas es un ejercicio colaborativo en donde se tienen en cuenta las diferentes necesidades de aquellas personas que participan en él. Por esto, Sin Mujeres No trabajó en la identificación de problemas con mujeres de diferentes departamentos del país y así garantizar la representatividad de los temas priorizados por las mujeres en las agendas de aquellas que lleguen ocupar los espacios de toma de decisiones.
+                <p>La co-creación de agendas es un <b>ejercicio colaborativo</b> en donde se tienen en cuenta las diferentes necesidades de aquellas personas que participan en él.</p>
+                <p>Por esto, <b>Sin Mujeres No</b> trabajó en la identificación de problemas con mujeres de diferentes departamentos del país y así garantizar la representatividad de los <strong> temas priorizados por las mujeres</strong> en las agendas de aquellas que lleguen ocupar los <strong> espacios de toma de decisiones.</strong></p>
               </div>
             </div>
           </article>
@@ -116,7 +117,7 @@
       </div>
       <!-- el que lleva imagenes boceto -->
       <div class="">
-        <div class=" container lazy-margin">
+        <div  class=" container lazy-margin">
           <div class="tile is-parent">
             <article class="tile is-child notification">
               <div class="content">
@@ -130,7 +131,7 @@
                   La autonomía económica es un pilar fundamental de la autonomía de las mujeres y, por definición, requiere que éstas perciban ingresos que les permitan superar la pobreza y disponer de su tiempo libremente para capacitarse, acceder al mercado laboral, desarrollarse profesional y personalmente, participar de manera activa de la vida social y política, y dedicarse a sus seres queridos sin que ello se transforme en una barrera para el logro de sus propias aspiraciones.
                   <section class="section button-container">
                     <img class="" src="~/assets/image 18.png" alt="">
-                    <a href="/files/Autonomiaeconomica.pdf" alt="descargar imagen en pdf" download>
+                    <a id="autonomia" href="/files/Autonomiaeconomica.pdf" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png">
                     </a>
                   </section>
@@ -173,7 +174,7 @@
                   </p>
                   <section class="section button-container">
                     <img class="image" src="~/assets/participacion.png" alt="" style="margin: 0 auto;">
-                    <a href="/assets/participacion.png" alt="descargar imagen en pdf" download>
+                    <a  id="participacion" href="/assets/participacion.png" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png">
                     </a>
                   </section>
@@ -189,7 +190,7 @@
             </article>
           </div>
         </div>
-        <div class=" container lazy-margin">
+        <div  class=" container lazy-margin">
           <div class="tile is-parent">
             <article class="tile is-child notification">
               <div class="content">
@@ -208,7 +209,7 @@
                   </p>
                   <section class="section button-container">
                     <img class="" src="~/assets/paz.png" alt="imagen resumen agenda de paz">
-                    <a href="/assets/paz.png" alt="descargar imagen en pdf" download>
+                    <a id="paz" href="/assets/paz.png" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png">
                     </a>
                   </section>
@@ -256,7 +257,7 @@
           <div class="bg-vector-dark-inverted">
             <!-- <img src="~/assets/vector.png" alt="lineas decorativas"> -->
             <h1 class="sub-title-purple">
-              Recursos<br>audivisuales
+              Recursos<br>audiovisuales
             </h1>
           </div>
         </div>
@@ -264,28 +265,31 @@
       <div class="container">
         <div class="columns  my-6 is-centered">
           <div class="column is-4">
+            <h2 class="ml-6 indicador">Stickers</h2>
             <div class="actuar-agenda-box">
-              <img src="https://via.placeholder.com/300x300" alt="">
-              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-                Descargar
-              </a>
+              <img src="~/assets/stickers-mini.png" alt="">
+            <NuxtLink to="/stickers" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+              ver más
+            </NuxtLink>
             </div>
           <!-- <casos-box  title="AGENDA" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa" label='ver'>
                 <img src="~/assets/paridad-logo.svg" alt="">
             </casos-box> -->
           </div>
           <div class="column is-4">
+            <h2 class="ml-6 indicador">Lienzos</h2>
             <div class="actuar-agenda-box">
-              <img src="https://via.placeholder.com/300x300" alt="">
-              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+              <img src="~/assets/lienzos-mini.png" alt="">
+              <a href="https://drive.google.com/drive/u/1/folders/1tRo44_vHsj2TOv0lvXPfkJK_FXTPTUFn" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
                 Descargar
               </a>
             </div>
           </div>
           <div class="column is-4">
+            <h2 class="ml-6 indicador">Arbol de Problema</h2>
             <div class="actuar-agenda-box">
-              <img src="https://via.placeholder.com/300x300" alt="">
-              <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+              <img src="~/assets/arbol-mini.png" alt="">
+              <a href="https://drive.google.com/file/d/1UfZjO8X9n_KCNlpE6f8uyB_QdVl791W3/view" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
                 Descargar
               </a>
             </div>
@@ -744,5 +748,17 @@ export default {
   width: 360px;
   height: 640px;
   background: white;
+}
+.indicador{
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28.1302px;
+  line-height: 19px;
+  /* or 69% */
+
+  // text-align: center;
+
+  color: #32BD9F;
 }
 </style>

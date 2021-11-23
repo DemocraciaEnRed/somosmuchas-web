@@ -5,7 +5,7 @@
         <h1 class="title is-1 is-size-1 has-text-centered has-text-white has-text-weight-bold mb-2 ">
           {{ title }}
         </h1>
-        <p class="is-size-5 has-text-centered ">
+        <p class="is-size-4 has-text-centered ">
           {{ description }}
         </p>
         <!-- <img v-if="img" :src="img" :alt="title" class="is-inline-block"> -->

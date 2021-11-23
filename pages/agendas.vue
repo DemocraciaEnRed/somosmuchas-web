@@ -52,16 +52,19 @@
     <!-- <img src="~/assets/title02.svg" class="image mb-6 image-title" alt=""> -->
     <div>
       <h5 data-v-2a183b29="" class="title mt-5 pt-5 is-2 has-text-lefted has-text-primary has-text-weight-bold">
-        Ultimos subidos<br data-v-2a183b29="">
+        Últimos subidos<br data-v-2a183b29="">
       </h5>
     </div>
     <div class="columns">
       <div class="column">
         <div class="actuar-agenda-box">
           <img src="~/assets/Agenda1.png" alt="">
-          <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-            ver
-          </a>
+          <!-- <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+            Ver
+          </a> -->
+          <NuxtLink to="/sin-mujeres-no#autonomia" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+            Ver
+          </NuxtLink>
         </div>
       <!-- <casos-box  title="AGENDA" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa" label='ver'>
              <img src="~/assets/paridad-logo.svg" alt="">
@@ -70,17 +73,23 @@
       <div class="column">
         <div class="actuar-agenda-box">
           <img src="~/assets/Agenda2.png" alt="">
-          <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-            ver
-          </a>
+          <!-- <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+            Ver
+          </a> -->
+          <NuxtLink to="/sin-mujeres-no#participacion" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+            Ver
+          </NuxtLink>
         </div>
       </div>
       <div class="column">
         <div class="actuar-agenda-box">
           <img src="~/assets/Agenda3.png" alt="">
-          <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
-            ver
-          </a>
+          <!-- <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+            Ver
+          </a> -->
+          <NuxtLink to="/sin-mujeres-no#paz" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+            Ver
+          </NuxtLink>
         </div>
       </div>
     </div>

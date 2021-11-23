@@ -75,7 +75,7 @@
 
           <a @click="switchTo('/quienes-somos')">
             <h1 class="title is-4 ">
-              Quienes somos
+              Quiénes somos
             </h1>
           </a>
         </div>
