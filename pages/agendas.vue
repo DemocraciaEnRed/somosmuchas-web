@@ -55,7 +55,7 @@
         Últimos subidos<br data-v-2a183b29="">
       </h5>
     </div>
-    <div class="columns">
+    <div class="columns ml-6">
       <div class="column">
         <div class="actuar-agenda-box">
           <img src="~/assets/Agenda1.png" alt="">

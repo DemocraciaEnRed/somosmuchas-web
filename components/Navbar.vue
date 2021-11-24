@@ -9,7 +9,7 @@
           <i class="fas fa-bars fa-2x" />
         </a>
         <br>
-        Menu
+        Menú
       </div>
     </div>
     <img src="~/assets/barra-superior.svg" class="image is-fullwidth" alt="menu">

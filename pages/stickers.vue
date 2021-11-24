@@ -16,92 +16,7 @@
         stickers!
       </p>
     </div>
-    <div class="container">
-      <div class="columns is-multiline">
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-5by2">
-                <img src="~/assets/stickers/antioquia.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-5by2">
-                <img src="~/assets/stickers/arauca.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-5by2">
-                <img src="~/assets/stickers/bogota.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-5by2">
-                <img src="~/assets/stickers/CostaCaribe.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-5">
-                <img src="~/assets/stickers/doblesigno.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-2by2 ">
-                <img src="~/assets/stickers/singonossimple.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-5by2">
-                <img src="~/assets/stickers/bajo.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-quarter-desktop is-half-tablet">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-5by2">
-                <img src="~/assets/stickers/artemisas.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-full is-flex is-justify-content-center is-one-quarter-desktop is-half-tablet ">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image">
-                <img src="~/assets/stickers/Sinmujeresno.png" alt="" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-6 is-flex is-justify-content-center">
+    <div class="container mb-6 is-flex is-justify-content-center">
       <a
         href="https://drive.google.com/drive/u/1/folders/1_hFFnJlYqx82e53_2vYIxN0n-bRCeQUr"
         target="_blank"
@@ -116,6 +31,101 @@
       >
         Descargar
       </a>
+    </div>
+    <div class="container is-fluid">
+      <div class="columns is-multiline">
+        <div
+          class="column is-12 is-flex is-justify-content-center is-half-tablet"
+        >
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="~/assets/stickers/Sinmujeresno.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet" />
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-128x128 m-6">
+                <img
+                  class="is-rounded"
+                  src="~/assets/stickers/antioquia.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-128x128 m-6">
+                <img src="~/assets/stickers/arauca.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-128x128 m-6">
+                <img src="~/assets/stickers/bogota.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-128x128 m-6">
+                <img src="~/assets/stickers/CostaCaribe.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet" />
+        <div class="column is-2 is-half-tablet" />
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5">
+                <img src="~/assets/stickers/doblesigno.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-128x128 m-6">
+                <img src="~/assets/stickers/bajo.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-128x128 m-6">
+                <img src="~/assets/stickers/artemisas.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5 m-6">
+                <img src="~/assets/stickers/singonossimple.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-2 is-half-tablet" />
+      </div>
     </div>
   </div>
 </template>
