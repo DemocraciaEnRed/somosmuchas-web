@@ -30,7 +30,7 @@
         </div>
         <br>
         <br>
-        <a href="https://actua.somosmuchas.org/" class="mt-2 button is-primary is-rounded has-text-weight-bold is-medium">Descargar</a>
+        <a href="https://drive.google.com/file/d/1UfZjO8X9n_KCNlpE6f8uyB_QdVl791W3/view?usp=sharing" class="button is-primary is-rounded has-text-weight-bold is-medium" target="_blank" download="arbol.pdf">Descargar</a>
       </div>
       <div class="column is-3 is-offset-1 has-text-centered">
         <img src="~/assets/share.png" class="image an-icon" alt="">
