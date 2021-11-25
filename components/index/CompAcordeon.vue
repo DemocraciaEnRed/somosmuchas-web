@@ -230,7 +230,7 @@
                 <iframe
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/bTKfxyFjI0o"
+                  src="https://www.youtube.com/embed/LL6iJGVXLjk"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -240,11 +240,7 @@
             </div>
             <div class="content is-large has-text-justified mt-5">
               <p class="pt-5">
-                <strong>#DignidadParaRecicladorxs</strong> es una campaña con
-                enfoque de género para visibilizar las voces de l@s recicladorxs
-                y sus demandas, ya que es una población que a pesar de ofrecer
-                un servicio público, se encuentra con muchas barreras para
-                ejercer su labor de manera digna.
+                Gracias a la campaña <strong>#DignidadParaRecicladorxs</strong> , se consiguió que en el Concejo de Bogotá se priorizara el debate de control político en torno a la gestión del reciclaje el pasado 20 de octubre.  En nombre de la Asociación Asoactiva, Yasmín Pineda y Yaneth Anzola, participantes del proyecto Hojas Violeta tomaron la vocería y expresaron sus necesidades en el recinto del Concejo.
               </p>
             </div>
             <div class="columns">
@@ -260,7 +256,7 @@
                 >
                   Información Adicional:
                 </h5>
-                <a
+                <!-- <a
                   href="/files/mujeres-recicladoras.pdf"
                   target="_blank"
                   download
@@ -273,7 +269,7 @@
                       class="fas fa-file-pdf has-text-primary fa-2x fa-fw ml-3"
                     />
                   </div>
-                </a>
+                </a> -->
                 <h5
                   class="
                     mt-5

@@ -240,7 +240,7 @@
       </div>
       <div class="section">
         <div class="container">
-          <content-box title="" description="La política tradicional no ha representado a las mujeres, y al revisar con las lideresas del territorio colombiano, encontramos que la representatividad y los liderazgos trascienden a la política y se encuentran en la cotidianidad. Es por eso, que queremos invitarlxs a que nos cuenten qué mujeres lxs representa usando el hashtag #MeRepresenta ¡Renovemos la política!" />
+          <content-box title="" description="La política tradicional no ha representado a las mujeres, y al revisar con las lideresas del territorio colombiano, encontramos que la representatividad y los liderazgos trascienden a la política y se encuentran en la cotidianidad. Es por eso, que queremos invitarlxs a que nos cuenten qué mujeres lxs representa usando el hashtag #MeRepresenta ¡Renovemos la política!" video="https://www.youtube.com/embed/ODcMMvOC5Hs" />
         </div>
         <!-- se pidio ocultar este boton ISSU: https://app.asana.com/0/1199160884379309/1201417108272610/fn -->
         <!-- <div class="container box has-text-centered is-transparent">

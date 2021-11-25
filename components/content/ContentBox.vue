@@ -11,10 +11,20 @@
         <!-- <img v-if="img" :src="img" :alt="title" class="is-inline-block"> -->
         <!-- <video :src="video" /> -->
         <div class="container my-6 py-4">
-          <video v-if="video" width="550" height="309" controls>
+          <!-- <video v-if="video" width="550" height="309" controls>
             <source v-if="video" :src="video" type="video/mp4">
             Your browser does not support the video tag.
-          </video>
+          </video> -->
+          <iframe
+            v-if="video"
+            width="550"
+            height="309"
+            :src="video"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
           <div v-else>
             <img src="https://via.placeholder.com/550x300" alt="">
           </div>
