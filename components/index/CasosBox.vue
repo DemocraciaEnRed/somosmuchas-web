@@ -13,7 +13,7 @@
       <NuxtLink v-if="to" :to="to" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
         {{ label }}
       </NuxtLink>
-      <a v-if="href" :href="href" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
+      <a v-if="href" :href="href" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
         {{ label }}
       </a>
     </div>

@@ -5,7 +5,7 @@
         <div class="columns">
           <div class="column is-half">
             <h1 class="mt-5 mb-5 pt-5 pb-5 title is-1 has-text-weight-bold">
-              QUIENES SOMOS
+              QUIÉNES SOMOS
             </h1>
           </div>
         </div>

@@ -44,11 +44,11 @@
     </div>
     <div id="smn" class=" section is-medium max-width  has-background-primary  has-text-white pt-4 top-bar-text">
       <div class="container columns">
-        <div class="column is-11">
+        <div class="column is-10">
           <img src="~/assets/conocenos-enterate.png" alt="titulo: conocenos y enterate">
         </div>
-        <div class="column is-1  me-6 my-6">
-          <NuxtLink to="/actuar" class="button is-rounded is-primary is-inverted has-text-weight-bold">
+        <div class="column is-1  mr-6 my-6">
+          <NuxtLink to="/actuar" class="button px-6 is-size-5 is-rounded is-primary is-inverted has-text-weight-bold">
             ver más
           </NuxtLink>
         </div>
@@ -64,8 +64,8 @@
     </div>
     <section class="section bg-aqua expand">
       <div class="container level is-mobile">
-        <div class="column is-1 level-left ">
-          <NuxtLink to="/actuar" class="button is-rounded is-primary  has-text-weight-bold">
+        <div class="column is-1 level-left ml-6 my-6">
+          <NuxtLink to="/actuar" class="button is-rounded px-6 is-size-5 is-primary  has-text-weight-bold">
             ver más
           </NuxtLink>
         </div>
@@ -107,7 +107,7 @@
               <!-- <p class="subtitle">
                 With even more content
               </p> -->
-              <div class="content container content-margin">
+              <div class="content container content-margin has-text-justified">
                 <p>La co-creación de agendas es un <b>ejercicio colaborativo</b> en donde se tienen en cuenta las diferentes necesidades de aquellas personas que participan en él.</p>
                 <p>Por esto, <b>Sin Mujeres No</b> trabajó en la identificación de problemas con mujeres de diferentes departamentos del país y así garantizar la representatividad de los <strong> temas priorizados por las mujeres</strong> en las agendas de aquellas que lleguen ocupar los <strong> espacios de toma de decisiones.</strong></p>
               </div>
@@ -127,11 +127,11 @@
                 <!-- <p class="subtitle">
                   With even more content
                 </p> -->
-                <div class="content-w container content-margin">
+                <div class="content-w container content-margin has-text-justified">
                   La autonomía económica es un pilar fundamental de la autonomía de las mujeres y, por definición, requiere que éstas perciban ingresos que les permitan superar la pobreza y disponer de su tiempo libremente para capacitarse, acceder al mercado laboral, desarrollarse profesional y personalmente, participar de manera activa de la vida social y política, y dedicarse a sus seres queridos sin que ello se transforme en una barrera para el logro de sus propias aspiraciones.
                   <section class="section button-container">
                     <img class="" src="~/assets/image 18.png" alt="">
-                    <a id="autonomia" href="/files/Autonomiaeconomica.pdf" alt="descargar imagen en pdf" download>
+                    <a id="autonomia" href="/files/autonomiaeconomica.pdf" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png">
                     </a>
                   </section>
@@ -157,7 +157,7 @@
                 <!-- <p class="subtitle">
                   With even more content
                 </p> -->
-                <div class="content-w container content-margin">
+                <div class="content-w container content-margin has-text-justified">
                   <p>
                     La participación política es considerada como “cualquier acción realizada por un individuo o
                     grupo, con la finalidad de incidir en una u otra medida en los asuntos públicos.” (Faro Democrático) Suele orientarse a la elección de cargos públicos, al control y veeduría de los actores políticos, y a la construcción de políticas públicas. Sus características son:<br>
@@ -174,7 +174,7 @@
                   </p>
                   <section class="section button-container">
                     <img class="image" src="~/assets/participacion.png" alt="" style="margin: 0 auto;">
-                    <a  id="participacion" href="/assets/participacion.png" alt="descargar imagen en pdf" download>
+                    <a  id="participacion" href="/files/participacionpolitica.pdf" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png">
                     </a>
                   </section>
@@ -200,7 +200,7 @@
                 <!-- <p class="subtitle">
                   With even more content
                 </p> -->
-                <div class="content-w container content-margin">
+                <div class="content-w container content-margin has-text-justified">
                   <p>
                     El Acuerdo final para la terminación del conflicto y la construcción de una paz estable y duradera representa la lucha y los esfuerzos de la multiplicidad de mujeres que desde diferentes lugares le han apostado a la construcción de un país distinto, mujeres que han aportado propuestas desde sus necesidades y expectativas, que se ven reflejadas en el acuerdo, y que ahora en el proceso de implementación constituyen una premisa indispensable para la realización de nuevos pactos sociales basados en el reconocimiento y la inclusión.
                   </p>
@@ -209,7 +209,7 @@
                   </p>
                   <section class="section button-container">
                     <img class="" src="~/assets/paz.png" alt="imagen resumen agenda de paz">
-                    <a id="paz" href="/assets/paz.png" alt="descargar imagen en pdf" download>
+                    <a id="paz" href="/files/agendadepaz.pdf" alt="descargar imagen en pdf" download>
                       <img src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png">
                     </a>
                   </section>

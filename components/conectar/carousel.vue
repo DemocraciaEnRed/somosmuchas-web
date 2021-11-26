@@ -2,7 +2,7 @@
   <b-carousel
     :autoplay="autoPlay"
   >
-    <b-carousel-item v-for="(carousel, i) in carousels" :key="i" class="section is-medium">
+    <b-carousel-item v-for="(carousel, i) in carousels" :key="i" class="section is-medium pt-0">
       <section class="hero">
         <div class="hero-body has-text-centered">
           <div class="">

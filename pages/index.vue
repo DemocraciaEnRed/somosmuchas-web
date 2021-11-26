@@ -113,7 +113,7 @@
       <div class="tile is-parent">
         <article class="tile is-child seccion-box seccion-cocrear">
           <div class="about">
-            Organizate para llevar tus causas adelante! Te invitamos a crear y compartir las agendas de rus proyectos.
+            Organizate para llevar tus causas adelante! Te invitamos a crear y compartir las agendas de tus proyectos.
           </div>
           <NuxtLink to="/agendas">
             <div class="barra">
@@ -121,8 +121,8 @@
                 <b>AGENDAS</b>
               </h1>
               <div>
-                <NuxtLink to="#" class="button is-rounded is-primary is-inverted has-text-weight-bold">
-                  PROXIMAMENTE
+                <NuxtLink to="agendas" class="button is-rounded is-primary is-inverted has-text-weight-bold">
+                  ENTRAR
                 </NuxtLink>
               </div>
             </div>
@@ -132,12 +132,11 @@
     </div>
     <br>
     <img src="~/assets/title01.svg" class="image mb-6 image-title" alt="">
-    <!-- ocultado hasta tener info -->
-    <!-- <section>
-      <casos-box title="Sin mujeres  NO!" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." to="/sinmujeresno">
+    <section>
+      <casos-box title="Sin mujeres  NO!" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="sin-mujeres-no">
         <img src="~/assets/sinmujeresno-dark.png" alt="">
       </casos-box>
-    </section> -->
+    </section>
     <VueSlickCarousel v-bind="settings">
       <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">
         <img src="~/assets/paridad-logo.svg" alt="">
