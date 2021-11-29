@@ -1,5 +1,20 @@
 <template>
   <div class="container">
+    <div class="">
+      <NuxtLink
+        to="/sin-mujeres-no"
+        id="nlink"
+        class="
+          button
+          is-block
+          is-size-3 is-primary
+          has-text-weight-bold
+          has-text-left
+        "
+      >
+         <i class="fas fa-angle-left"></i> <h1 id="sinmujeres">sin mujeres no</h1>
+      </NuxtLink>
+    </div>
     <div class="section is-medium">
       <p class="parraf">
         <strong>
@@ -131,6 +146,9 @@
 </template>
 
 <style lang="scss">
+h1 , i{
+  display: inline-block !important;
+}
 .parraf {
   font-family: Titillium Web;
   font-style: normal;
@@ -143,4 +161,15 @@
 
   color: #2e2e2d;
 }
+#sinmujeres{
+  transition-duration: .5s;
+}
+#sinmujeres:hover {
+  -moz-transform: translate(40px, 0px) skew(1deg, 0deg);
+  -webkit-transform: translate(40px, 0px) skew(1deg, 0deg);
+  -o-transform: translate(40px, 0px) skew(1deg, 0deg);
+  -ms-transform: translate(40px, 0px) skew(1deg, 0deg);
+  transform: translate(40px, 0px) skew(1deg, 0deg);
+}
+
 </style>

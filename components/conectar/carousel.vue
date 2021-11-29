@@ -35,8 +35,8 @@
                     <img src="https://via.placeholder.com/550x300" alt="" />
                   </div> -->
                   <iframe
-                    width="853"
-                    height="480"
+                    width="550"
+                    height="309"
                     :src="carousel.video"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

@@ -42,10 +42,14 @@
           Sube tu agenda, para que podamos compartirla con la comunidad y abrir el debate y la difusión
         </p>
         <br>
-        <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
+        <!-- typeform embebido no funciona -->
+        <!-- <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
           Subir
         </button>
-        <script src="//embed.typeform.com/next/embed.js" />
+        <script src="//embed.typeform.com/next/embed.js" /> -->
+        <a href="https://preguntarparaacordar.typeform.com/to/zZgFiHbB" target="_blanck" class="button is-primary is-rounded has-text-weight-bold is-medium mt-1">
+          Subir
+        </a>
       </div>
     </div>
     <br>
