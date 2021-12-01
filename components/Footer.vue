@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="columns is-vcentered">
-        <div class="column has-text-centered has-text-left-desktop">
+        <div class="column has-text-centered has-text-left-desktop mt-5">
           <a href="/quienes-somos" class="is-size-5 has-text-white">Quiénes somos</a>
           <p class="is-size-5 mt-3 mb-5">
             Redes sociales
@@ -32,7 +32,7 @@
             </a>&nbsp;
           </p>
         </div>
-        <div class="column has-text-centered has-text-left-desktop">
+        <div class="column has-text-centered has-text-left-desktop mt-0 pt-0">
           <p>
             Te interesa ayudarnos?
           </p>

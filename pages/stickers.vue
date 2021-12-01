@@ -7,9 +7,10 @@
         class="
           button
           is-block
-          is-size-3 is-primary
+          is-size-3
           has-text-weight-bold
           has-text-left
+          is-uppercase
         "
       >
          <i class="fas fa-angle-left"></i> <h1 id="sinmujeres">sin mujeres no</h1>
@@ -33,7 +34,7 @@
     </div>
     <div class="container mb-6 is-flex is-justify-content-center">
       <a
-        href="https://drive.google.com/drive/u/1/folders/1_hFFnJlYqx82e53_2vYIxN0n-bRCeQUr"
+        href="https://photos.google.com/share/AF1QipOVc3PqE6pNe4in3pjMFc4794IcqrRuvneMoBXIre3pAFOjgXAdMvKERY8XW2lr_A?key=cm5rbFpDd0ZrazFXVU9zNTM5aWxKVE9yMXk2VDdn"
         target="_blank"
         class="
           button
@@ -148,6 +149,11 @@
 <style lang="scss">
 h1 , i{
   display: inline-block !important;
+}
+#nlink {
+  border:none;
+  color: #8917ff;
+
 }
 .parraf {
   font-family: Titillium Web;

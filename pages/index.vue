@@ -111,7 +111,7 @@
         </article>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child seccion-box seccion-cocrear">
+        <article class="tile is-child seccion-box seccion-agendas">
           <div class="about">
             Organizate para llevar tus causas adelante! Te invitamos a crear y compartir las agendas de tus proyectos.
           </div>
@@ -319,6 +319,12 @@ export default {
   }
   &.seccion-cocrear{
     background-image: url('~assets/cover-bw-04.jpg');
+    &:hover .about{
+      opacity: 1;
+    }
+  }
+  &.seccion-agendas{
+    background-image: url('~assets/cover-bw-05.png');
     &:hover .about{
       opacity: 1;
     }

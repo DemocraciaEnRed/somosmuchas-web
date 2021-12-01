@@ -199,7 +199,7 @@
                       download
                     >
                       <img
-                        src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"
+                        src="~/assets/download.png"
                       />
                     </a>
                   </section>
@@ -273,7 +273,7 @@
                       download
                     >
                       <img
-                        src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"
+                        src="~/assets/download.png"
                       />
                     </a>
                   </section>
@@ -350,7 +350,7 @@
                       download
                     >
                       <img
-                        src="https://img.icons8.com/ios/50/000000/pdf-2--v1.png"
+                        src="~/assets/download.png"
                       />
                     </a>
                   </section>
@@ -761,7 +761,7 @@ export default {
 
 .button-container a {
   position: absolute;
-  top: 4em;
+  bottom: 4em;
   right: 4em;
   background-color: #8917ff;
   border-radius: 100%;
@@ -860,7 +860,7 @@ export default {
     height: 31px;
   }
   .button-container a {
-    top: 1em;
+    bottom: 1em;
     right: 1.2em;
   }
   .button-container a img {

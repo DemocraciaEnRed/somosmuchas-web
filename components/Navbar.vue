@@ -72,7 +72,24 @@
             </h1>
           </a>
           <hr class="has-background-light">
-
+          <a @click="switchTo('/agendas')">
+            <h1 class="title is-4">
+              Agendas
+            </h1>
+          </a>
+          <hr class="has-background-light">
+          <a @click="switchTo('/sin-mujeres-no')">
+            <h1 class="title is-4">
+              Sin mujeres no
+            </h1>
+          </a>
+          <hr class="has-background-light">
+          <a @click="switchTo('/stickers')">
+            <h1 class="title is-4">
+              Stickers
+            </h1>
+          </a>
+          <hr class="has-background-light">
           <a @click="switchTo('/quienes-somos')">
             <h1 class="title is-4 ">
               Quiénes somos

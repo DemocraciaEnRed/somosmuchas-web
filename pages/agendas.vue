@@ -7,7 +7,7 @@
             <h1 class="title is-1 has-text-weight-bold">
               Co-construcción <br>agendas
             </h1>
-            <div class="subtitle-container">
+            <div class="subtitle-container pl-0">
               <h2 class="subtitle is-4">
                 Aquí encontrarás recursos para planificar la co-construcción de agendas y también podrás compartir tus resultados para luego abrirlo a la comunidad
               </h2>
@@ -18,14 +18,14 @@
     </div>
     <div class="columns my-6 is-centered">
       <div class="column is-3 has-text-centered">
-        <img src="~/assets/arrowDown.png" class="image an-icon" alt="">
+        <img src="~/assets/arrowDown.png" class="image an-icon is-210x210" alt="">
         <h2 class="is-size-4">
           Descargar
         </h2>
         <br>
         <div>
           <p class="is-size-4">
-            Aquí podrás descargar nuestra plantilla para la co-creación de agendas
+            Aquí podrás descargar nuestra plantilla e instrucciones para la <br>co-creación de agendas
           </p>
         </div>
         <br>
@@ -33,7 +33,7 @@
         <a href="https://drive.google.com/file/d/1UfZjO8X9n_KCNlpE6f8uyB_QdVl791W3/view?usp=sharing" class="button is-primary is-rounded has-text-weight-bold is-medium" target="_blank" download="arbol.pdf">Descargar</a>
       </div>
       <div class="column is-3 is-offset-1 has-text-centered">
-        <img src="~/assets/share.png" class="image an-icon" alt="">
+        <img src="~/assets/share.png" class="image an-icon is-210x210" alt="">
         <h2 class="is-size-4">
           Comparte
         </h2>
@@ -146,6 +146,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.is-210x210{
+  height: 13.125 rem !important;
+  width: 13.125 rem !important;
+}
 .actuar-agenda-box {
   width: 300px;
   height: 300px;
