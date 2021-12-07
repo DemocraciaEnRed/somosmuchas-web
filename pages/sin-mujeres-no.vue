@@ -550,7 +550,7 @@
             <h2 class="ml-6 indicador">Fotos y VIdeos</h2>
             <div class="actuar-agenda-box">
               <!-- <img src="~/assets/lienzos-mini.png" alt="" /> -->
-              <img class="image image-cover " src="~/assets/temp.png" alt="galeria de fotos y videos">
+              <img class="image image-cover " src="~/assets/Collage.jpg" alt="galeria de fotos y videos">
               <a
                 href="https://drive.google.com/drive/folders/1FLagFjGOhDlyQeQ3o9NDt9cDbBLBKT-i"
                 target="_blank"
