@@ -10,10 +10,9 @@
           is-size-3
           has-text-weight-bold
           has-text-left
-          is-uppercase
         "
       >
-         <i class="fas fa-angle-left"></i> <h1 id="sinmujeres">sin mujeres no</h1>
+         <i class="fas fa-angle-left"></i> <h1 id="sinmujeres">Sin Mujeres No</h1>
       </NuxtLink>
     </div>
     <div class="section is-medium">
@@ -48,8 +47,8 @@
         Descargar
       </a>
     </div>
-    <div class="container is-fluid">
-      <div class="columns is-multiline">
+    <div class="container is-fluid ">
+      <div class="columns  is-multiline">
         <div
           class="column is-12 is-flex is-justify-content-center is-half-tablet"
         >
@@ -61,11 +60,11 @@
             </div>
           </div>
         </div>
-        <div class="column is-2 is-half-tablet" />
+        <div class="column is-2 is-half-tablet " />
         <div class="column is-2 is-half-tablet">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-128x128 m-6">
+              <figure class="image m-6">
                 <img
                   class="is-rounded"
                   src="~/assets/stickers/antioquia.png"
@@ -78,7 +77,8 @@
         <div class="column is-2 is-half-tablet">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-128x128 m-6">
+              <!-- usar is-128x128 si se ven mal  las iamgenes-->
+              <figure class="image   m-6">
                 <img src="~/assets/stickers/arauca.png" alt="" />
               </figure>
             </div>
@@ -87,7 +87,7 @@
         <div class="column is-2 is-half-tablet">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-128x128 m-6">
+              <figure class="image   m-6">
                 <img src="~/assets/stickers/bogota.png" alt="" />
               </figure>
             </div>
@@ -96,7 +96,7 @@
         <div class="column is-2 is-half-tablet">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-128x128 m-6">
+              <figure class="image   m-6">
                 <img src="~/assets/stickers/CostaCaribe.png" alt="" />
               </figure>
             </div>
@@ -116,7 +116,7 @@
         <div class="column is-2 is-half-tablet">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-128x128 m-6">
+              <figure class="image   m-6">
                 <img src="~/assets/stickers/bajo.png" alt="" />
               </figure>
             </div>
@@ -125,7 +125,7 @@
         <div class="column is-2 is-half-tablet">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-128x128 m-6">
+              <figure class="image   m-6">
                 <img src="~/assets/stickers/artemisas.png" alt="" />
               </figure>
             </div>

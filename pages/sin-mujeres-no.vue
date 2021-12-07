@@ -527,7 +527,7 @@
                 <img src="~/assets/paridad-logo.svg" alt="">
             </casos-box> -->
           </div>
-          <div class="column is-hidden is-4">
+          <!-- <div class="column is-hidden is-4">
             <h2 class="ml-6 indicador">Videos</h2>
             <div class="actuar-agenda-box">
               <img src="https://via.placeholder.com/300x300" alt="">
@@ -545,14 +545,14 @@
                 Descargar
               </a>
             </div>
-          </div>
-          <div class="column is-hidden is-4">
-            <h2 class="ml-6 indicador">Galeria de fotos</h2>
+          </div> -->
+          <div class="column is-4">
+            <h2 class="ml-6 indicador">Fotos y VIdeos</h2>
             <div class="actuar-agenda-box">
               <!-- <img src="~/assets/lienzos-mini.png" alt="" /> -->
-              <img src="https://via.placeholder.com/300x300" alt="">
+              <img class="image image-cover " src="~/assets/temp.png" alt="galeria de fotos y videos">
               <a
-                href="#"
+                href="https://drive.google.com/drive/folders/1FLagFjGOhDlyQeQ3o9NDt9cDbBLBKT-i"
                 target="_blank"
                 class="
                   button
@@ -606,6 +606,7 @@
               </a>
             </div>
           </div> -->
+          <!-- viejos -->
         <!-- <div class="columns  my-6 ">
           <div class="column is-4">
             <div class="actuar-agenda-box">
@@ -1071,5 +1072,8 @@ export default {
   // text-align: center;
 
   color: #32bd9f;
+}
+.image-cover{
+  object-fit: cover !important;
 }
 </style>

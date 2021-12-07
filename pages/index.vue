@@ -138,19 +138,20 @@
       </casos-box>
     </section>
     <VueSlickCarousel v-bind="settings">
-      <casos-box title="PARIDAD ¡YA!" description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">
+      <!-- Se pidio quitar lso titulos del cases-box (ahora title es un parametro opcional no requerido 7/12/21) -->
+      <casos-box  description="Campaña nacional que promueve y facilita la participación de las mujeres en política. Por lo justo: cincuenta / sí cuenta." href="https://actua.somosmuchas.org/proyecto/paridadya#activa">
         <img src="~/assets/paridad-logo.svg" alt="">
       </casos-box>
-      <casos-box title="JUNTAS" description="Diálogo, intercambio y co-construcción de agendas y propuestas de mujeres progresistas de América Latina para responder de forma colectiva a la pandemia y a los efectos que tiene en la vida de las mujeres de la región" href="https://conversar.somosmuchas.org/agendas">
+      <casos-box description="Diálogo, intercambio y co-construcción de agendas y propuestas de mujeres progresistas de América Latina para responder de forma colectiva a la pandemia y a los efectos que tiene en la vida de las mujeres de la región" href="https://conversar.somosmuchas.org/agendas">
         <img src="~/assets/juntas-logo.png" alt="">
       </casos-box>
-      <casos-box title="CAUSA JUSTA POR EL ABORTO" description="Movimiento que busca que se elimine el delito de aborto del Código Penal colombiano" href="http://causajustaporelaborto.org/">
+      <casos-box description="Movimiento que busca que se elimine el delito de aborto del Código Penal colombiano" href="http://causajustaporelaborto.org/">
         <img src="~/assets/logo-causa-justa.png" alt="">
       </casos-box>
-      <casos-box title="Boroló" description="Iniciativa para hablar de protesta y movilización social" href="http://www.borolo.org/">
+      <casos-box description="Iniciativa para hablar de protesta y movilización social" href="http://www.borolo.org/">
         <img src="~/assets/logo-borolo.jpeg" alt="">
       </casos-box>
-      <casos-box title="Dignidad para recicladorxs" description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="https://actua.somosmuchas.org/proyecto/dignidad-para-recicladoras-y-recicladores#activa">
+      <casos-box  description="Redes de solidaridad y afecto como respuesta a VIOLENCIAS ECONÓMICAS y fortalecimiento de capacidades de incidencia política." href="https://actua.somosmuchas.org/proyecto/dignidad-para-recicladoras-y-recicladores#activa">
         <img src="~/assets/logo-recicladores.png" alt="">
       </casos-box>
     </VueSlickCarousel>
@@ -284,6 +285,10 @@ export default {
 <style lang="scss" scoped>
 .top-bar-text{
   margin-top:-5px;
+}
+.carousel-arrow .icon{
+  // width: 200px !important;
+  background-color: #7957d5 !important;
 }
 .seccion-box{
   //padding: 1rem;

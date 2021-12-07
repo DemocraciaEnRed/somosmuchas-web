@@ -1,8 +1,10 @@
 <template>
+      <!-- Se pidio quitar lso titulos del cases-box (ahora title es un parametro opcional no requerido 7/12/21) -->
+
   <div class="que-pasa-box-wrapper">
     <div class="que-pasa-box">
       <div class="texto-descriptivo">
-        <h1 class="title is-1 has-text-white has-text-weight-bold mb-2">
+        <h1 v-if="title"  class="title is-1 has-text-white has-text-weight-bold mb-2">
           {{ title }}
         </h1>
         <p class="is-size-5">
@@ -25,7 +27,7 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: false
     },
     description: {
       type: String,

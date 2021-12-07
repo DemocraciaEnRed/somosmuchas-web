@@ -92,23 +92,23 @@
                     Tu navegador no soporta este tipo de videos
                 </video>
                 </div>
-                <div class="content is-large has-text-justified">
-                <p class="mt-5">
-                    <strong>Causa Justa</strong> es un movimiento que busca la libertad y la autonomía reproductiva de todas las mujeres sobre sus cuerpos y sus proyectos de vida. Impulsado por La Mesa por la Vida y la Salud de las Mujeres, otras organizaciones de mujeres, feministas y de derechos humanos; y diferentes actores entre quienes se encuentran activistas, prestadores de servicios de salud, referentes de la academia y centros de investigación de todo el país, Causa Justa reconoce la urgente necesidad de eliminar el delito de aborto del Código Penal como un avance para los derechos de las mujeres y un cambio favorable para la sociedad y la democracia.
-                    Así también busca avanzar en la despenalización social, y dar legitimidad a las decisiones libres que toman las mujeres sobre sus cuerpos, y eliminar el estigma que recae sobre ellas y sobre los prestadores de salud que realizan procedimientos de IVE.
-                </p>
-                <h3>
-                    ¿Que busca Causa Justa?
-                </h3>
-                <ul>
-                    <li>Que ninguna mujer vaya a la cárcel o que le sea iniciado un proceso penal en su contra por acceder a su derecho a la IVE ni que viva bajo esa amenaza.</li>
-                    <li>Que ningún prestador de servicios vaya a la cárcel o se inicie un proceso penal en su contra por realizar un aborto consentido por una mujer o por brindar información.</li>
-                    <li>Que todas las mujeres, en todas las circunstancias, puedan practicarse un aborto sin ser criminalizadas</li>
-                    <li>Evitar maternidades impuestas que despojen a las mujeres de su autonomía, del control sobre sus cuerpos ni de la definición de su proyecto de vida.</li>
-                    <li>Que se reconozca que el cuerpo de las mujeres no solo está ligado a la reproducción y a la maternidad, que las mujeres tienen proyectos de vida distintos y en ese sentido, que son ellas las únicas que pueden decidir si quieren tener hijos/as o no.</li>
-                    <li>Que se normalice la prestación de los servicios de aborto y se elimine el estigma en torno al mismo.</li>
-                    <li>Que se eliminen las inequidades entre las mujeres que pueden acceder y las que no, a un aborto seguro y oportuno.</li>
-                </ul>
+                <div class="content is-large has-text-justified is-size-5">
+                  <p class="mt-5">
+                      <strong>Causa Justa</strong> es un movimiento que busca la libertad y la autonomía reproductiva de todas las mujeres sobre sus cuerpos y sus proyectos de vida. Impulsado por La Mesa por la Vida y la Salud de las Mujeres, otras organizaciones de mujeres, feministas y de derechos humanos; y diferentes actores entre quienes se encuentran activistas, prestadores de servicios de salud, referentes de la academia y centros de investigación de todo el país, Causa Justa reconoce la urgente necesidad de eliminar el delito de aborto del Código Penal como un avance para los derechos de las mujeres y un cambio favorable para la sociedad y la democracia.
+                      Así también busca avanzar en la despenalización social, y dar legitimidad a las decisiones libres que toman las mujeres sobre sus cuerpos, y eliminar el estigma que recae sobre ellas y sobre los prestadores de salud que realizan procedimientos de IVE.
+                  </p>
+                  <h3>
+                      ¿Que busca Causa Justa?
+                  </h3>
+                  <ul>
+                      <li>Que ninguna mujer vaya a la cárcel o que le sea iniciado un proceso penal en su contra por acceder a su derecho a la IVE ni que viva bajo esa amenaza.</li>
+                      <li>Que ningún prestador de servicios vaya a la cárcel o se inicie un proceso penal en su contra por realizar un aborto consentido por una mujer o por brindar información.</li>
+                      <li>Que todas las mujeres, en todas las circunstancias, puedan practicarse un aborto sin ser criminalizadas</li>
+                      <li>Evitar maternidades impuestas que despojen a las mujeres de su autonomía, del control sobre sus cuerpos ni de la definición de su proyecto de vida.</li>
+                      <li>Que se reconozca que el cuerpo de las mujeres no solo está ligado a la reproducción y a la maternidad, que las mujeres tienen proyectos de vida distintos y en ese sentido, que son ellas las únicas que pueden decidir si quieren tener hijos/as o no.</li>
+                      <li>Que se normalice la prestación de los servicios de aborto y se elimine el estigma en torno al mismo.</li>
+                      <li>Que se eliminen las inequidades entre las mujeres que pueden acceder y las que no, a un aborto seguro y oportuno.</li>
+                  </ul>
                 </div>
                 <div class="columns">
                 <div class="column is-half">
