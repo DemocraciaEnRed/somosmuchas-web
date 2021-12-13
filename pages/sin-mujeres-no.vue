@@ -505,8 +505,8 @@
       </div>
       <div class="container">
         <div class="columns my-6 is-centered">
-          <div class="column is-4">
-            <h2 class="ml-6 indicador">Stickers</h2>
+          <div class="column is-4 mb-6">
+            <h2 class="ml-6 mb-5 indicador">Stickers</h2>
             <div class="actuar-agenda-box">
               <img src="~/assets/stickers-mini.png" alt="" />
               <NuxtLink
@@ -546,8 +546,8 @@
               </a>
             </div>
           </div> -->
-          <div class="column is-4">
-            <h2 class="ml-6 indicador">Fotos y VIdeos</h2>
+          <div class="column is-4 mb-3">
+            <h2 class="ml-6 mb-5 indicador">Fotos y Videos</h2>
             <div class="actuar-agenda-box">
               <!-- <img src="~/assets/lienzos-mini.png" alt="" /> -->
               <img class="image image-cover " src="~/assets/Collage.jpg" alt="galeria de fotos y videos">

@@ -59,10 +59,10 @@
         Últimos subidos<br data-v-2a183b29="">
       </h5>
     </div>
-    <div class="columns ml-6">
+    <div class="columns">
       <div class="column">
         <div class="actuar-agenda-box">
-          <img src="~/assets/Agenda1.png" alt="">
+          <img class="image"  src="~/assets/Agenda1.png" alt="">
           <!-- <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
             Ver
           </a> -->
@@ -76,7 +76,7 @@
       </div>
       <div class="column">
         <div class="actuar-agenda-box">
-          <img src="~/assets/Agenda2.png" alt="">
+          <img  class="image" src="~/assets/Agenda2.png" alt="">
           <!-- <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
             Ver
           </a> -->
@@ -87,7 +87,7 @@
       </div>
       <div class="column">
         <div class="actuar-agenda-box">
-          <img src="~/assets/Agenda3.png" alt="">
+          <img  class="image" src="~/assets/Agenda3.png" alt="">
           <!-- <a href="#" target="_blank" class="button is-primary has-text-weight-bold is-rounded enter-button is-medium">
             Ver
           </a> -->
@@ -168,6 +168,24 @@ export default {
     margin: 10px;
   }
 }
+
+// @media screen and (min-widtg: 960px) {
+//   .actuar-agenda-box {
+//   width: 100px;
+//   height: 100px;
+//   margin: 0 ;
+//   position: relative;
+//   border: 20px solid $secondary;
+//   img {
+//     max-height: 60%;
+//     max-width: 60%;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   }
+// }
+// }
 // .is-custom-image{
 //   background-image: url('~assets/cover-color-02.jpg');
 //   background-position: center center;

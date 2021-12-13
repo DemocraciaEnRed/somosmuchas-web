@@ -2,10 +2,17 @@
   <div class="">
     <div class="special-frame">
       <div class="has-text-centered">
-        <h1 class="title is-1 is-size-1 has-text-centered has-text-white has-text-weight-bold mb-2 ">
+        <h1
+          class="
+            title
+            is-1 is-size-1
+            has-text-centered has-text-white has-text-weight-bold
+            mb-2
+          "
+        >
           {{ title }}
         </h1>
-        <p class="is-size-4 has-text-centered ">
+        <p class="is-size-4 has-text-centered">
           {{ description }}
         </p>
         <!-- <img v-if="img" :src="img" :alt="title" class="is-inline-block"> -->
@@ -15,18 +22,30 @@
             <source v-if="video" :src="video" type="video/mp4">
             Your browser does not support the video tag.
           </video> -->
-          <iframe
-            v-if="video"
-            width="550"
-            height="309"
-            :src="video"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          />
+          <div v-if="video">
+            <iframe
+              width="550"
+              height="309"
+              :src="video"
+              class="is-hidden-touch"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+            <iframe
+              width="225"
+              height="150"
+              :src="video"
+              class="is-hidden-desktop"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+          </div>
           <div v-else>
-            <img src="https://via.placeholder.com/550x300" alt="">
+            <img src="https://via.placeholder.com/550x300" alt="" />
           </div>
         </div>
       </div>
@@ -55,14 +74,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.special-frame{
+.special-frame {
   margin: auto;
   width: 21rem;
   height: auto;
- }
+}
 @media screen and (min-width: 720px) {
-  .special-frame{
+  .special-frame {
     margin: auto;
     width: 55.125rem !important;
     height: 33.125rem;
