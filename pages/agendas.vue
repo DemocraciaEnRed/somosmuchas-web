@@ -19,9 +19,10 @@
     <div class="columns my-6 is-centered">
       <div class="column is-3 has-text-centered">
         <img src="~/assets/arrowDown.png" class="image an-icon is-210x210" alt="">
-        <h2 class="is-size-4">
+        <!-- <h2 class="is-size-4">
           Descargar
-        </h2>
+        </h2> -->
+        <a href="https://drive.google.com/file/d/1UfZjO8X9n_KCNlpE6f8uyB_QdVl791W3/view?usp=sharing" class="button is-primary is-rounded has-text-weight-bold is-medium" target="_blank" download="arbol.pdf">Descargar</a>
         <br>
         <div>
           <p class="is-size-4">
@@ -30,7 +31,6 @@
         </div>
         <br>
         <br>
-        <a href="https://drive.google.com/file/d/1UfZjO8X9n_KCNlpE6f8uyB_QdVl791W3/view?usp=sharing" class="button is-primary is-rounded has-text-weight-bold is-medium" target="_blank" download="arbol.pdf">Descargar</a>
       </div>
       <div class="column is-3 is-offset-1 has-text-centered">
         <img src="~/assets/share.png" class="image an-icon is-210x210" alt="">
@@ -43,13 +43,22 @@
         </p>
         <br>
         <!-- typeform embebido no funciona -->
-        <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
+        <!-- <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
           Subir
-        </button>
-        <div class="accordion-wrapper">
+        </button> -->
+
+        <!-- <a href="https://preguntarparaacordar.typeform.com/to/zZgFiHbB" target="_blanck" class="button is-primary is-rounded has-text-weight-bold is-medium mt-1">
+          Subir
+        </a> -->
+      </div>
+    </div>
+    <br>
+    <!-- typeFOrm -->
+    <div class="container">
+              <div class="accordion-wrapper mt-4">
         <div class="accordion">
-          <input type="checkbox" name="radio-a" id="check1"  />
-          <label class="accordion-label" for="check1">Subir</label>
+          <input type="checkbox" class="is-hidden" name="radio-a" id="check1"  />
+          <label class="accordion-label" for="check1">Comparte tu Agenda</label>
             <div class="accordion-content">
               <Typeform
                 url="https://preguntarparaacordar.typeform.com/to/zZgFiHbB"
@@ -57,16 +66,12 @@
                 :hide-footer="false"
                 :button-text="Subir"
                 :opacity="0"
+                style="height:450px !important"
               />
             </div>
         </div>
             </div>
-        <!-- <a href="https://preguntarparaacordar.typeform.com/to/zZgFiHbB" target="_blanck" class="button is-primary is-rounded has-text-weight-bold is-medium mt-1">
-          Subir
-        </a> -->
-      </div>
     </div>
-    <br>
     <!-- <img src="~/assets/title02.svg" class="image mb-6 image-title" alt=""> -->
     <div>
       <h5 data-v-2a183b29="" class="title mt-5 pt-5 is-2 has-text-lefted has-text-primary has-text-weight-bold">

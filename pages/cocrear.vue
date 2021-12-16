@@ -38,12 +38,30 @@
           Completa un formulario y comparte con la comunidad metodologías de trabajo que consideres útiles.
         </p>
         <br>
-        <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary has-text-weight-bold is-medium is-rounded">Subir metodología</a>
+        <!-- <a href="https://preguntarparaacordar.typeform.com/to/btphdVz9" target="_blank" class="button is-primary has-text-weight-bold is-medium is-rounded">Subir metodología</a> -->
         <!-- <button data-tf-popup="btphdVz9" data-tf-size="70" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#8917FF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">
           Subir metodología
         </button>
         <script src="//embed.typeform.com/next/embed.js" /> -->
       </div>
+    </div>
+      <div class="container">
+              <div class="accordion-wrapper mt-4">
+        <div class="accordion">
+          <input type="checkbox" class="is-hidden" name="radio-a" id="check1"  />
+          <label class="accordion-label" for="check1">Comparte tu Agenda</label>
+            <div class="accordion-content">
+              <Typeform
+                url="https://preguntarparaacordar.typeform.com/to/zZgFiHbB"
+                :hide-headers="true"
+                :hide-footer="false"
+                :button-text="Subir"
+                :opacity="0"
+                style="height:450px !important"
+              />
+            </div>
+        </div>
+            </div>
     </div>
     <img src="~/assets/title03.svg" class="image mb-6 image-title" alt="">
     <div class="columns">
@@ -142,5 +160,72 @@ export default {
 .an-icon{
     width:150px;
     margin: 0 auto 20px;
+}
+
+// typeform Styel and Container of typeform
+.css-1ig7ubs, .css-1o3fej, .e12baen60{
+  height: 450px !important;
+}
+.accordion-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin: 0 auto;
+}
+.accordion {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.accordion:last-child {
+  margin-bottom: 0;
+}
+.accordion-label {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+  background: #8917ff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+.accordion-label:hover {
+  background: #540f9c;
+}
+.accordion-label::after {
+  content: "\276F";
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.accordion-content {
+  max-height: 0;
+  padding: 0 16px;
+  color: rgba(4, 57, 94, 1);
+  background: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: scroll;
+}
+.accordion-content p {
+  margin: 0;
+  color: rgba(4, 57, 94, 0.7);
+  font-size: 18px;
+}
+input:checked + .accordion-label {
+  background: #530f9ca2;
+}
+input:checked + .accordion-label::after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+input:checked ~ .accordion-content {
+  max-height: 100vh;
+  padding: 16px;
 }
 </style>
