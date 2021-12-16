@@ -51,12 +51,16 @@
           <input type="checkbox" name="radio-a" id="check1"  />
           <label class="accordion-label" for="check1">Subir</label>
             <div class="accordion-content">
-              <div data-tf-widget="zZgFiHbB" data-tf-iframe-props="title=Somos Muchas agendas" style="width:100%;height:400px;">
-              </div>
-              <script src="//embed.typeform.com/next/embed.js"></script>
+              <Typeform
+                url="https://preguntarparaacordar.typeform.com/to/zZgFiHbB"
+                :hide-headers="true"
+                :hide-footer="false"
+                :button-text="Subir"
+                :opacity="0"
+              />
             </div>
         </div>
-      </div>
+            </div>
         <!-- <a href="https://preguntarparaacordar.typeform.com/to/zZgFiHbB" target="_blanck" class="button is-primary is-rounded has-text-weight-bold is-medium mt-1">
           Subir
         </a> -->
@@ -187,7 +191,10 @@ export default {
     margin: 10px;
   }
 }
-
+// typeform Styel and Container of typeform
+.css-1ig7ubs, .css-1o3fej, .e12baen60{
+  height: 450px !important;
+}
 .accordion-wrapper {
   border-radius: 8px;
   overflow: hidden;

@@ -283,6 +283,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.css-1ig7ubs, .css-1o3fej, .e12baen60{
+  height: 450px !important;
+}
 .top-bar-text{
   margin-top:-5px;
 }
