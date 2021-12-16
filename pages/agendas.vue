@@ -43,13 +43,23 @@
         </p>
         <br>
         <!-- typeform embebido no funciona -->
-        <!-- <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
+        <button data-tf-popup="zZgFiHbB" data-tf-size="70" style="padding:0 33px; margin-top:10px; width:97px;" class="button is-primary is-rounded has-text-weight-bold is-medium">
           Subir
         </button>
-        <script src="//embed.typeform.com/next/embed.js" /> -->
-        <a href="https://preguntarparaacordar.typeform.com/to/zZgFiHbB" target="_blanck" class="button is-primary is-rounded has-text-weight-bold is-medium mt-1">
+        <div class="accordion-wrapper">
+        <div class="accordion">
+          <input type="checkbox" name="radio-a" id="check1"  />
+          <label class="accordion-label" for="check1">Subir</label>
+            <div class="accordion-content">
+              <div data-tf-widget="zZgFiHbB" data-tf-iframe-props="title=Somos Muchas agendas" style="width:100%;height:400px;">
+              </div>
+              <script src="//embed.typeform.com/next/embed.js"></script>
+            </div>
+        </div>
+      </div>
+        <!-- <a href="https://preguntarparaacordar.typeform.com/to/zZgFiHbB" target="_blanck" class="button is-primary is-rounded has-text-weight-bold is-medium mt-1">
           Subir
-        </a>
+        </a> -->
       </div>
     </div>
     <br>
@@ -141,7 +151,16 @@
 
 <script>
 export default {
-
+  head () {
+    return {
+      script: [
+        {
+          src: 'http://embed.typeform.com/next/embed.js',
+          async: true
+        }
+      ]
+    }
+  }
 }
 </script>
 
@@ -169,6 +188,68 @@ export default {
   }
 }
 
+.accordion-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin: 0 auto;
+}
+.accordion {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.accordion:last-child {
+  margin-bottom: 0;
+}
+.accordion-label {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+  background: #8917ff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+.accordion-label:hover {
+  background: #540f9c;
+}
+.accordion-label::after {
+  content: "\276F";
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.accordion-content {
+  max-height: 0;
+  padding: 0 16px;
+  color: rgba(4, 57, 94, 1);
+  background: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: scroll;
+}
+.accordion-content p {
+  margin: 0;
+  color: rgba(4, 57, 94, 0.7);
+  font-size: 18px;
+}
+input:checked + .accordion-label {
+  background: #530f9ca2;
+}
+input:checked + .accordion-label::after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+input:checked ~ .accordion-content {
+  max-height: 100vh;
+  padding: 16px;
+}
 // @media screen and (min-widtg: 960px) {
 //   .actuar-agenda-box {
 //   width: 100px;
