@@ -206,6 +206,7 @@ export default {
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
   width: 90%;
   margin: 0 auto;
+  overflow: hidden !important;
 }
 .accordion {
   width: 100%;
@@ -236,6 +237,7 @@ export default {
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+
 }
 .accordion-content {
   max-height: 0;
@@ -244,7 +246,7 @@ export default {
   background: white;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  overflow: scroll;
+  overflow: hidden !important;
 }
 .accordion-content p {
   margin: 0;
@@ -261,29 +263,9 @@ input:checked + .accordion-label::after {
 input:checked ~ .accordion-content {
   max-height: 100vh;
   padding: 16px;
+  overflow: hidden !important;
 }
-// @media screen and (min-widtg: 960px) {
-//   .actuar-agenda-box {
-//   width: 100px;
-//   height: 100px;
-//   margin: 0 ;
-//   position: relative;
-//   border: 20px solid $secondary;
-//   img {
-//     max-height: 60%;
-//     max-width: 60%;
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//   }
-// }
-// }
-// .is-custom-image{
-//   background-image: url('~assets/cover-color-02.jpg');
-//   background-position: center center;
-//   background-size: cover;
-// }
+
 .subtitle-container{
   padding: 20px;
 //   background-color: rgba(#ffe6d6,0.5);

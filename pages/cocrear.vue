@@ -172,6 +172,7 @@ export default {
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
   width: 90%;
   margin: 0 auto;
+  overflow: hidden !important;
 }
 .accordion {
   width: 100%;
@@ -210,7 +211,7 @@ export default {
   background: white;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  overflow: scroll;
+  overflow: hidden !important;
 }
 .accordion-content p {
   margin: 0;
